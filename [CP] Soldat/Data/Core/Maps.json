@@ -1,0 +1,78 @@
+{
+    "Changes": [
+        {
+            "Action": "EditMap",
+            "Target": "Maps/Custom_islandBk_james",
+            "FromFile": "Assets/Maps/Custom_islandBk_afterDryer.tmx",
+            "ToArea": { "X": 17, "Y": 21, "Width": 3, "Height": 3 },
+            "PatchMode": "Replace",
+            "When": {
+                "HasFlag: |contains=leleJamesDryerTrigger": true
+            }
+        },
+        {
+            "Action": "EditMap",
+            "Target": "Maps/Custom_islandBk_james",
+            "FromFile": "Assets/Maps/Custom_islandBk_afterboat.tmx",
+            "ToArea": { "X": 16, "Y": 36, "Width": 1, "Height": 2 },
+            "PatchMode": "Replace",
+            "When": {
+                "HasFlag: |contains=leleJamesClothTrigger": true
+            }
+        },
+        {
+            "LogName": "Add warp",
+            "Action": "EditMap",
+            "Target": "Maps/Island_E",
+            "FromFile": "Assets/Maps/Way_Island_E.tmx",
+            "FromArea": {
+                "X": 0,
+                "Y": 0,
+                "Width": 14,
+                "Height": 21
+            },
+            "ToArea": {
+                "X": 29,
+                "Y": 39,
+                "Width": 14,
+                "Height": 21
+            },
+            "PatchMode": "Replace"
+        },
+        {
+            "LogName": "Add warp from Island_E to Custom_islandBk_james",
+            "Action": "EditMap",
+            "Target": "Maps/Island_E",
+            "AddWarps": [
+                "43 53 Custom_islandBk_james 0 13",
+                "43 54 Custom_islandBk_james 0 13"
+            ]
+        },
+        {
+            "LogName": "Add warp back to Island_E",
+            "Action": "EditMap",
+            "Target": "Maps/Custom_islandBk_james",
+            "AddWarps": [
+                "-1 13 IslandEast 42 54",
+                "-1 14 IslandEast 42 54"
+            ]
+        },
+        {
+            "LogName": "Add warp from Custom_islandBk_james to Custom_islandJamesHome",
+            "Action": "EditMap",
+            "Target": "Maps/Custom_islandBk_james",
+            "AddWarps": [
+                "11 33 Custom_islandJamesHome 3 6",
+                "12 33 Custom_islandJamesHome 3 6"
+            ]
+        },
+        {
+            "LogName": "Add warp from Custom_islandJamesHome to Custom_islandBk_james",
+            "Action": "EditMap",
+            "Target": "Maps/Custom_islandJamesHome",
+            "AddWarps": [
+                "3 9 Custom_islandBk_james 11 34"
+            ]
+        }
+    ]
+}

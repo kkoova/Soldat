@@ -1,0 +1,95 @@
+{
+  "Changes": [
+    {
+      "LogName": "James h2p1",
+      "Action": "EditData",
+      "Target": "Data/Events/Custom_islandBk_james",
+      "Entries": {
+        "James.2h.1p/e James.1h.3p/t 1500 1800/f James 500": "
+          ocean/
+          follow/
+          farmer 10 23 1 James 18 20 2/
+          ignoreCollisions James/
+          skippable/
+            addTemporaryActor DryerBroken 32 32 17 21 0 false Character/
+            animate James false true 1000 24 25/
+            move farmer 7 0 0/
+            faceDirection farmer 0/
+            pause 1500/
+            message \"{{i18n:Events.Description.2H.P1.1}}\"/
+            pause 500/
+            playSound axe/
+            pause 500/
+            speak James \"{{i18n:Events.James.2H.P1.2}}\"/
+            emote farmer 56/
+            move farmer 0 -1 0/
+            pause 500/
+            emote farmer 8/
+            speak James \"{{i18n:Events.James.2H.P1.3}}\"/
+            pause 1500/
+            playSound axe/
+            pause 500/
+            speak James \"{{i18n:Events.James.2H.P1.4}}\"/
+            emote farmer 28/
+            pause 500/
+            playSound axe/
+            pause 500/
+            playSound axe/
+            speak James \"{{i18n:Events.James.2H.P1.5}}\"/
+            emote farmer 8/
+            pause 500/
+            emote James 8/
+            animate James false true 1000 24/
+            message \"{{i18n:Events.Description.2H.P1.6}}\"/
+            pause 500/
+            speak James \"{{i18n:Events.James.2H.P1.7}}\"/
+            emote farmer 32/
+            globalFade 0.01/
+            viewport 999 999/
+            playSound axe/
+            pause 700/
+            playSound axe/
+            pause 700/
+            playSound axe/
+            pause 700/
+            warp DryerBroken 100 100/
+            stopAnimation James/
+            warp James 17 25/
+            warp farmer 19 25/
+            faceDirection farmer 0/
+            faceDirection James 0/
+            addTemporaryActor Dryer 48 48 16 23 0 false Character/
+            globalFadeToClear 0.01 true/
+            viewport 20 23 clamp/
+            pause 1700/
+            speak James \"{{i18n:Events.James.2H.P1.8}}\"/
+            faceDirection farmer 3/
+            emote farmer 32/
+            pause 1700/
+            speak James \"{{i18n:Events.James.2H.P1.9}}\"/
+            emote farmer 20/
+            pause 1000/
+            fade/
+            action AddMail Current leleJamesDryerComplete received/
+            viewport -1000 -1000/
+            end"
+      }
+    },
+    {
+          "LogName": "Trigger Action - 2 Hearts",
+          "Action": "EditData",
+          "Target": "Data/TriggerActions",
+          "Entries": {
+              "lele.Soldat.TriggerActions.Dryer": {
+                  "Trigger": "DayEnding",
+                  "Id": "lele.Soldat.TriggerActions.DryerTrigger",
+                  "Condition": "PLAYER_HAS_SEEN_EVENT Current James.2h.1p, PLAYER_HAS_MAIL Current leleJamesDryerComplete Received, !PLAYER_HAS_MAIL Current leleJamesDryerTrigger Received",
+                  "Actions": [
+                      "AddConversationTopic soldatClothBoat 1",
+                      "AddMail Current leleJamesDryerTrigger"
+                  ]
+              }
+          }
+    }
+    ]
+}

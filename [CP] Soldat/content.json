@@ -1,0 +1,87 @@
+{
+    "Format": "2.0.0",
+    "ConfigSchema": {
+        "Romantic Nickname": {
+            "Default": "Querido",
+            "AllowBlank": false,
+            "Description": "No",
+            "Section": "NPC Behavior"
+        }
+    },
+    "DynamicTokens": [
+        {
+            "Name": "IsDitRInstalled",
+            "Value": "{{HasMod: |contains=7thAxis.DitR.CP, 7thAxis.DitR}}"
+        },
+        {
+            "Name": "IsWeatherBad",
+            "Value": "{{Weather |contains= Rain, Storm, Snow}}",
+            "When": { "IsDitRInstalled": false }
+        },
+        {
+            "Name": "TodaysDate",
+            "Value": "{{Season}} {{Day}}",
+            "When": { "IsDitRInstalled": false }
+        },
+        {
+            "Name": "JamesHeartRange",
+            "Value": "EarlyHeart",
+            "When": { "IsDitRInstalled": false }
+        },
+        {
+            "Name": "JamesHeartRange",
+            "Value": "LateHeart",
+            "When": {
+                "Hearts:James": "{{Range: 6, 10}}",
+                "IsDitRInstalled": false
+            }
+        },
+        {
+            "Name": "WeekDayList",
+            "Value": "Sun, Mon, Tue, Wed, Thu, Fri, Sat",
+            "When": { "IsDitRInstalled": false }
+        },
+        {
+            "Name": "WeekDay",
+            "Value": "{{WeekDayList |valueAt={{Query: {{Day}}%7}}}}",
+            "When": { "IsDitRInstalled": false }
+        },
+        {
+            "Name": "IsOddYear",
+            "Value": "{{Query: {{Year}} % 2 = 1}}",
+            "When": { "IsDitRInstalled": false }
+        },
+        {
+            "Name": "YearCheck",
+            "Value": 2
+        },
+        {
+            "Name": "YearCheck",
+            "Value": 1,
+            "When": {
+                "Year": 1,
+                "IsDitRInstalled": false
+            }
+        }
+    ],
+    "Changes": [
+        {
+            "Action": "Include",
+            "FromFile": "Loaders/FileLoader.json"
+        }
+    ],
+    "CustomLocations": [
+        {
+            "Name": "Custom_islandBk_james",
+            "FromMapFile": "Assets/Maps/Custom_islandBk.tmx"
+        },
+        {
+            "Name": "Custom_islandJamesHome",
+            "FromMapFile": "Assets/Maps/LeoTreeHouse.tbin"
+        },
+        {
+            "Name": "Custom_JamesFearMap",
+            "FromMapFile": "Assets/Maps/James1HFear.tmx"
+        }
+    ]
+}

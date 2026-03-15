@@ -1,0 +1,11 @@
+{
+    "Changes": [
+      {
+        "Action": "EditData",
+        "Target": "Data/Quests",
+        "Entries": {
+            "lele.Soldat.Quests.Cloth": "ItemDelivery/{{i18n:Core.Soldat.Quests.Cloth.Title}}/{{i18n:Core.Soldat.Quests.Cloth.Description}}/{{i18n:Core.Soldat.Quests.Cloth.Task}}/James 428 1/-1/0/-1/true/{{i18n:Core.Soldat.Quests.Cloth.FollowUp}}#$action AddMail Current leleJamesClothComplete received"
+        }
+    }
+    ]
+}

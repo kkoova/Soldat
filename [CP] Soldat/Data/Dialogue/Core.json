@@ -1,0 +1,13 @@
+{
+    "Changes": [
+        {
+            "LogName": "James Dialogue",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/James",
+            "Update": "OnLocationChange",
+            "Entries": {
+                "{{WeekDay}}": "{{i18n:Core.James.{{JamesHeartRange}}.{{Random:{{Range: 1, 10}}}}}}"
+            }
+        }
+    ]
+}

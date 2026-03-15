@@ -1,0 +1,40 @@
+﻿{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/WorldMap",
+      "TargetField": [ "GingerIsland", "MapAreas" ],
+      "Entries": {
+        "IslandBkJames": {
+          "Id": "IslandBkJames",
+          "PixelArea": {
+            "X": 242,
+            "Y": 85,
+            "Width": 33,
+            "Height": 33
+          },
+
+          "ScrollText": "{{i18n:Core.WorldMap.Name}}",
+
+          "Tooltips": [
+            {
+              "Id": "JamesIsland",
+              "Text": "{{i18n:Core.WorldMap.Name}}"
+            }
+          ],
+          "Textures": [
+            {
+              "Id": "IslandBkJamesOverlay",
+              "Texture": "{{InternalAssetKey: Assets/WorldMap/map_island_james.png}}"
+            }
+          ],
+          "WorldPositions": [
+            {
+              "LocationName": "Custom_islandBk_james"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

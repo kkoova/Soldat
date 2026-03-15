@@ -1,0 +1,19 @@
+{
+    //Names
+    "Core.James.Name": "James",
+
+    //JamesIntro
+    "James.Intro.1": "...?",
+    "James.Intro.2": "…Ты здесь не должен быть.",
+    "James.Intro.3": "...",
+    "James.Intro.4": "test",
+
+    "spring_1.{{i18n:Core.James.Name}}": "...",
+    "spring_2.{{i18n:Core.James.Name}}": "...",
+    "spring_3.{{i18n:Core.James.Name}}": "?..",
+    "spring_4.{{i18n:Core.James.Name}}": "...",
+    "spring_5.{{i18n:Core.James.Name}}": "...",
+    "spring_6.{{i18n:Core.James.Name}}": "...",
+    "spring_7.{{i18n:Core.James.Name}}": "?..",
+    "spring_8.{{i18n:Core.James.Name}}": "..."
+}

@@ -1,0 +1,48 @@
+{
+    "Changes": [
+        {
+            "LogName": "James Disposition",
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "Entries": {
+                "James": {
+                    "DisplayName": "{{i18n:Core.James.Name.Bak}}",
+                    "Gender": "Male",
+                    "Age": "Adult",
+                    "Manner": "Neutral",
+                    "SocialAnxiety": "Outgoing",
+                    "Optimism": "Negative",
+                    "BirthSeason": "spring",
+                    "BirthDay": 10,
+                    "HomeRegion": "Other",
+                    "CanBeRomanced": false,
+                    "CanVisitIsland": false,
+                    "SpouseAdopts": true,
+                    "IntroductionsQuest": false,
+                    "ItemDeliveryQuests": false,
+                    "WinterStarParticipant": false,  
+                    "Home": [
+                        {
+                            "Id": "Default",
+                            "Location": "Custom_islandJamesHome",
+                            "Tile": {
+                                "X": 4,
+                                "Y": 3
+                            },
+                            "Direction": "down",
+                            "Condition": "!PLAYER_HAS_SEEN_EVENT Current lele.Event.James.0h.1p"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "LogName": "James Gift All Dislike",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "Entries": {
+                "James": "////{{i18n:Gifts.James.GiftReaction.Dislike}}/-2/{{i18n:Gifts.James.GiftReaction.Hate}}/74 StardropTea//"
+            }
+        }
+    ]
+}

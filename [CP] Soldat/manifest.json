@@ -1,0 +1,9 @@
+{
+	"Name": "Soldat.CP",
+	"Author": "lele",
+	"Version": "1.0.0",
+	"Description": "-",
+	"UniqueID": "lele.Soldat.CP",
+	"MinimumGameVersion": "1.6",
+	"ContentPackFor": { "UniqueID": "Pathoschild.ContentPatcher" }
+}

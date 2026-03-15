@@ -1,0 +1,182 @@
+{
+  "Changes": [
+    {
+      "LogName": "James Fear Jungle p1",
+      "Action": "EditData",
+      "Target": "Data/Events/IslandEast",
+      "Entries": {
+        "James.1h.1p/e James.0h.after.boat.4p/t 2200 2400/f James 250": "
+          wind/
+          follow/
+          farmer 0 46 1 James 9 42 2/
+          ignoreCollisions James/
+          skippable/
+            animate James false true 1000 23/
+            move farmer 4 0 1/
+            playSound rainsound/
+            faceDirection farmer 2/
+            pause 500/
+            faceDirection farmer 0/
+            pause 500/
+            faceDirection farmer 3/
+            move farmer 5 0 2/
+            animate James false true 1000 27/
+            pause 600/
+            emote farmer 8/
+            speed James 5/
+            move James 0 -4 3/
+            globalFade 0.5/
+            viewport 999 999/
+            pause 500/
+            message \"{{i18n:Events.Description.1H.P1.1}}\"/
+            pause 500/
+            globalFadeToClear 0.5 true/
+            changeToTemporaryMap Custom_JamesFearMap/
+            viewport 10 12 clamp/
+            bgColor 0 0 0/
+            ambientLight 0 0 0/
+            pause 1500/
+            speak James \"{{i18n:Events.James.1H.P1.1}}\"/
+            mail Mail.JamesApologyLetter/
+            fade/
+            viewport -1000 -1000/
+            end"
+      }
+    },
+    {
+      "LogName": "James kust p2",
+      "Action": "EditData",
+      "Target": "Data/Events/IslandEast",
+      "Entries": {
+        "James.1h.2p/e James.1h.1p/t 800 1200/w sunny/f James 250": "
+          none/   
+          21 33/
+          farmer 21 23 1 James 25 33 2/
+          ignoreCollisions James/
+          skippable/
+            animate James false true 1000 24 25/
+            pause 1500/
+            playSound leafrustle/
+            emote James 56/
+            pause 1500/
+            playSound leafrustle/
+            pause 1500/
+            playSound leafrustle/
+            move farmer 0 6 1/
+            playSound leafrustle/
+            pause 3500/
+            move farmer 0 1 2/
+            stopAnimation James/
+            jump James/
+            faceDirection James 0/
+            pause 600/
+            emote farmer 28/
+            pause 600/
+            emote James 40/
+            speak James .../
+            pause 600/
+            message \"{{i18n:Events.Description.1H.P2.1}}\"/ 
+            move James -3 0 1/
+            move James 0 -1 0/
+            pause 600/
+            speak James \"{{i18n:Events.James.1H.P2.2}}\"/
+            emote farmer 28/
+            pause 600/
+            emote farmer 8/
+            pause 200/
+            shake James 600/
+            pause 200/
+            speak James \"{{i18n:Events.James.1H.P2.3}}\"/
+            faceDirection James 1/
+            pause 200/
+            emote farmer 8/
+            pause 500/
+            faceDirection James 0/
+            emote James 8/
+            quickQuestion #{{i18n:Events.Player.1H.P2.4}}
+                (break)speak James \"{{i18n:Events.James.1H.P2.5}}\"/
+            pause 500/
+            message \"{{i18n:Events.Description.1H.P2.6}}\"/
+            pause 200/
+            speak James \"{{i18n:Events.James.1H.P2.7}}\"/
+            faceDirection James 1/
+            emote farmer 8/
+            pause 1200/
+            speak James \"{{i18n:Events.James.1H.P2.8}}\"/
+            quickQuestion #{{i18n:Events.Player.1H.P2.9.1}} #{{i18n:Events.Player.1H.P2.9.2}}
+                (break)speak James \"{{i18n:Events.James.1H.P2.5}}\"
+                (break)speak James \"{{i18n:Events.James.1H.P2.10.2}}\"/
+            globalFade 0.01/
+            viewport 999 999/
+            playSound leafrustle/
+            pause 700/
+            playSound leafrustle/
+            pause 700/
+            playSound leafrustle/
+            pause 700/
+            changeToTemporaryMap Custom_islandBk_james/
+            warp James 16 30/
+            animate James false true 1000 26/
+            warp farmer 19 32/
+            faceDirection farmer 3/
+            faceDirection James 2/
+            addTemporaryActor HotPotTea 32 32 16 31 0 false Character/
+            positionOffset HotPotTea -1 19/
+            globalFadeToClear 0.01 true/
+            viewport 17 31 clamp/
+            pause 2700/
+            farmerEat lele.Soldat.JA_SalakTea/
+            faceDirection James 2/
+            message \"{{i18n:Events.Description.1H.P2.11}}\"/
+            pause 2700/
+            quickQuestion #{{i18n:Events.Player.1H.P2.12}}
+                (break)message \"{{i18n:Events.Description.1H.P2.13}}\"/
+            pause 1700/
+            speak James \"{{i18n:Events.James.1H.P2.14}}\"/
+            pause 700/
+            emote farmer 20/
+            pause 1500/
+            fade/
+            pause 500/
+            message \"{{i18n:Events.Description.1H.P2.15}}\"/
+            viewport -1000 -1000/
+            mail Mail.JamesTeaPowderLetter/
+            end"
+      }
+    },
+        {
+      "LogName": "James kust p2",
+      "Action": "EditData",
+      "Target": "Data/Events/Custom_islandBk_james",
+      "Entries": {
+        "James.1h.3p/e James.1h.2p/t 2300 2600/f James 250": "
+          ocean/   
+          -1000 -1000/
+          farmer 15 25 1 James 20 31 2/
+          ignoreCollisions James/
+          skippable/
+            globalFade 0.01/
+            animate James false true 1000 29/
+            message \"{{i18n:Events.Description.1H.P3.1}}\"/
+            playSound leafrustle/
+            pause 1500/
+            playSound leafrustle/
+            pause 1500/
+            playSound sandyStep/
+            pause 1500/
+            message \"{{i18n:Events.Description.1H.P3.2}}\"/
+            globalFadeToClear 0.01 true/
+            viewport 21 30 clamp/
+            pause 2500/
+            move farmer 0 5 1/
+            message \"{{i18n:Events.Description.1H.P3.3}}\"/
+            pause 4500/
+            move farmer 0 -9 0/
+            fade/
+            message \"{{i18n:Events.Description.1H.P3.4}}\"/
+            viewport -1000 -1000/
+            end"
+      }
+    }
+  ]
+}

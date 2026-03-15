@@ -1,0 +1,31 @@
+{
+    "Changes": [
+        //Defaults
+        {
+            "Action": "Load",
+            "Target": "Portraits/James, Portraits/James_Default",
+            "FromFile": "Assets/Portraits/James/James.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "Characters/James, Characters/James_Default",
+            "FromFile": "Assets/Characters/James/James.png"
+        },
+        //Object for event
+        {
+            "Action": "Load",
+            "Target": "Characters/HotPotTea",
+            "FromFile": "Assets/Characters/Objects/HotPotTea.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "Characters/DryerBroken",
+            "FromFile": "Assets/Characters/Objects/DryerBroken.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "Characters/Dryer",
+            "FromFile": "Assets/Characters/Objects/Dryer.png"
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "Changes": [
+      {
+        "Action": "EditData",
+        "Target": "Data/mail",
+        "Entries": {
+          "Mail.JamesApologyLetter": "{{i18n:Mail.JamesApologyLetter.1}}%item object 403 3 %%", 
+          "Mail.JamesTeaPowderLetter": "{{i18n:Mail.JamesGiffTeaPowder}}%item object (O)lele.Soldat.JA_SalakPowder 5 %%"
+        }
+    }
+    ]
+}
