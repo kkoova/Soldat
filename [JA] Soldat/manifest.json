@@ -1,0 +1,9 @@
+{
+	"Name": "Soldat.JA",
+	"Author": "lele",
+	"Version": "1.0.0",
+	"Description": "-",
+	"UniqueID": "lele.Soldat.JA",
+	"MinimumGameVersion": "1.6",
+	"ContentPackFor": { "UniqueID": "spacechase0.JsonAssets" }
+}
