@@ -26,6 +26,11 @@
             "Action": "Load",
             "Target": "Characters/Dryer",
             "FromFile": "Assets/Characters/Objects/Dryer.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "Characters/CookingFish",
+            "FromFile": "Assets/Characters/Objects/CookingFish.png"
         }
     ]
 }

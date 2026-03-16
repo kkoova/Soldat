@@ -90,6 +90,78 @@
                   ]
               }
           }
-    }
+      },
+      {
+        "LogName": "James h2p2",
+        "Action": "EditData",
+        "Target": "Data/Events/Custom_islandBk_james",
+        "Entries": {
+          "James.2h.2p/e James.2h.1p/t 1900 2200/w sunny/f James 500": "
+            ocean/
+            follow/
+            farmer 16 24 2 James 19 31 3/
+            ignoreCollisions James/
+            skippable/
+              addTemporaryActor CookingFish 32 16 19 32 0 false Character/
+              positionOffset CookingFish -40 30/
+              animate James false true 1000 30/
+              move farmer 0 6 0/
+              playSound cracklingFire/
+              faceDirection farmer 1/
+              emote farmer 32/
+              pause 1500/
+              speak James \"{{i18n:Events.James.2H.P2.1}}\"/
+              emote farmer 28/
+              pause 1000/
+              message \"{{i18n:Events.Description.2H.P2.3}}\"/
+              pause 1500/
+              speak James \"{{i18n:Events.James.2H.P2.2}}\"/
+              pause 1500/
+              speak James \"{{i18n:Events.James.2H.P2.4}}\"/
+              pause 1000/
+              speed James 2/
+              move James 0 -1 0/
+              speed James 2/
+              move James -2 0 3/
+              pause 1000/
+              emote farmer 8/
+              pause 500/
+              emote James 40/
+              message \"{{i18n:Events.Description.2H.P2.5}}\"/
+              playSound FishHit/
+              addItem 837 1/
+              pause 800/
+              farmerEat 837/
+              pause 1500/
+              message \"{{i18n:Events.Description.2H.P2.6}}\"/
+              faceDirection farmer 1/
+              emote farmer 56/
+              speak James \"{{i18n:Events.James.2H.P2.7}}\"/
+              pause 2500/
+              emote James 40/
+              pause 1500/
+              speed James 2/
+              move James 2 0 1/
+              speed James 2/
+              move James 0 1 2/
+              positionOffset James 6 18/
+              animate James false true 1000 30/
+              pause 1000/
+              speak James \"{{i18n:Events.James.2H.P2.8}}\"/
+              emote farmer 8/
+              pause 1000/
+              speak James \"{{i18n:Events.James.2H.P2.9}}\"/
+              pause 700/
+              faceDirection farmer 2/
+              pause 300/
+              emote farmer 32/
+              pause 1500/
+              fade/
+              viewport -1000 -1000/
+              pause 500/
+              message \"{{i18n:Events.Description.2H.P2.10}}\"/
+              end"
+        }
+      }
     ]
 }
