@@ -162,6 +162,45 @@
               message \"{{i18n:Events.Description.2H.P2.10}}\"/
               end"
         }
+      },
+      {
+        "LogName": "James h2p3",
+        "Action": "EditData",
+        "Target": "Data/Events/IslandNorth",
+        "Entries": {
+          "James.2h.3p/e James.2h.2p/t 1000 1700/w sunny/f James 500/f Leo 500": "
+            ocean/
+            follow/
+            farmer 48 79 2 Leo 45 83 0/
+            ignoreCollisions Leo/
+            skippable/
+              move farmer 6 0 1/
+              playSound leafrustle/
+              pause 800/
+              faceDirection farmer 3/
+              emote farmer 8/
+              pause 800/
+              playSound leafrustle/
+              speed Leo 4/
+              move Leo 0 -4 0/
+              speed Leo 4/
+              move Leo 5 0 1/
+              shake Leo 600/
+              emote farmer 8/
+              shake Leo 600/
+              addTemporaryActor Note 16 16 51 79 0 false Character/
+              jump Leo/
+              speed Leo 5/
+              move Leo -14 0 0/
+              pause 1000/
+              emote farmer 40/
+              speed farmer 2/
+              move farmer -2 0 3/
+              fade/
+              viewport -1000 -1000/
+              pause 500/
+              end"
+        }
       }
     ]
 }

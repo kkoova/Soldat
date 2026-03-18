@@ -31,6 +31,11 @@
             "Action": "Load",
             "Target": "Characters/CookingFish",
             "FromFile": "Assets/Characters/Objects/CookingFish.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "Characters/Note",
+            "FromFile": "Assets/Characters/Objects/Note.png"
         }
     ]
 }

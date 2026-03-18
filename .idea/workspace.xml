@@ -6,11 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="08196872-9353-4c20-89df-59b77fe0332d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/[CP] Soldat/Assets/Characters/James/James.png" beforeDir="false" afterPath="$PROJECT_DIR$/[CP] Soldat/Assets/Characters/James/James.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/[CP] Soldat/Assets/Maps/custom_island_tilesheet_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/[CP] Soldat/Assets/Maps/custom_island_tilesheet_1.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/[CP] Soldat/Data/Core/Sprites.json" beforeDir="false" afterPath="$PROJECT_DIR$/[CP] Soldat/Data/Core/Sprites.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/[CP] Soldat/Data/Events/2H.json" beforeDir="false" afterPath="$PROJECT_DIR$/[CP] Soldat/Data/Events/2H.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/[CP] Soldat/i18n/ru.json" beforeDir="false" afterPath="$PROJECT_DIR$/[CP] Soldat/i18n/ru.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/[CP] Soldat/Loaders/FileLoader.json" beforeDir="false" afterPath="$PROJECT_DIR$/[CP] Soldat/Loaders/FileLoader.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,18 +19,18 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "kkoova"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;kkoova&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/kkoova/Soldat.git",
-    "accountId": "0de73474-e44a-42d8-937c-a938a3b2b67b"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/kkoova/Soldat.git&quot;,
+    &quot;accountId&quot;: &quot;0de73474-e44a-42d8-937c-a938a3b2b67b&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 5
@@ -42,19 +40,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -65,6 +63,7 @@
       <updated>1773608648385</updated>
       <workItem from="1773608650646" duration="218000" />
       <workItem from="1773680045611" duration="6319000" />
+      <workItem from="1773860208400" duration="4019000" />
     </task>
     <servers />
   </component>
