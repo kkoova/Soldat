@@ -196,8 +196,17 @@
               emote farmer 40/
               speed farmer 2/
               move farmer -2 0 3/
+              message \"{{i18n:Events.Description.2H.P3.1}}\"/
+              pause 700/
+              playSound bigDeSelect/
+              warp Note 900 900/
+              pause 500/
+              message \"{{i18n:Events.Description.2H.P3.2}}\"/
+              pause 1000/
+              emote farmer 40/
               fade/
               viewport -1000 -1000/
+              message \"{{i18n:Events.Description.2H.P3.3}}\"/
               pause 500/
               end"
         }

@@ -146,6 +146,7 @@
             skippable/
                 animate James false true 1000 24 25/
                 speed farmer 2/
+                textAboveHead \"{{i18n:Events.TextAboveHead.0H.P3.1}}\"/
                 move farmer 0 7 2/
                 faceDirection farmer 3/
             message \"{{i18n:Events.Description.0H.P3.1}}\"/
