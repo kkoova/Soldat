@@ -1,0 +1,20 @@
+{
+    "Changes": [
+        {
+            "LogName": "James h3p1",
+            "Action": "EditData",
+            "Target": "Data/Events/Custom_islandBk_james",
+            "Entries": {
+                "James.3h.1p/e James.2h.4p/t 1500 1800/f James 750": "
+                ocean/
+                follow/
+                farmer 10 23 1 James 18 20 2/
+                ignoreCollisions James/
+                skippable/
+                fade/
+                viewport -1000 -1000/
+                end"
+            }
+        }
+    ]
+}

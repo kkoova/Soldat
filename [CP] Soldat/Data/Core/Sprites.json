@@ -36,6 +36,11 @@
             "Action": "Load",
             "Target": "Characters/Note",
             "FromFile": "Assets/Characters/Objects/Note.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "Characters/Woman",
+            "FromFile": "Assets/Characters/Objects/Woman.png"
         }
     ]
 }

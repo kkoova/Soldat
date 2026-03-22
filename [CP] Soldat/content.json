@@ -82,6 +82,10 @@
         {
             "Name": "Custom_JamesFearMap",
             "FromMapFile": "Assets/Maps/James1HFear.tmx"
+        },
+        {
+            "Name": "Custom_JamesSaloonDream",
+            "FromMapFile": "Assets/Maps/Saloon_Dream_James.tbin"
         }
     ]
 }

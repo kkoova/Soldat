@@ -5,15 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="08196872-9353-4c20-89df-59b77fe0332d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/[CP] Soldat/Data/Events/3H.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/[CP] Soldat/Data/Events/0H.json" beforeDir="false" afterPath="$PROJECT_DIR$/[CP] Soldat/Data/Events/0H.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/[CP] Soldat/Assets/Characters/James/James.png" beforeDir="false" afterPath="$PROJECT_DIR$/[CP] Soldat/Assets/Characters/James/James.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/[CP] Soldat/Assets/Portraits/James/James.png" beforeDir="false" afterPath="$PROJECT_DIR$/[CP] Soldat/Assets/Portraits/James/James.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/[CP] Soldat/Data/Core/Sprites.json" beforeDir="false" afterPath="$PROJECT_DIR$/[CP] Soldat/Data/Core/Sprites.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/[CP] Soldat/Data/Events/2H.json" beforeDir="false" afterPath="$PROJECT_DIR$/[CP] Soldat/Data/Events/2H.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/[CP] Soldat/Loaders/FileLoader.json" beforeDir="false" afterPath="$PROJECT_DIR$/[CP] Soldat/Loaders/FileLoader.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/[CP] Soldat/content.json" beforeDir="false" afterPath="$PROJECT_DIR$/[CP] Soldat/content.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/[CP] Soldat/i18n/ru.json" beforeDir="false" afterPath="$PROJECT_DIR$/[CP] Soldat/i18n/ru.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JSON File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -65,6 +77,7 @@
       <workItem from="1773680045611" duration="6319000" />
       <workItem from="1773860208400" duration="4019000" />
       <workItem from="1773949305960" duration="3122000" />
+      <workItem from="1774178670250" duration="12172000" />
     </task>
     <servers />
   </component>

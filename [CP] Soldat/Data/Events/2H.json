@@ -169,7 +169,7 @@
         "Target": "Data/Events/IslandNorth",
         "Entries": {
           "James.2h.3p/e James.2h.2p/t 1000 1700/w sunny/f James 500/f Leo 500": "
-            ocean/
+            none/
             follow/
             farmer 48 79 2 Leo 45 83 0/
             ignoreCollisions Leo/
@@ -208,6 +208,154 @@
               viewport -1000 -1000/
               message \"{{i18n:Events.Description.2H.P3.3}}\"/
               pause 500/
+              end"
+        }
+      },
+            {
+        "LogName": "James h2p4",
+        "Action": "EditData",
+        "Target": "Data/Events/IslandNorth",
+        "Entries": {
+          "James.2h.4p/e James.2h.3p/t 1900 2000/w sunny/f James 500": "
+            nightTime/
+            follow/
+            farmer 25 17 3 James 18 18 0/
+            ignoreCollisions James/
+            skippable/
+              move farmer -3 0 3/
+              move farmer 0 -2 0/
+              move farmer -2 0 3/
+              move farmer 0 -2 0/
+              pause 800/
+              emote farmer 8/
+              pause 800/
+              faceDirection farmer 3/
+              pause 800/
+              faceDirection farmer 2/
+              pause 800/
+              faceDirection farmer 0/
+              pause 800/
+              emote farmer 8/
+              message \"{{i18n:Events.Description.2H.P4.1}}\"/
+              playSound leafrustle/
+              pause 200/
+              faceDirection farmer 2/
+              message \"{{i18n:Events.Description.2H.P4.2}}\"/
+              pause 600/
+              playSound leafrustle/
+              pause 500/
+              speak James \"{{i18n:Events.James.2H.P4.3}}\"/
+              playSound leafrustle/
+              move James 0 -5 1/
+              faceDirection farmer 3/
+              pause 500/
+              emote James 8/
+              pause 1000/
+              speak James \"{{i18n:Events.James.2H.P4.4}}\"/
+              pause 400/
+              addTemporaryActor Note 16 16 19 13 0 false Character/
+              playSound sandyStep/
+              message \"{{i18n:Events.Description.2H.P4.5}}\"/ 
+              emote farmer 56/
+              pause 800/
+              speak James \"{{i18n:Events.James.2H.P4.6}}\"/
+              emote James 40/
+              pause 800/
+              faceDirection James 0/
+              pause 1500/
+              faceDirection farmer 0/
+              pause 4500/
+              speak James \"{{i18n:Events.James.2H.P4.7}}\"/
+              emote farmer 36/
+              pause 4500/
+              speak James \"{{i18n:Events.James.2H.P4.9}}\"/
+              globalFade 0.01/
+              viewport 999 999/
+              warp James 17 9/
+              positionOffset James -15 15/
+              warp farmer -99 -99/
+              addTemporaryActor Woman 16 32 16 9 0 true Character/
+              positionOffset Woman 0 10/
+              pause 500/
+              speak James \"{{i18n:Events.James.2H.P4.10}}\"/
+              pause 500/
+              globalFadeToClear 0.01 true/
+              stopMusic/
+              playMusic Saloon1/
+              changeToTemporaryMap Custom_JamesSaloonDream/
+              viewport 15 9 clamp/
+              animate James false true 1000 31 32/
+              pause 3500/
+              message \"{{i18n:Events.Description.2H.P4.11}}\"/
+              pause 1000/
+              speak James \"{{i18n:Events.James.2H.P4.12}}\"/
+              pause 500/
+              textAboveHead Woman \"{{i18n:Events.TextAboveHead.1H.P4.1}}\"/
+              pause 3100/
+              emote Woman 20/
+              pause 500/
+              emote James 20/
+              pause 500/
+              speak James \"{{i18n:Events.James.2H.P4.13}}\"/
+              pause 500/
+              speak James \"{{i18n:Events.James.2H.P4.14}}\"/
+              pause 200/
+              textAboveHead Woman \"{{i18n:Events.TextAboveHead.1H.P4.2}}\"/
+              pause 3500/
+              emote James 60/
+              pause 200/
+              speak James \"{{i18n:Events.James.2H.P4.14.2}}\"/
+              pause 300/
+              emote Woman 60/
+              pause 600/
+              speak James \"{{i18n:Events.James.2H.P4.15}}\"/
+              pause 500/
+              globalFade 0.01/
+              stopMusic/
+              playMusic nightTime/
+              viewport -999 -999/
+              changeToTemporaryMap Island_N/
+              warp Woman 199 199/
+              warp James 18 13/
+              warp farmer 20 13/
+              stopAnimation James/
+              faceDirection farmer 0/
+              faceDirection James 0/
+              globalFadeToClear 0.01 true/
+              viewport 19 14 clamp/
+              pause 2500/
+              speak James \"{{i18n:Events.James.2H.P4.16}}\"/
+              pause 1000/
+              faceDirection James 1/
+              pause 300/
+              faceDirection farmer 3/
+              pause 1000/
+              faceDirection James 0/
+              pause 4500/
+              speak James \"{{i18n:Events.James.2H.P4.17}}\"/
+              pause 300/
+              emote farmer 32/
+              pause 300/
+              faceDirection James 1/
+              pause 300/
+              faceDirection farmer 3/
+              pause 600/
+              emote James 40/
+              pause 500/
+              speak James \"{{i18n:Events.James.2H.P4.18}}\"/
+              pause 1000/
+              shake James 600/
+              pause 500/
+              speak James \"{{i18n:Events.James.2H.P4.19}}\"/
+              pause 500/
+              faceDirection James 0/
+              pause 300/
+              faceDirection farmer 0/
+              fade/
+              viewport -1000 -1000/
+              pause 700/
+              message \"{{i18n:Events.Description.2H.P4.20}}\"/ 
+              pause 300/
               end"
         }
       }
