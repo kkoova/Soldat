@@ -37,6 +37,7 @@
             }
         },
         {
+            //Люб - нож, часы
             "LogName": "James Gift All Dislike",
             "Action": "EditData",
             "Target": "Data/NPCGiftTastes",

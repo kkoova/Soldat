@@ -1,7 +1,10 @@
 {
     "Changes": [
-        {
-            "LogName": "James h3p1",
+        {//курорт есть 1 - обьяснись
+            //курорт есть 2 - альпинка!!! - письмо молоко -> курорт есть 3
+            //курорт есть 3 - альпинка!!!
+            //курорт есть 3 - аа дети
+            "LogName": "James alpinist 1",
             "Action": "EditData",
             "Target": "Data/Events/Custom_islandBk_james",
             "Entries": {
