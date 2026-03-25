@@ -1,19 +1,30 @@
 {
     "Changes": [
-        {//курорт есть 1 - обьяснись
+        {   //курорт есть 1 - обьяснись
             //курорт есть 2 - альпинка!!! - письмо молоко -> курорт есть 3
             //курорт есть 3 - альпинка!!!
             //курорт есть 3 - аа дети
             "LogName": "James alpinist 1",
             "Action": "EditData",
-            "Target": "Data/Events/Custom_islandBk_james",
+            "Target": "Data/Events/IslandSouth",
+            "Condition": "PLAYER_HAS_MAIL Current Island_Resort Received",
             "Entries": {
-                "James.3h.1p/e James.2h.4p/t 1500 1800/f James 750": "
+                "James.3h.1p/e James.2h.4p/t 2100 2600/f James 750": "
                 ocean/
                 follow/
-                farmer 10 23 1 James 18 20 2/
+                farmer 21 37 0 James 16 20 0/
                 ignoreCollisions James/
                 skippable/
+                move farmer 0 -5 0/
+                emote farmer 36/
+                pause 500/
+                faceDirection James 2/
+                shake James 600/
+                pause 1500/
+                emote James 8/
+                faceDirection James 0/
+                pause 1500/
+                speak James \"{{i18n:Events.James.3H.P1.1}}\"/
                 fade/
                 viewport -1000 -1000/
                 end"
