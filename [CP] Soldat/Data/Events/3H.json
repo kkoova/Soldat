@@ -7,24 +7,107 @@
             "LogName": "James alpinist 1",
             "Action": "EditData",
             "Target": "Data/Events/IslandSouth",
-            "Condition": "PLAYER_HAS_MAIL Current Island_Resort Received",
+            "When": {"HasFlag |contains=Island_Resort": true},
             "Entries": {
                 "James.3h.1p/e James.2h.4p/t 2100 2600/f James 750": "
                 ocean/
                 follow/
-                farmer 21 37 0 James 16 20 0/
+                farmer 21 36 0 James 18 26 0/
                 ignoreCollisions James/
                 skippable/
-                move farmer 0 -5 0/
-                emote farmer 36/
+                move farmer 0 -7 0/
                 pause 500/
+                emote farmer 56/
+                pause 1000/
                 faceDirection James 2/
+                pause 400/
                 shake James 600/
-                pause 1500/
-                emote James 8/
+                pause 2000/
+                faceDirection James 1/
+                pause 500/
                 faceDirection James 0/
                 pause 1500/
                 speak James \"{{i18n:Events.James.3H.P1.1}}\"/
+                pause 600/
+                emote farmer 28/
+                pause 1500/
+                speed James 2/
+                move James -3 0 0/
+                pause 700/
+                shake James 600/
+                pause 700/
+                faceDirection James 3/
+                pause 300/
+                faceDirection James 2/
+                pause 1400/
+                faceDirection James 1/
+                shake James 600/
+                pause 700/
+                faceDirection James 0/
+                emote James 40/
+                speed James 3/
+                move James 7 0 1/
+                pause 700/
+                shake James 600/
+                pause 700/
+                faceDirection James 1/
+                pause 1400/
+                faceDirection James 2/
+                pause 1000/
+                faceDirection James 3/
+                shake James 400/
+                pause 700/
+                faceDirection James 2/
+                emote James 40/
+                move James -1 0 3/
+                move James 0 2 2/
+                shake James 400/
+                pause 500/
+                speak James \"{{i18n:Events.James.3H.P1.2}}\"/
+                pause 400/
+                emote farmer 28/
+                pause 600/
+                shake James 400/
+                faceDirection James 0/
+                emote James 40/
+                move James 0 -2 0/
+                shake James 400/
+                textAboveHead James \"{{i18n:Events.TextAboveHead.3H.P1.3}}\"/
+                pause 3100/
+                shake James 400/
+                pause 600/
+                speak James \"{{i18n:Events.James.3H.P1.4}}\"/
+                faceDirection James 3/
+                pause 400/
+                move James 0 2 2/
+                pause 1400/
+                textAboveHead James \"{{i18n:Events.TextAboveHead.3H.P1.5}}\"/
+                pause 3100/
+                shake James 400/
+                pause 600/
+                speak James \"{{i18n:Events.James.3H.P1.6}}\"/
+                pause 1400/
+                speak James \"{{i18n:Events.James.3H.P1.7}}\"/
+                pause 2000/
+                shake James 400/
+                move James 0 -5 0/
+                animate James false true 1000 33/
+                pause 700/
+                move farmer 0 -3 0/
+                emote farmer 28/
+                pause 1500/
+                textAboveHead James \"{{i18n:Events.TextAboveHead.3H.P1.8}}\"/
+                pause 3100/
+                move farmer 0 -1 0/
+                speak James \"{{i18n:Events.James.3H.P1.9}}\"/
+                speed James 3/
+                move James 6 0 0/
+                speed James 3/
+                faceDirection farmer 1/
+                move James 0 -7 0/
+                pause 1000/
+                emote farmer 28/
+                pause 1400/
                 fade/
                 viewport -1000 -1000/
                 end"
