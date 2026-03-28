@@ -11,6 +11,16 @@
             "Target": "Characters/James, Characters/James_Default",
             "FromFile": "Assets/Characters/James/James.png"
         },
+        {
+            "Action": "Load",
+            "Target": "Portraits/Alpine, Portraits/Alpine_Default",
+            "FromFile": "Assets/Portraits/Alpine/Alpine.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "Characters/Alpine, Characters/Alpine_Default",
+            "FromFile": "Assets/Characters/Alpine/Alpine.png"
+        },
         //Object for event
         {
             "Action": "Load",

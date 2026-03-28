@@ -33,6 +33,35 @@
                             "Condition": "!PLAYER_HAS_SEEN_EVENT Current lele.Event.James.0h.1p"
                         }
                     ]
+                },
+                "Alpine": {
+                    "DisplayName": "{{i18n:Core.Alpine.Name}}",
+                    "Gender": "Female",
+                    "Age": "Adult",
+                    "Manner": "Neutral",
+                    "SocialAnxiety": "Outgoing",
+                    "Optimism": "Negative",
+                    "BirthSeason": "spring",
+                    "BirthDay": 10,
+                    "HomeRegion": "Other",
+                    "CanBeRomanced": false,
+                    "CanVisitIsland": false,
+                    "SpouseAdopts": false,
+                    "IntroductionsQuest": false,
+                    "ItemDeliveryQuests": false,
+                    "WinterStarParticipant": false,
+                    "Home": [
+                        {
+                            "Id": "Default",
+                            "Location": "Custom_islandJamesHome",
+                            "Tile": {
+                                "X": 5,
+                                "Y": 5
+                            },
+                            "Direction": "down",
+                            "Condition": "!PLAYER_HAS_SEEN_EVENT Current lele.Event.James.0h.1p"
+                        }
+                    ]
                 }
             }
         },

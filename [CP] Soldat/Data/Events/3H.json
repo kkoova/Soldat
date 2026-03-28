@@ -1,15 +1,17 @@
 {
     "Changes": [
-        {   //курорт есть 1 - обьяснись
-            //курорт есть 2 - альпинка!!! - письмо молоко -> курорт есть 3
+        {   //курорт есть 1 - обьяснись - плохо получилось обьясниться
+            //курорт есть 2 - альпинка!!! - глупи
+            //письмо молоко
             //курорт есть 3 - альпинка!!!
             //курорт есть 3 - аа дети
+
+            //Бак должен пропаст после этого
             "LogName": "James alpinist 1",
             "Action": "EditData",
             "Target": "Data/Events/IslandSouth",
-            "When": {"HasFlag |contains=Island_Resort": true},
             "Entries": {
-                "James.3h.1p/e James.2h.4p/t 2100 2600/f James 750": "
+                "James.3h.1p/e James.2h.4p/t 2100 2600/f James 750/LocalMail Island_Resort": "
                 ocean/
                 follow/
                 farmer 21 36 0 James 18 26 0/
@@ -110,6 +112,130 @@
                 pause 1400/
                 fade/
                 viewport -1000 -1000/
+                end"
+            }
+        },
+        {   
+            "LogName": "James alpinist 2",
+            "Action": "EditData",
+            "Target": "Data/Events/IslandSouth",
+            "Entries": {
+                "James.3h.2p/e James.3h.1p/t 2200 2600/f James 750": "
+                night_market/
+                19 23/
+                farmer 10 11 2 James 19 23 0 Alpine 16 19 0/
+                ignoreCollisions James/
+                skippable/
+                move James -3 0 0/
+                pause 1000/
+                textAboveHead James \"{{i18n:Events.TextAboveHead.3H.P2.1}}\"/
+                pause 1000/
+                move farmer 0 9 2/
+                move James 2 0 0/
+                move James 0 -3 3/
+                pause 1200/
+                textAboveHead James \"{{i18n:Events.TextAboveHead.3H.P2.2}}\"/
+                pause 3100/
+                emote farmer 8/
+                move farmer 0 4 2/
+                move farmer 5 0 0/
+                pause 400/
+                faceDirection James 2/
+                emote James 40/
+                pause 500/
+                move James 0 4 3/
+                faceDirection farmer 1/
+                emote farmer 8/
+                speak James \"{{i18n:Events.James.3H.P2.3}}\"/
+                pause 500/
+                faceDirection James 0/
+                emote James 40/
+                pause 1500/
+                speak James \"{{i18n:Events.James.3H.P2.4}}\"/
+                emote farmer 38/
+                pause 1500/
+                speak James \"{{i18n:Events.James.3H.P2.5}}\"/
+                move James 0 -2 0/
+                move farmer 3 0 0/
+                emote farmer 8/
+                pause 1500/
+                shake James 400/
+                pause 500/
+                faceDirection James 2/
+                pause 500/
+                emote farmer 28/
+                pause 800/
+                emote James 28/
+                pause 500/
+                speak James \"{{i18n:Events.James.3H.P2.6}}\"/
+                pause 500/
+                emote farmer 32/
+                pause 1500/
+                shake James 400/
+                emote James 28/
+                pause 500/
+                stopMusic/
+                playMusic wind/
+                speak James \"{{i18n:Events.James.3H.P2.7}}\"/
+                pause 500/
+                speak James \"{{i18n:Events.James.3H.P2.8}}\"/
+                pause 700/
+                emote farmer 28/
+                speed James 2/
+                move James 0 1 2/
+                speak James \"{{i18n:Events.James.3H.P2.9}}\"/
+                quickQuestion #{{i18n:Events.Player.3H.P2.10.1}}#{{i18n:Events.Player.3H.P2.10.2}}#{{i18n:Events.Player.3H.P2.10.3}}(break)shake James 400/
+                pause 700/
+                emote James 28/
+                pause 700/
+                move James 0 -2 0/
+                pause 2000/
+                shake James 400/
+                pause 1000/
+                textAboveHead Alpine \"{{i18n:Events.TextAboveHead.3H.P2.11}}\"/
+                playSound leafrustle/
+                emote James 16/
+                emote farmer 16/
+                playSound leafrustle/
+                speed Alpine 4/
+                move Alpine 3 0 0/
+                faceDirection Alpine 2/
+                shake Alpine 400/
+                pause 300/
+                speed Alpine 4/
+                move Alpine 0 -5 0/
+                pause 1000/
+                faceDirection James 2/
+                emote James 40/
+                speak James \"{{i18n:Events.James.3H.P2.12}}\"/
+                pause 1000/
+                faceDirection James 0/
+                speak James \"{{i18n:Events.James.3H.P2.13}}\"/
+                move James 0 -7 0/
+                fade/
+                viewport -1000 -1000/
+                pause 700/
+                message \"{{i18n:Events.Description.2H.P4.14}}\"/
+                mail Mail.JamesAlpineMilk/
+                end"
+            }
+        },
+        {   
+            "LogName": "James alpinist 3",
+            "Action": "EditData",
+            "Target": "Data/Events/IslandSouth",
+            "Entries": {
+                "James.3h.3p/e James.3h.2p/t 1000 1600/f James 750/LocalMail leleJamesMilkComplete": "
+                night_market/
+                19 23/
+                farmer 10 11 2 James 19 23 0 Alpine 16 19 0/
+                ignoreCollisions James/
+                skippable/
+                move James -3 0 0/
+                pause 1000/
+                fade/
+                viewport -1000 -1000/
+                pause 700/
                 end"
             }
         }
