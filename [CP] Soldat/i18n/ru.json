@@ -210,8 +210,17 @@
     "Events.TextAboveHead.3H.P2.11": "Мяу!",
     "Events.James.3H.P2.12": "Именно этот кот",
     "Events.James.3H.P2.13": "Я пойду...поищу его, в джунглях ночью опасно, особенно такой малявке...",
-    "Events.Description.2H.P4.14": "Вы так и не смогли нормально поговорить...",
+    "Events.Description.3H.P2.14": "Вы так и не смогли нормально поговорить...",
 
+    //JamesH3.3
+    "Events.TextAboveHead.3H.P3.1": "Чшш..",
+    "Events.TextAboveHead.3H.P3.2": "Жди",
+    "Events.TextAboveHead.3H.P3.3": "*нюх*",
+    "Events.James.3H.P3.4": "...бедняжка, так напугана",
+    "Events.James.3H.P3.5": "Я попытаюсь провернуть это еще пару раз, думаю, она будет приходит сюда",
+    "Events.James.3H.P3.6": "Спасибо#$b#...#$b#За молоко#$b#Другие приманки не помогали, а тут хоть какой то прогресс",
+    "Events.Description.3H.P3.7": "Молока еще достаточно, как и попыток выманить эту *малявку*",
+    
     //Quest
     "Core.Soldat.Quests.Cloth.Title": "Помощь? Вроде не просили",
     "Core.Soldat.Quests.Cloth.Description": "Баки упоминает проблему с верёвкой",

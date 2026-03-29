@@ -77,7 +77,7 @@
         },
         {
             "Name": "Custom_islandJamesHome",
-            "FromMapFile": "Assets/Maps/LeoTreeHouse.tbin"
+            "FromMapFile": "Assets/Maps/JamesHouse.tbin"
         },
         {
             "Name": "Custom_JamesFearMap",

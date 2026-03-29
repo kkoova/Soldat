@@ -51,6 +51,11 @@
             "Action": "Load",
             "Target": "Characters/Woman",
             "FromFile": "Assets/Characters/Objects/Woman.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "Characters/CoconutAndMilk",
+            "FromFile": "Assets/Characters/Objects/CoconutAndMilk.png"
         }
     ]
 }
