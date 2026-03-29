@@ -2,7 +2,7 @@
     "Changes": [
         {
             "Action": "Load",
-            "Target": "Characters/dialogue/James, Characters/schedules/James, Data/Events/Custom_islandBk_james, Data/Events/IslandEast, Data/Events/IslandNorth, Data/Events/IslandSouth",
+            "Target": "Characters/dialogue/James, Characters/schedules/James, Data/Events/Custom_islandBk_james, Data/Events/IslandEast, Data/Events/IslandNorth, Data/Events/IslandSouth, Data/Events/Custom_islandJamesHome",
             "FromFile": "Loaders/blank.json"
         },
         {

@@ -221,11 +221,31 @@
             }
         },
         {   
-            "LogName": "James alpinist 3",
+            "LogName": "James alpinist 3-quest",
+            "Action": "EditData",
+            "Target": "Data/Events/Custom_islandJamesHome",
+            "Entries": {
+                "James.3h.3p/e James.3h.2p/t 2300 2600/f James 750/LocalMail Mail.JamesAlpineMilk/HasItem 436": "
+                none/
+                follow/
+                farmer 6 46 1 James 14 40 0/
+                ignoreCollisions James/
+                skippable/
+                pause 5700/
+                removeQuest lele.Soldat.Quests.Milk/
+                removeItem 436 1/
+                fade/
+                viewport -1000 -1000/
+                pause 700/
+                end"
+            }
+        },
+        {   
+            "LogName": "James alpinist 4",
             "Action": "EditData",
             "Target": "Data/Events/IslandEast",
             "Entries": {
-                "James.3h.3p/e James.3h.2p/t 1000 1600/f James 750/LocalMail leleJamesMilkComplete": "
+                "James.3h.4p/e James.3h.3p/t 1000 1600/f James 750": "
                 none/
                 follow/
                 farmer 6 46 1 James 14 40 1 Alpine 24 37 3/
@@ -315,6 +335,33 @@
                 viewport -1000 -1000/
                 pause 700/
                 message \"{{i18n:Events.Description.3H.P3.7}}\"/
+                end"
+            }
+        },
+                {   
+            "LogName": "James alpinist 5",
+            "Action": "EditData",
+            "Target": "Data/Events/IslandEast",
+            "Entries": {
+                "James.3h.5p/e James.3h.4p/t 1400 1800/f James 750": "
+                none/
+                follow/
+                James 31 45 0 Alpine 17 33 2 Jas 12 44 1 Vincent 11 45 1/
+                ignoreCollisions James/
+                skippable/
+                move Vincent 4 0 0/
+                move Jas 3 0 2/
+                pause 200/
+                shake Jas 400/
+                speak Jas \"{{i18n:Events.Jas.3H.P5.1}}\"/
+                pause 200/
+                textAboveHead Vincent \"{{i18n:Events.TextAboveHead.3H.P5.2}}\"/
+                pause 700/
+                jump Jas/
+                
+                fade/
+                viewport -1000 -1000/
+                pause 700/
                 end"
             }
         }
