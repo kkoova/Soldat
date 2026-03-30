@@ -245,7 +245,7 @@
             "Action": "EditData",
             "Target": "Data/Events/IslandEast",
             "Entries": {
-                "James.3h.4p/e James.3h.3p/t 1000 1600/f James 750": "
+                "James.3h.4p/e James.3h.3p/w sunny/t 1000 1600/f James 750": "
                 none/
                 follow/
                 farmer 6 46 1 James 14 40 1 Alpine 24 37 3/
@@ -343,22 +343,93 @@
             "Action": "EditData",
             "Target": "Data/Events/IslandEast",
             "Entries": {
-                "James.3h.5p/e James.3h.4p/t 1400 1800/f James 750": "
+                "James.3h.5p/e James.3h.4p/w sunny/t 1400 1800/f James 750": "
                 none/
-                follow/
-                James 31 45 0 Alpine 17 33 2 Jas 12 44 1 Vincent 11 45 1/
+                19 45/
+                farmer -99 -99 0 James 21 34 0 Alpine 17 33 2 Jas 12 44 1 Vincent 11 45 1/
                 ignoreCollisions James/
                 skippable/
+                pause 700/
+                shake Jas 400/
+                pause 500/
+                emote Jas 28/
                 move Vincent 4 0 0/
                 move Jas 3 0 2/
-                pause 200/
+                pause 600/
                 shake Jas 400/
                 speak Jas \"{{i18n:Events.Jas.3H.P5.1}}\"/
                 pause 200/
                 textAboveHead Vincent \"{{i18n:Events.TextAboveHead.3H.P5.2}}\"/
                 pause 700/
                 jump Jas/
+                pause 700/
+                shake Jas 400/
+                speak Jas \"{{i18n:Events.Jas.3H.P5.3}}\"/
+                speak Vincent \"{{i18n:Events.Vincent.3H.P5.4}}\"/
+                shake Jas 400/
+                pause 200/
+                speed Vincent 2/
+                move Vincent 1 0 0/
+                textAboveHead Vincent \"{{i18n:Events.TextAboveHead.3H.P5.5}}\"/
+                pause 700/
+                speak Jas \"{{i18n:Events.Jas.3H.P5.6}}\"/
+                speak Vincent \"{{i18n:Events.Vincent.3H.P5.7}}\"/
+                shake Jas 400/
+                pause 700/
+                speak Jas \"{{i18n:Events.Jas.3H.P5.8}}\"/
+                pause 600/
+                playSound leafrustle/
+                pause 200/
+                faceDirection Jas 0/
+                emote Jas 16/
+                emote Vincent 16/
+                pause 400/
+                textAboveHead Vincent \"{{i18n:Events.TextAboveHead.3H.P5.9}}\"/
+                pause 200/
+                speed Vincent 4/
+                speed Jas 4/
+                move Vincent 4 0 0 Jas 0 -3 1/
+                speed Vincent 4/
+                move Vincent 0 -1 0/
+                shake Jas 400/
+                shake Vincent 400/
+                speed James 1/
+                move James 0 5 2 true/
+                viewport move 0 -1 3300/
+                pause 2500/
+                emote James 40/
+                pause 1600/
+                faceDirection James 1/
+                pause 1000/
+                faceDirection James 3/
+                pause 1300/
+                faceDirection James 2/
+                pause 600/
+                emote James 40/
+                pause 600/
+                textAboveHead James \"{{i18n:Events.TextAboveHead.3H.P5.10}}\"/
+                pause 1600/
+                speed James 1/
+                move James 0 1 2/
+                playSound leafrustle/
+                emote Jas 16/
+                emote Vincent 16/
+                faceDirection James 0/
+                stopMusic/
+                pause 600/
+                playSound cat/
+                viewport move 0 -1 3300/
+                pause 300/
+                playMusic sweet/
+                speed Alpine 1/
+                move Alpine 4 0 2/
+                pause 600/
+                playSound cat/
+                speed Alpine 1/
+                move Alpine 0 5 2/
+                pause 600/
                 
+                pause 7000/
                 fade/
                 viewport -1000 -1000/
                 pause 700/
