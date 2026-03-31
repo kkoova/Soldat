@@ -394,7 +394,7 @@
                 shake Jas 400/
                 shake Vincent 400/
                 speed James 1/
-                move James 0 5 2 true/
+                move James 0 4 2 true/
                 viewport move 0 -1 3300/
                 pause 2500/
                 emote James 40/
@@ -419,6 +419,7 @@
                 pause 600/
                 playSound cat/
                 viewport move 0 -1 3300/
+                positionOffset James 18 -15/
                 pause 300/
                 playMusic sweet/
                 speed Alpine 1/
@@ -427,9 +428,21 @@
                 playSound cat/
                 speed Alpine 1/
                 move Alpine 0 5 2/
-                pause 600/
-                
-                pause 7000/
+                speed Alpine 1/
+                move Alpine -1 0 3/
+                faceDirection James 3/
+                speed Alpine 1/
+                move Alpine 0 1 2 true/
+                speed Alpine 1/
+                move Alpine 1 0 1/
+                faceDirection James 2/
+                pause 300/
+                emote Alpine 20/
+                pause 500/
+                animate Alpine false true 900 18 19/
+                pause 300/
+                emote James 60/
+                pause 28000/
                 fade/
                 viewport -1000 -1000/
                 pause 700/
