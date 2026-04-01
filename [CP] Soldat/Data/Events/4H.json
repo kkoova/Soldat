@@ -1,0 +1,25 @@
+{
+    "Changes": [
+        {   //1 Письмо спосибо за помош (гг не знает) (+ лежанка из листьев) (+ расписание баки на кошка лежанке кошка на баки лежанке)
+            //2 Личное спосибо за кошку
+            //3 Помощь бедному раскажет скудо бедно (уже давно, все дела и мы ???)
+            //4 Кошка на коленках у костра и блин грустно (упал:( с поезда) война - Империя Готоро (Республика Фернгилл)
+            
+            "LogName": "James spasibo alpinist 1",
+            "Action": "EditData",
+            "Target": "Data/Events/IslandSouth",
+            "Entries": {
+                "James.4h.1p/e James.3h.5p/t 2100 2600/f James 1000": "
+                ocean/
+                follow/
+                farmer 21 36 0 James 18 26 0/
+                ignoreCollisions James/
+                skippable/
+                move farmer 0 -7 0/
+                fade/
+                viewport -1000 -1000/
+                end"
+            }
+        }
+    ]
+}

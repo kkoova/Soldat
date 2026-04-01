@@ -21,6 +21,11 @@
             "Target": "Characters/Alpine, Characters/Alpine_Default",
             "FromFile": "Assets/Characters/Alpine/Alpine.png"
         },
+        {
+            "Action": "Load",
+            "Target": "Mods/lele.Soldat.CP/LetterBackgrounds",
+            "FromFile": "Assets/Mail/JamesMail.png"
+        },
         //Object for event
         {
             "Action": "Load",
