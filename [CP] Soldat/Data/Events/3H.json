@@ -445,6 +445,7 @@
                 pause 28000/
                 fade/
                 viewport -1000 -1000/
+                mail Mail.JamesAlpineThanks/
                 pause 700/
                 end"
             }
