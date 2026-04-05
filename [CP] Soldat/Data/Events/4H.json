@@ -7,17 +7,106 @@
             
             "LogName": "James spasibo alpinist 1",
             "Action": "EditData",
-            "Target": "Data/Events/IslandSouth",
+            "Target": "Data/Events/Custom_islandBk_james",
             "Entries": {
-                "James.4h.1p/e James.3h.5p/t 2100 2600/f James 1000": "
-                ocean/
-                follow/
-                farmer 21 36 0 James 18 26 0/
+                "James.4h.1p/e James.3h.5p/t 2100 2600/f James 1000/LocalMail Mail.JamesAlpineThanks": "
+                sweet/
+                14 34/
+                farmer 7 35 1 James 17 30 2 Alpine 15 31 2/
                 ignoreCollisions James/
+                ignoreCollisions Alpine/
                 skippable/
-                move farmer 0 -7 0/
+                animate James false true 1000 33/
+                animate Alpine false true 2000 20 21/
+                move farmer 7 0 0/
+                pause 1500/
+                emote James 16/
+                pause 700/
+                emote farmer 20/
+                pause 700/
+                textAboveHead James \"{{i18n:Events.TextAboveHead.4H.P1.1}}\"/
+                pause 3200/
+                speed James 2/
+                move James 1 0 2/
+                speed James 2/
+                move James 0 5 3/
+                faceDirection farmer 1/
+                move James -2 0 3/
+                pause 700/
+                speak James \"{{i18n:Events.James.4H.P1.2}}\"/
+                pause 500/
+                faceDirection James 0/
+                pause 300/
+                faceDirection farmer 0/
+                emote farmer 20/
+                pause 700/
+                speak James \"{{i18n:Events.James.4H.P1.3}}\"/
+                emote James 20/
+                pause 700/
+                faceDirection James 3/
+                pause 300/
+                faceDirection farmer 1/
+                speak James \"{{i18n:Events.James.4H.P1.4}}\"/
+                stopAnimation Alpine/
+                jump Alpine/
+                pause 600/
+                faceDirection James 0/
+                pause 200/
+                faceDirection farmer 0/
+                emote Alpine 20/
+                pause 600/
+                speak Alpine \"{{i18n:Events.Alpine.4H.P1.5}}\"/
+                pause 200/
+                speak James \"{{i18n:Events.James.4H.P1.6}}\"/
+                pause 200/
+                faceDirection James 3/
+                pause 200/
+                faceDirection farmer 1/
+                speed Alpine 1/
+                move Alpine 0 -1 0/
+                speed Alpine 1/
+                move Alpine 3 0 2 true/
+                speak James \"{{i18n:Events.James.4H.P1.7}}\"/
+                faceDirection James 0/
+                pause 300/
+                faceDirection farmer 0/
+                pause 1400/
+                faceDirection James 3/
+                pause 300/
+                faceDirection farmer 1/
+                pause 400/
+                speed Alpine 1/
+                move Alpine 0 6 3 true/
+                speak James \"{{i18n:Events.James.4H.P1.8}}\"/
+                faceDirection James 1/
+                pause 300/
+                emote James 40/
+                pause 1200/
+                faceDirection James 3/
+                speed Alpine 1/
+                move Alpine -4 0 0 true/
+                pause 300/
+                speak James \"{{i18n:Events.James.4H.P1.9}}\"/
+                positionOffset Alpine 0 -15/
+                pause 200/
+                faceDirection farmer 2/
+                animate Alpine false true 900 18 19/
+                pause 300/
+                emote farmer 60/
+                pause 700/
+                emote James 20/
+                pause 900/
+                speak James \"{{i18n:Events.James.4H.P1.10}}\"/
+                pause 500/
+                message \"{{i18n:Events.Description.4H.P1.11}}\"/
+                pause 400/
+                textAboveHead Alpine \"{{i18n:Events.TextAboveHead.4H.P1.12}}\"/
+                pause 3000/
+                message \"{{i18n:Events.Description.4H.P1.13}}\"/
                 fade/
                 viewport -1000 -1000/
+                pause 700/
+                message \"{{i18n:Events.Description.4H.P1.14}}\"/
                 end"
             }
         }
