@@ -248,9 +248,17 @@
     "Events.TextAboveHead.4H.P1.12": "Мррррр",
     "Events.Description.4H.P1.13": "Но как же она урчит!",
     "Events.Description.4H.P1.14": "Теперь Баки выглядит иначе... а Альпинка нашла своего человека!",
+
+    //JamesH4.2
+    "Events.James.4H.P3.1": "Привет",
+    "Events.TextAboveHead.4H.P3.2": "*сопит*",
+    "Events.James.4H.P3.3": "Знаешь...",
+    "Events.James.4H.P3.4": "Все было как то...так",
+    "Events.Description.4H.P3.5": "Миссия в альпах, ужасно важная и напряженная. Мы... мы были готовы, я и Он точно",
+    "Events.Description.4H.P3.6": "Это был поезд, мы должны были захватить управление поездом, попутно взять в заложники пару плохих личностей",
     
     //Quest
-    "Core.Soldat.Quests.Cloth.Title": "Помощь? Вроде не просили",
+    "Core.Soldat.Quests.Cloth.Title",: "Помощь? Вроде не просили",
     "Core.Soldat.Quests.Cloth.Description": "Баки упоминает проблему с верёвкой",
     "Core.Soldat.Quests.Cloth.Task": "Принести 1 ткань",
     "Core.Soldat.Quests.Cloth.FollowUp": "... А?#...#...Спасибо, это очень пригодится",

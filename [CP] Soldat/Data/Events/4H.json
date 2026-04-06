@@ -9,7 +9,7 @@
             "Action": "EditData",
             "Target": "Data/Events/Custom_islandBk_james",
             "Entries": {
-                "James.4h.1p/e James.3h.5p/t 2100 2600/f James 1000/LocalMail Mail.JamesAlpineThanks": "
+                "James.4h.1p/e James.3h.5p/t 1000 1900/w sunny/f James 1000/LocalMail Mail.JamesAlpineThanks": "
                 sweet/
                 14 34/
                 farmer 7 35 1 James 17 30 2 Alpine 15 31 2/
@@ -109,6 +109,79 @@
                 message \"{{i18n:Events.Description.4H.P1.14}}\"/
                 end"
             }
-        }
+        },
+        {
+            "LogName": "James h4 p2",
+            "Action": "EditData",
+            "Target": "Data/Events/Custom_islandBk_james",
+            "Entries": {
+                "James.4h.2p/e James.4h.1p/t 2100 2600/w rain/f James 1000": "
+                ocean/
+                14 34/
+                farmer 7 35 1 James 17 30 2 Alpine 15 31 2/
+                ignoreCollisions James/
+                ignoreCollisions Alpine/
+                skippable/
+                animate James false true 1000 33/
+                animate Alpine false true 2000 20 21/
+                move farmer 7 0 0/
+                pause 1500/
+                fade/
+                viewport -1000 -1000/
+                pause 700/
+                end"
+            }
+        },
+        {
+            "LogName": "James h4 p3",
+            "Action": "EditData",
+            "Target": "Data/Events/Custom_islandBk_james",
+            "Entries": {
+                "James.4h.3p/e James.4h.2p/t 2100 2600/w sunnyy/f James 1000": "
+                ocean/
+                14 34/
+                farmer 15 26 2 James 19 31 3 Alpine 19 32 3/
+                ignoreCollisions James/
+                ignoreCollisions Alpine/
+                skippable/
+                animate James false true 1000 29/
+                animate Alpine false true 2000 20 21/
+                positionOffset Alpine -20 -15/
+                move farmer 0 5 2/
+                pause 1500/
+                emote James 40/
+                pause 700/
+                speak James \"{{i18n:Events.James.4H.P3.1}}\"/
+                pause 500/
+                emote Alpine 20/
+                pause 500/
+                move farmer 2 0 2/
+                pause 1500/
+                textAboveHead Alpine \"{{i18n:Events.TextAboveHead.4H.P3.2}}\"/
+                pause 4500/
+                emote James 40/
+                pause 4500/
+                speak James \"{{i18n:Events.James.4H.P3.3}}\"/
+                globalFade 0.01/
+                viewport 999 999/
+                warp James -98 -98/
+                warp farmer -99 -99/
+                pause 500/
+                speak James \"{{i18n:Events.James.4H.P3.4}}\"/
+                pause 500/
+                globalFadeToClear 0.01 true/
+                stopMusic/
+                playMusic winter_day_ambient/
+                changeToTemporaryMap Custom_JamesAl1/
+                viewport 15 9 clamp/
+                pause 1000/
+                message \"{{i18n:Events.Description.4H.P3.5}}\"/
+                pause 7000/
+                fade/
+                viewport -1000 -1000/
+                pause 700/
+                end"
+            }
+        }    
     ]
 }
