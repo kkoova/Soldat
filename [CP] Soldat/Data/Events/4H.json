@@ -176,7 +176,16 @@
                 viewport 15 9 clamp/
                 pause 1000/
                 message \"{{i18n:Events.Description.4H.P3.5}}\"/
-                pause 7000/
+                pause 700/
+                globalFade 0.01/
+                viewport 999 999/
+                globalFadeToClear 0.01 true/
+                changeToTemporaryMap Custom_JamesAl2/
+                viewport 15 9 clamp/
+                playsound trainLoop/
+                pause 700/
+                message \"{{i18n:Events.Description.4H.P3.6}}\"/
+                pause 1300/
                 fade/
                 viewport -1000 -1000/
                 pause 700/

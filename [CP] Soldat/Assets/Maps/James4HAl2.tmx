@@ -1,10 +1,88 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="30" height="16" tilewidth="16" tileheight="16" infinite="0" nextlayerid="13" nextobjectid="2">
+<map version="1.10" tiledversion="1.12.1" orientation="orthogonal" renderorder="right-down" width="30" height="16" tilewidth="16" tileheight="16" infinite="0" nextlayerid="13" nextobjectid="2">
  <properties>
   <property name="Outdoors" value="T"/>
  </properties>
  <tileset firstgid="1" name="snow-train" tilewidth="16" tileheight="16" tilecount="330" columns="30">
   <image source="snow-train.png" width="480" height="176"/>
+  <tile id="8">
+   <animation>
+    <frame tileid="8" duration="1000"/>
+    <frame tileid="13" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="9">
+   <animation>
+    <frame tileid="9" duration="1000"/>
+    <frame tileid="14" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="10">
+   <animation>
+    <frame tileid="10" duration="1000"/>
+    <frame tileid="16" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="11">
+   <animation>
+    <frame tileid="12" duration="1000"/>
+    <frame tileid="16" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="12">
+   <animation>
+    <frame tileid="12" duration="1000"/>
+    <frame tileid="17" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="38">
+   <animation>
+    <frame tileid="38" duration="1000"/>
+    <frame tileid="43" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="39">
+   <animation>
+    <frame tileid="39" duration="1000"/>
+    <frame tileid="44" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="40">
+   <animation>
+    <frame tileid="40" duration="1000"/>
+    <frame tileid="45" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="41">
+   <animation>
+    <frame tileid="41" duration="1000"/>
+    <frame tileid="46" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="42">
+   <animation>
+    <frame tileid="42" duration="1000"/>
+    <frame tileid="47" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="70">
+   <animation>
+    <frame tileid="70" duration="1000"/>
+    <frame tileid="75" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="71">
+   <animation>
+    <frame tileid="71" duration="1000"/>
+    <frame tileid="76" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="72">
+   <animation>
+    <frame tileid="72" duration="1000"/>
+    <frame tileid="77" duration="1000"/>
+   </animation>
+  </tile>
   <tile id="90">
    <animation>
     <frame tileid="90" duration="300"/>

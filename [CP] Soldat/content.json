@@ -90,6 +90,10 @@
         {
             "Name": "Custom_JamesAl1",
             "FromMapFile": "Assets/Maps/James4HAl.tmx"
+        },
+        {
+            "Name": "Custom_JamesAl2",
+            "FromMapFile": "Assets/Maps/James4HAl2.tmx"
         }
     ]
 }
