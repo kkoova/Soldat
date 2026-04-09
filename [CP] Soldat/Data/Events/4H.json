@@ -139,15 +139,16 @@
             "Entries": {
                 "James.4h.3p/e James.4h.2p/t 2100 2600/w sunnyy/f James 1000": "
                 ocean/
-                14 34/
+                12 34/
                 farmer 15 26 2 James 19 31 3 Alpine 19 32 3/
                 ignoreCollisions James/
                 ignoreCollisions Alpine/
                 skippable/
-                animate James false true 1000 29/
+                animate James false true 1000 30/
                 animate Alpine false true 2000 20 21/
                 positionOffset Alpine -20 -15/
-                move farmer 0 5 2/
+                speed farmer 1/
+                move farmer 0 4 1/
                 pause 1500/
                 emote James 40/
                 pause 700/
@@ -186,6 +187,44 @@
                 pause 700/
                 message \"{{i18n:Events.Description.4H.P3.6}}\"/
                 pause 1300/
+                message \"{{i18n:Events.Description.4H.P3.7}}\"/
+                pause 1500/
+                message \"{{i18n:Events.Description.4H.P3.8}}\"/
+                pause 500/
+                message \"{{i18n:Events.Description.4H.P3.9}}\"/
+                pause 500/
+                stopMusic/
+                globalFade 0.01/
+                viewport 999 999/
+                pause 1200/
+                message \"{{i18n:Events.Description.4H.P3.10}}\"/
+                pause 1500/
+                globalFadeToClear 0.01 true/
+                changeToTemporaryMap Custom_JamesAl3/
+                viewport 15 9 clamp/
+                pause 1300/
+                message \"{{i18n:Events.Description.4H.P3.11}}\"/
+                pause 2300/
+                message \"{{i18n:Events.Description.4H.P3.12}}\"/
+                pause 3300/
+                message \"{{i18n:Events.Description.4H.P3.13}}\"/
+                globalFade 0.01/
+                viewport 999 999/
+                pause 1200/
+                message \"{{i18n:Events.Description.4H.P3.14}}\"/
+                pause 2300/
+                globalFadeToClear 0.01 true/
+                playMusic ocean/
+                changeToTemporaryMap Custom_islandBk_james/
+                viewport 14 34 clamp/
+                pause 3300/
+                speak James \"{{i18n:Events.James.4H.P3.15}}\"/
+                pause 1300/
+                textAboveHead James \"{{i18n:Events.TextAboveHead.4H.P3.16}}\"/
+                pause 3300/
+                emote farmer 16/
+                pause 600/
+                speak James \"{{i18n:Events.James.4H.P3.17}}\"/
                 fade/
                 viewport -1000 -1000/
                 pause 700/
