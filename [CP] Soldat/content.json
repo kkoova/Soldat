@@ -1,11 +1,12 @@
 {
     "Format": "2.0.0",
     "ConfigSchema": {
-        "Romantic Nickname": {
-            "Default": "Querido",
+        "Event Cooldown Length": {
+            "AllowValues": "1, 2, 3, 4, 5, 6, 7, 8, 9, 10",
+            "Default": "4",
             "AllowBlank": false,
-            "Description": "No",
-            "Section": "NPC Behavior"
+            "Description": "Adjusts number of days you have to wait between James's events.\n\n(Default 4 days)",
+            "Section": "Gameplay"
         }
     },
     "DynamicTokens": [

@@ -1,0 +1,240 @@
+{
+    "Changes": [
+        {
+            "LogName": "James h5 p1",
+            "Action": "EditData",
+            "Target": "Data/Events/Custom_islandBk_james",
+            "Entries": {
+                "James.5h.1p/e James.4h.3p/t 600 1000/w sunny/f James 1250/": "
+                none/
+                14 34/
+                farmer 7 35 1 James 17 30 2 Alpine 15 31 2/
+                ignoreCollisions James/
+                ignoreCollisions Alpine/
+                skippable/
+                animate James false true 1000 33/
+                animate Alpine false true 2000 20 21/
+                move farmer 7 0 0/
+                pause 1500/
+                emote James 16/
+                pause 700/
+                emote farmer 20/
+                pause 700/
+                textAboveHead James \"{{i18n:Events.TextAboveHead.4H.P1.1}}\"/
+                pause 3200/
+                speed James 2/
+                move James 1 0 2/
+                speed James 2/
+                move James 0 5 3/
+                faceDirection farmer 1/
+                move James -2 0 3/
+                pause 700/
+                speak James \"{{i18n:Events.James.4H.P1.2}}\"/
+                pause 500/
+                faceDirection James 0/
+                pause 300/
+                faceDirection farmer 0/
+                emote farmer 20/
+                pause 700/
+                speak James \"{{i18n:Events.James.4H.P1.3}}\"/
+                emote James 20/
+                pause 700/
+                faceDirection James 3/
+                pause 300/
+                faceDirection farmer 1/
+                speak James \"{{i18n:Events.James.4H.P1.4}}\"/
+                stopAnimation Alpine/
+                jump Alpine/
+                pause 600/
+                faceDirection James 0/
+                pause 200/
+                faceDirection farmer 0/
+                emote Alpine 20/
+                pause 600/
+                speak Alpine \"{{i18n:Events.Alpine.4H.P1.5}}\"/
+                pause 200/
+                speak James \"{{i18n:Events.James.4H.P1.6}}\"/
+                pause 200/
+                faceDirection James 3/
+                pause 200/
+                faceDirection farmer 1/
+                speed Alpine 1/
+                move Alpine 0 -1 0/
+                speed Alpine 1/
+                move Alpine 3 0 2 true/
+                speak James \"{{i18n:Events.James.4H.P1.7}}\"/
+                faceDirection James 0/
+                pause 300/
+                faceDirection farmer 0/
+                pause 1400/
+                faceDirection James 3/
+                pause 300/
+                faceDirection farmer 1/
+                pause 400/
+                speed Alpine 1/
+                move Alpine 0 6 3 true/
+                speak James \"{{i18n:Events.James.4H.P1.8}}\"/
+                faceDirection James 1/
+                pause 300/
+                emote James 40/
+                pause 1200/
+                faceDirection James 3/
+                speed Alpine 1/
+                move Alpine -4 0 0 true/
+                pause 300/
+                speak James \"{{i18n:Events.James.4H.P1.9}}\"/
+                positionOffset Alpine 0 -15/
+                pause 200/
+                faceDirection farmer 2/
+                animate Alpine false true 900 18 19/
+                pause 300/
+                emote farmer 60/
+                pause 700/
+                emote James 20/
+                pause 900/
+                speak James \"{{i18n:Events.James.4H.P1.10}}\"/
+                pause 500/
+                message \"{{i18n:Events.Description.4H.P1.11}}\"/
+                pause 400/
+                textAboveHead Alpine \"{{i18n:Events.TextAboveHead.4H.P1.12}}\"/
+                pause 3000/
+                message \"{{i18n:Events.Description.4H.P1.13}}\"/
+                fade/
+                viewport -1000 -1000/
+                pause 700/
+                message \"{{i18n:Events.Description.4H.P1.14}}\"/
+                end"
+            }
+        },
+        {
+            "LogName": "James h4 p2",
+            "Action": "EditData",
+            "Target": "Data/Events/Custom_islandBk_james",
+            "Entries": {
+                "James.4h.2p/e James.4h.1p/t 2100 2600/w rain/f James 1000": "
+                ocean/
+                14 34/
+                farmer 7 35 1 James 17 30 2 Alpine 15 31 2/
+                ignoreCollisions James/
+                ignoreCollisions Alpine/
+                skippable/
+                animate James false true 1000 33/
+                animate Alpine false true 2000 20 21/
+                move farmer 7 0 0/
+                pause 1500/
+                fade/
+                viewport -1000 -1000/
+                pause 700/
+                end"
+            }
+        },
+        {
+            "LogName": "James h4 p3",
+            "Action": "EditData",
+            "Target": "Data/Events/Custom_islandBk_james",
+            "Entries": {
+                "James.4h.3p/e James.4h.2p/t 2100 2600/w rain/f James 1000": "
+                ocean/
+                12 34/
+                farmer 15 26 2 James 19 31 3 Alpine 19 32 3/
+                ignoreCollisions James/
+                ignoreCollisions Alpine/
+                skippable/
+                animate James false true 1000 30/
+                animate Alpine false true 2000 20 21/
+                positionOffset Alpine -20 -15/
+                speed farmer 1/
+                move farmer 0 4 1/
+                pause 1500/
+                emote James 40/
+                pause 1700/
+                speak James \"{{i18n:Events.James.4H.P3.1}}\"/
+                pause 1000/
+                emote Alpine 20/
+                pause 500/
+                move farmer 1 0 2/
+                pause 1500/
+                textAboveHead Alpine \"{{i18n:Events.TextAboveHead.4H.P3.2}}\"/
+                pause 4500/
+                emote James 40/
+                pause 4500/
+                speak James \"{{i18n:Events.James.4H.P3.3}}\"/
+                globalFade 0.01/
+                viewport 999 999/
+                pause 500/
+                speak James \"{{i18n:Events.James.4H.P3.4}}\"/
+                pause 500/
+                globalFadeToClear 0.01 true/
+                stopMusic/
+                playMusic Cyclops/
+                changeToTemporaryMap Custom_JamesAl1/
+                viewport 15 9 clamp/
+                pause 1000/
+                message \"{{i18n:Events.Description.4H.P3.5}}\"/
+                pause 700/
+                globalFade 0.01/
+                viewport 999 999/
+                globalFadeToClear 0.01 true/
+                changeToTemporaryMap Custom_JamesAl2/
+                viewport 15 9 clamp/
+                stopMusic/
+                playMusic trainLoop/
+                pause 700/
+                message \"{{i18n:Events.Description.4H.P3.6}}\"/
+                pause 1300/
+                message \"{{i18n:Events.Description.4H.P3.7}}\"/
+                pause 1500/
+                message \"{{i18n:Events.Description.4H.P3.8}}\"/
+                pause 500/
+                message \"{{i18n:Events.Description.4H.P3.9}}\"/
+                pause 500/
+                stopMusic/
+                globalFade 0.01/
+                viewport 999 999/
+                pause 1200/
+                message \"{{i18n:Events.Description.4H.P3.10}}\"/
+                pause 1500/
+                globalFadeToClear 0.01 true/
+                changeToTemporaryMap Custom_JamesAl3/
+                viewport 15 9 clamp/
+                pause 1300/
+                message \"{{i18n:Events.Description.4H.P3.11}}\"/
+                pause 2300/
+                message \"{{i18n:Events.Description.4H.P3.12}}\"/
+                pause 3300/
+                message \"{{i18n:Events.Description.4H.P3.13}}\"/
+                globalFade 0.01/
+                viewport 999 999/
+                pause 1200/
+                message \"{{i18n:Events.Description.4H.P3.14}}\"/
+                pause 2300/
+                globalFadeToClear 0.01 true/
+                playMusic ocean/
+                changeToTemporaryMap Custom_islandBk_james/
+                viewport 14 34 clamp/
+                pause 3300/
+                speak James \"{{i18n:Events.James.4H.P3.15}}\"/
+                pause 1300/
+                textAboveHead James \"{{i18n:Events.TextAboveHead.4H.P3.16}}\"/
+                pause 3300/
+                emote farmer 16/
+                pause 600/
+                speak James \"{{i18n:Events.James.4H.P3.17}}\"/
+                pause 600/
+                speak James \"{{i18n:Events.James.4H.P3.18}}\"/
+                pause 1300/
+                message \"{{i18n:Events.Description.4H.P3.19}}\"/
+                pause 600/
+                message \"{{i18n:Events.Description.4H.P3.20}}\"/
+                pause 4300/
+                speak James \"{{i18n:Events.James.4H.P3.21}}\"/
+                fade/
+                viewport -1000 -1000/
+                pause 600/
+                message \"{{i18n:Events.Description.4H.P3.22}}\"/
+                pause 700/
+                end"
+            }
+        }    
+    ]
+}

@@ -137,7 +137,7 @@
             "Action": "EditData",
             "Target": "Data/Events/Custom_islandBk_james",
             "Entries": {
-                "James.4h.3p/e James.4h.2p/t 2100 2600/w sunnyy/f James 1000": "
+                "James.4h.3p/e James.4h.2p/t 2100 2600/w rain/f James 1000": "
                 ocean/
                 12 34/
                 farmer 15 26 2 James 19 31 3 Alpine 19 32 3/
@@ -151,12 +151,12 @@
                 move farmer 0 4 1/
                 pause 1500/
                 emote James 40/
-                pause 700/
+                pause 1700/
                 speak James \"{{i18n:Events.James.4H.P3.1}}\"/
-                pause 500/
+                pause 1000/
                 emote Alpine 20/
                 pause 500/
-                move farmer 2 0 2/
+                move farmer 1 0 2/
                 pause 1500/
                 textAboveHead Alpine \"{{i18n:Events.TextAboveHead.4H.P3.2}}\"/
                 pause 4500/
@@ -165,14 +165,12 @@
                 speak James \"{{i18n:Events.James.4H.P3.3}}\"/
                 globalFade 0.01/
                 viewport 999 999/
-                warp James -98 -98/
-                warp farmer -99 -99/
                 pause 500/
                 speak James \"{{i18n:Events.James.4H.P3.4}}\"/
                 pause 500/
                 globalFadeToClear 0.01 true/
                 stopMusic/
-                playMusic winter_day_ambient/
+                playMusic Cyclops/
                 changeToTemporaryMap Custom_JamesAl1/
                 viewport 15 9 clamp/
                 pause 1000/
@@ -183,7 +181,8 @@
                 globalFadeToClear 0.01 true/
                 changeToTemporaryMap Custom_JamesAl2/
                 viewport 15 9 clamp/
-                playsound trainLoop/
+                stopMusic/
+                playMusic trainLoop/
                 pause 700/
                 message \"{{i18n:Events.Description.4H.P3.6}}\"/
                 pause 1300/
@@ -225,8 +224,18 @@
                 emote farmer 16/
                 pause 600/
                 speak James \"{{i18n:Events.James.4H.P3.17}}\"/
+                pause 600/
+                speak James \"{{i18n:Events.James.4H.P3.18}}\"/
+                pause 1300/
+                message \"{{i18n:Events.Description.4H.P3.19}}\"/
+                pause 600/
+                message \"{{i18n:Events.Description.4H.P3.20}}\"/
+                pause 4300/
+                speak James \"{{i18n:Events.James.4H.P3.21}}\"/
                 fade/
                 viewport -1000 -1000/
+                pause 600/
+                message \"{{i18n:Events.Description.4H.P3.22}}\"/
                 pause 700/
                 end"
             }

@@ -5,9 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="08196872-9353-4c20-89df-59b77fe0332d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/[CP] Soldat/Data/Events/5H.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/[CP] Soldat/Data/Core/Disposition.json" beforeDir="false" afterPath="$PROJECT_DIR$/[CP] Soldat/Data/Core/Disposition.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/[CP] Soldat/Data/Events/3H.json" beforeDir="false" afterPath="$PROJECT_DIR$/[CP] Soldat/Data/Events/3H.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/[CP] Soldat/Assets/Maps/James4HAl3.tmx" beforeDir="false" afterPath="$PROJECT_DIR$/[CP] Soldat/Assets/Maps/James4HAl3.tmx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/[CP] Soldat/Data/Events/4H.json" beforeDir="false" afterPath="$PROJECT_DIR$/[CP] Soldat/Data/Events/4H.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/[CP] Soldat/Data/Events/text.txt" beforeDir="false" afterPath="$PROJECT_DIR$/[CP] Soldat/Data/Events/text.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/[CP] Soldat/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/[CP] Soldat/config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/[CP] Soldat/content.json" beforeDir="false" afterPath="$PROJECT_DIR$/[CP] Soldat/content.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/[CP] Soldat/i18n/ru.json" beforeDir="false" afterPath="$PROJECT_DIR$/[CP] Soldat/i18n/ru.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,6 +78,8 @@
       <workItem from="1773949305960" duration="3122000" />
       <workItem from="1774178670250" duration="12172000" />
       <workItem from="1774291820618" duration="2076000" />
+      <workItem from="1775911801134" duration="4409000" />
+      <workItem from="1775936146093" duration="2639000" />
     </task>
     <servers />
   </component>
