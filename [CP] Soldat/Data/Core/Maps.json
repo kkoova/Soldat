@@ -17,6 +17,18 @@
         },
         {
             "Action": "EditMap",
+            "Target": "Maps/Backwoods",
+            "FromFile": "Assets/Maps/Custom_Zemo_Backwoods.tbin",
+            "ToArea": {
+                "X": 31,
+                "Y": 0,
+                "Width": 8,
+                "Height": 11
+            },
+            "PatchMode": "Replace"
+        },
+        {
+            "Action": "EditMap",
             "Target": "Maps/Custom_islandBk_james",
             "FromFile": "Assets/Maps/Custom_islandBk_afterboat.tmx",
             "ToArea": {
