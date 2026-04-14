@@ -81,6 +81,10 @@
             "FromMapFile": "Assets/Maps/JamesHouse.tbin"
         },
         {
+            "Name": "Custom_TownZemoHomeGarden",
+            "FromMapFile": "Assets/Maps/Custom_zemo_town.tmx"
+        },
+        {
             "Name": "Custom_JamesFearMap",
             "FromMapFile": "Assets/Maps/James1HFear.tmx"
         },
