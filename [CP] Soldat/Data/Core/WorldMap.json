@@ -14,12 +14,12 @@
             "Height": 33
           },
 
-          "ScrollText": "{{i18n:Core.WorldMap.Name}}",
+          "ScrollText": "{{i18n:Core.WorldMap.Name.Island}}",
 
           "Tooltips": [
             {
               "Id": "JamesIsland",
-              "Text": "{{i18n:Core.WorldMap.Name}}"
+              "Text": "{{i18n:Core.WorldMap.Name.Island}}"
             }
           ],
           "Textures": [
@@ -31,6 +31,42 @@
           "WorldPositions": [
             {
               "LocationName": "Custom_islandBk_james"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/WorldMap",
+      "TargetField": [ "Valley", "MapAreas" ],
+      "Entries": {
+        "ZemoGarden": {
+          "Id": "ZemoGarden",
+          "PixelArea": {
+            "X": 100,
+            "Y": 19,
+            "Width": 22,
+            "Height": 24
+          },
+
+          "ScrollText": "{{i18n:Core.WorldMap.Name.CherryGarden}}",
+
+          "Tooltips": [
+            {
+              "Id": "ZemoGarden",
+              "Text": "{{i18n:Core.WorldMap.Name.CherryGarden}}"
+            }
+          ],
+          "Textures": [
+            {
+              "Id": "ZemoGardenOverlay",
+              "Texture": "{{InternalAssetKey: Assets/WorldMap/map_home_zemo.png}}"
+            }
+          ],
+          "WorldPositions": [
+            {
+              "LocationName": "Custom_TownZemoHomeGarden"
             }
           ]
         }

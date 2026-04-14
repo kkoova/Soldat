@@ -2,18 +2,6 @@
     "Changes": [
         {
             "Action": "EditMap",
-            "Target": "Maps/Town",
-            "FromFile": "Assets/Maps/Town_to_zemo.tbin",
-            "ToArea": {
-                "X": 0,
-                "Y": 16,
-                "Width": 10,
-                "Height": 10
-            },
-            "PatchMode": "Replace"
-        },
-        {
-            "Action": "EditMap",
             "Target": "Maps/Custom_islandBk_james",
             "FromFile": "Assets/Maps/Custom_islandBk_afterDryer.tmx",
             "ToArea": {
@@ -68,15 +56,6 @@
             "AddWarps": [
                 "43 53 Custom_islandBk_james 0 13",
                 "43 54 Custom_islandBk_james 0 13"
-            ]
-        },
-        {
-            "LogName": "Add warp from Town to Custom_TownZemoHomeGarden",
-            "Action": "EditMap",
-            "Target": "Maps/Town",
-            "AddWarps": [
-                "43 53 Custom_TownZemoHomeGarden 18 27",
-                "43 54 Custom_TownZemoHomeGarden 0 13"
             ]
         },
         {
