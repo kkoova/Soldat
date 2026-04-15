@@ -80,6 +80,15 @@
             ]
         },
         {
+            "LogName": "Add warp Backwoods to ZemoGarden",
+            "Action": "EditMap",
+            "Target": "Maps/Backwoods",
+            "AddWarps": [
+                "34 -1 Custom_TownZemoHomeGarden 17 27",
+                "35 -1 Custom_TownZemoHomeGarden 17 27"
+            ]
+        },
+        {
             "LogName": "Add warp from Custom_islandBk_james to Custom_islandJamesHome",
             "Action": "EditMap",
             "Target": "Maps/Custom_islandBk_james",
