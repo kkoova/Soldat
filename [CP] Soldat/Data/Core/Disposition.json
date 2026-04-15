@@ -59,7 +59,7 @@
                                 "Y": 5
                             },
                             "Direction": "down",
-                            "Condition": "!PLAYER_HAS_SEEN_EVENT Current lele.Event.James.0h.1p"
+                            "Condition": "!PLAYER_HAS_SEEN_EVENT Current lele.Event.James.3h.5p"
                         }
                     ]
                 }
