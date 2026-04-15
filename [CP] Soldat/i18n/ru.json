@@ -276,7 +276,15 @@
     
     //JamesH5.1
     "Events.TextAboveHead.5H.P1.1": "Мяу",
-    
+    "Events.James.5H.P1.2": "Да, я понимаю, тебе весело#Но и ты должна понять, что тому попугаю не было весело",
+    "Events.Alpine.5H.P1.3": "Мр...",
+    "Events.James.5H.P1.4": "Да и вообще, Лео против, что бы его пернатых друзей так пугали",
+    "Events.James.5H.P1.5": "Ну и как тебя ругать, когда ты так смотришь...",
+    "Events.TextAboveHead.5H.P1.6": "Клубок бешенства",
+    "Events.James.5H.P1.7": "Она напала на попугая и довольная",
+    "Events.James.5H.P1.8": "Про это я и говорю",
+
+
     //Quest
     "Core.Soldat.Quests.Cloth.Title": "Помощь? Вроде не просили",
     "Core.Soldat.Quests.Cloth.Description": "Баки упоминает проблему с верёвкой",
