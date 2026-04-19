@@ -1,0 +1,7 @@
+﻿{
+  "Name": "TiketАuction",
+  "TranslationKey": "object.TiketАuction",
+  "Category": "Cooking",
+  "Price": 7000,
+  "CanSell": false
+}

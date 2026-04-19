@@ -52,14 +52,127 @@
                 pause 500/
                 faceDirection Alpine 2/
                 pause 500/
-                speak James \"{{i18n:Events.James.5H.P1.6}}\"/
+                speak James \"{{i18n:Events.James.5H.P1.8}}\"/
                 pause 300/
-                emote farmer 8/
+                emote farmer 20/
+                pause 1000/
+                speak James \"{{i18n:Events.James.5H.P1.9}}\"/
+                pause 300/
+                emote farmer 40/
+                message \"{{i18n:Events.Description.5H.P1.10}}\"/
+                pause 200/
+                stopMusic/
+                emote James 40/
+                pause 1200/
+                faceDirection Alpine 3/
+                pause 200/
+                playSound cat/
+                pause 400/
+                shake James 300/
+                pause 600/
+                speak James \"{{i18n:Events.James.5H.P1.11}}\"/
+                pause 1000/
+                emote farmer 40/
+                pause 400/
+                speak James \"{{i18n:Events.James.5H.P1.12}}\"/
+                pause 400/
+                emote farmer 40/
+                pause 200/
+                faceDirection James 0/
+                pause 600/
+                shake James 300/
+                speak James \"{{i18n:Events.James.5H.P1.13}}\"/
+                pause 400/
+                move James -3 0 3/
+                faceDirection Alpine 2/
+                pause 200/
+                playSound cat/
+                pause 400/
+                faceDirection Alpine 3/
+                move Alpine -3 0 3 true/
+                move James 0 -4 1 true/
+                move Alpine -3 0 3 true/
+                pause 400/
                 fade/
                 viewport -1000 -1000/
+                pause 400/
+                message \"{{i18n:Events.Description.5H.P1.14}}\"/
                 pause 700/
                 end"
             }
-        }    
+        },
+        {
+            "LogName": "James h5 p1",
+            "Action": "EditData",
+            "Target": "Data/Events/Custom_islandBk_james",
+            "Entries": {
+                "James.5h.2p/e James.5h.1p/t 1900 2600/w sunny/f James 1250": "
+                none/
+                follow/
+                farmer 9 26 0 James 18 28 1 Alpine 19 32 3/
+                ignoreCollisions James/
+                ignoreCollisions Alpine/
+                skippable/
+                hideShadow Alpine true/
+                hideShadow James true/
+                animate Alpine false true 2000 20 21/
+                animate James false true 1000 34/
+                positionOffset Alpine -20 -15/
+                move faremr 5 0 1/
+                pause 500/
+                emote farmer 40/
+                pause 500/
+                message \"{{i18n:Events.Description.5H.P2.1}}\"/
+                pause 1100/
+                emote farmer 40/
+                pause 500/
+                speed farmer 1/
+                move farmer -5 0 3 true/
+                pause 1000/
+                animate James false true 1000 35/
+                pause 500/
+                speak James \"{{i18n:Events.James.5H.P2.2}}\"/
+                pause 300/
+                faceDirection farmer 1/
+                pause 500/
+                emote farmer 28/
+                pause 800/
+                speak James \"{{i18n:Events.James.5H.P2.3}}\"/
+                pause 300/
+                move farmer 4 0 2/
+                pause 1500/
+                speak James \"{{i18n:Events.James.5H.P2.4}}\"/
+                pause 300/
+                emote farmer 28/
+                pause 600/
+                faceDirection farmer 2/
+                pause 2500/
+                speak James \"{{i18n:Events.James.5H.P2.5}}\"/
+                pause 300/
+                emote farmer 28/
+                pause 300/
+                emote James 40/
+                pause 3500/
+                speak James \"{{i18n:Events.James.5H.P2.6}}\"/
+                pause 500/
+                faceDirection farmer 1/
+                pause 400/
+                message \"{{i18n:Events.Description.5H.P2.7}}\"/
+                pause 400/
+                emote farmer 8/   
+                pause 900/
+                speak James \"{{i18n:Events.James.5H.P2.8}}\"/
+                pause 400/
+                emote farmer 8/
+                pause 400/
+                speak James \"{{i18n:Events.James.5H.P2.9}}\"/
+                pause 300/
+                emote farmer 40/
+                pause 3500/
+                fade/
+                viewport -1000 -1000/
+                end"
+            }
+        }       
     ]
 }

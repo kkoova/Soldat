@@ -16,6 +16,7 @@
                 ignoreCollisions James/
                 ignoreCollisions Alpine/
                 skippable/
+                hideShadow Alpine true/
                 animate James false true 1000 33/
                 animate Alpine false true 2000 20 21/
                 move farmer 7 0 0/
@@ -48,6 +49,7 @@
                 faceDirection farmer 1/
                 speak James \"{{i18n:Events.James.4H.P1.4}}\"/
                 stopAnimation Alpine/
+                hideShadow Alpine false/
                 jump Alpine/
                 pause 600/
                 faceDirection James 0/

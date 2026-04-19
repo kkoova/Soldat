@@ -1,5 +1,9 @@
 ﻿{
-  // JA Object
+  // JA Object SalakPowder
   "object.SalakPowder.name": "Порошок из ягод Салака",
-  "object.SalakPowder.description": "Идеален для растворения в горячей воде"
+  "object.SalakPowder.description": "Идеален для растворения в горячей воде",
+
+  // JA Object TiketАuction
+  "object.TiketАuction.name": "Билет на аукцион",
+  "object.TiketАuction.description": "Проход на закрытое мероприятие с облачными ценами и интересными экспонатами"
 }
