@@ -107,6 +107,10 @@
         {
             "Name": "Custom_JamesPrizon",
             "FromMapFile": "Assets/Maps/Prizon.tbin"
+        },
+        {
+            "Name": "Custom_JamesCasinoAuction",
+            "FromMapFile": "Assets/Maps/Prizon.tbin"
         }
     ]
 }

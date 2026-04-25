@@ -1,0 +1,22 @@
+{
+    "Changes": [
+        {
+            "LogName": "James h6 p1",
+            "Action": "EditData",
+            "Target": "Data/Events/Custom_JamesCasinoAuction",
+            "Entries": {
+                "James.6h.1p/e James.5h.2p/t 1900 2200/f James 1500/LocalMail Mail.JamesTiketAuction/HasItem (O)lele.Soldat.JA_TiketАuction": "
+                none/
+                follow/
+                farmer 59 67 0/
+                ignoreCollisions Zemo/
+                skippable/
+                fade/
+                viewport -1000 -1000/
+                pause 400/
+                pause 700/
+                end"
+            }
+        } 
+    ]
+}
