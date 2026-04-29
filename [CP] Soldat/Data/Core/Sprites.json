@@ -23,6 +23,17 @@
         },
         {
             "Action": "Load",
+            "Target": "Portraits/Zemo, Portraits/Zemo_Default",
+            "FromFile": "Assets/Portraits/Zemo/Zemo.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "Characters/Zemo, Characters/Zemo_Default",
+            "FromFile": "Assets/Characters/Zemo/Zemo.png"
+        },
+        //mail
+        {
+            "Action": "Load",
             "Target": "Mods/lele.Soldat.CP/LetterBackgrounds",
             "FromFile": "Assets/Mail/JamesMail.png"
         },

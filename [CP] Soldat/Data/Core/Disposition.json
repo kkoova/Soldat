@@ -34,6 +34,35 @@
                         }
                     ]
                 },
+                "Zemo": {
+                    "DisplayName": "{{i18n:Core.Zemo.Name}}",
+                    "Gender": "Male",
+                    "Age": "Adult",
+                    "Manner": "Polite",
+                    "SocialAnxiety": "Neutral",
+                    "Optimism": "Neutral",
+                    "BirthSeason": "winter",
+                    "BirthDay": 13,
+                    "HomeRegion": "Town",
+                    "CanBeRomanced": false,
+                    "CanVisitIsland": true,
+                    "SpouseAdopts": true,
+                    "IntroductionsQuest": false,
+                    "ItemDeliveryQuests": false,
+                    "WinterStarParticipant": false,  
+                    "Home": [
+                        {
+                            "Id": "Default",
+                            "Location": "Custom_TownZemoHomeGarden",
+                            "Tile": {
+                                "X": 9,
+                                "Y": 20
+                            },
+                            "Direction": "down"
+                            //"Condition": "!PLAYER_HAS_SEEN_EVENT Current James.6h.1p"
+                        }
+                    ]
+                },
                 "Alpine": {
                     "DisplayName": "{{i18n:Core.Alpine.Name}}",
                     "Gender": "Female",
