@@ -1,0 +1,16 @@
+{
+    "Changes": [
+        {
+            "LogName": "Zemo Schedule",
+            "Action": "EditData",
+            "Target": "Characters/schedules/Zemo",
+            "Entries": {
+                "Thu": "
+                    600 Custom_TownZemoHomeGarden 14 17/
+                    1700 Custom_JamesCasinoAuction 16 24/
+                    2300 Custom_TownZemoHomeGarden 14 17/
+                "
+            }
+        }
+    ]
+}

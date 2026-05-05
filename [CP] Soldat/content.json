@@ -43,6 +43,14 @@
             "When": { "IsDitRInstalled": false }
         },
         {
+            "Name": "WeekIndex",
+            "Value": "{{Query:({{Day}}-1)%7}}"
+        },
+        {
+            "Name": "SeasonList",
+            "Value": "spring,summer,fall,winter"
+        },
+        {
             "Name": "WeekDay",
             "Value": "{{WeekDayList |valueAt={{Query: {{Day}}%7}}}}",
             "When": { "IsDitRInstalled": false }
@@ -110,7 +118,9 @@
         },
         {
             "Name": "Custom_JamesCasinoAuction",
-            "FromMapFile": "Assets/Maps/Prizon.tbin"
+            "FromMapFile": "Assets/Maps/Custom_lots.tmx"
         }
     ]
 }
+
+

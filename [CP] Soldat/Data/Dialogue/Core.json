@@ -8,6 +8,15 @@
             "Entries": {
                 "{{WeekDay}}": "{{i18n:Core.James.{{JamesHeartRange}}.{{Random:{{Range: 1, 10}}}}}}"
             }
+        },
+        {
+            "LogName": "Zemo Dialogue",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Zemo",
+            "Update": "OnLocationChange",
+            "Entries": {
+                "{{WeekDay}}": "{{i18n:Core.Zemo.1}}"
+            }
         }
     ]
 }

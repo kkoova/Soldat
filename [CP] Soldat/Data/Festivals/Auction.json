@@ -1,0 +1,43 @@
+{
+	"Changes": [
+		{
+			"Action": "EditData", 
+			"Target": "Data/PassiveFestivals",
+			"When": {
+				"HasMail": "Mail.JamesTiketAuction",
+			},
+			"Entries": {
+				"lele.Soldat_AuctionDay": {
+					"DisplayName": "{{i18n:Festival.Auction.DisplayName}}",
+					"Condition": "PLAYER_HAS_MAIL Mail.JamesTiketAuction",
+					"ShowOnCalendar": true,
+					"Season": "{{Season}}",
+					"StartDay": "4",
+					"EndDay": "4",
+					"StartTime": 1900,
+					"StartMessage": "{{i18n:CommunityDay_StartMessage}}", 
+					"OnlyShowMessageOnFirstDay": true,
+					"MapReplacements": {},
+					"DailySetupMethod": null,
+					"CleanupMethod": null,
+					"CustomFields": {}
+				  }
+			}
+		},
+        { //Changes weather icon to festival
+			"Action": "EditImage",
+			"Target": "LooseSprites/Cursors",
+			"FromFile": "Assets/Tilesheets/Festival_Icons.png",
+			"When": {
+				"Day": "22",
+				"HasMail": "Mail.JamesTiketAuction"
+			},
+			"ToArea": {
+				"X": 341,
+				"Y": 421,
+				"Width": 84,
+				"Height": 8
+			},
+		}
+    ]
+}

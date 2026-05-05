@@ -1,0 +1,11 @@
+{
+	"Changes": [
+	{
+        "Action": "EditData",
+        "Target": "Strings/StringsFromMaps",
+        "Entries": {
+            "Soldat.Auction.Prompt": "{{i18n:Events.Auction.EventVvod}}"
+        }
+    }   
+    ]
+}

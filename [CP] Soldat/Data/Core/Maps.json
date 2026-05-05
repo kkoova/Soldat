@@ -17,6 +17,18 @@
         },
         {
             "Action": "EditMap",
+            "Target": "Maps/Club",
+            "FromFile": "Assets/Maps/Club_warp_auction.tbin",
+           "ToArea": {
+                "X": 7,
+                "Y": 0,
+                "Width": 3,
+                "Height": 4
+            },
+            "PatchMode": "Replace"
+        },
+        {
+            "Action": "EditMap",
             "Target": "Maps/Backwoods",
             "FromFile": "Assets/Maps/Custom_Zemo_Backwoods.tbin",
             "ToArea": {
@@ -103,6 +115,14 @@
             "Target": "Maps/Custom_islandJamesHome",
             "AddWarps": [
                 "3 9 Custom_islandBk_james 11 34"
+            ]
+        },
+        {
+            "LogName": "Add warp from Club to Custom_JamesCasinoAuction",
+            "Action": "EditMap",
+            "Target": "Maps/Club",
+            "AddWarps": [
+                "8 0 Custom_JamesCasinoAuction 16 33"
             ]
         }
     ]
