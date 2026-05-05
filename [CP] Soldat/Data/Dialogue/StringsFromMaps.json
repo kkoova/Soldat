@@ -1,11 +1,21 @@
 {
-	"Changes": [
-	{
-        "Action": "EditData",
-        "Target": "Strings/StringsFromMaps",
-        "Entries": {
-            "Soldat.Auction.Prompt": "{{i18n:Events.Auction.EventVvod}}"
-        }
-    }   
-    ]
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Strings/StringsFromMaps",
+      "Entries": {
+        "Soldat.Auction.Prompt": "{{i18n:Events.Auction.EventVvod}}",
+        "Soldat.Auction.Placat": "{{i18n:Events.Auction.Placat}}",
+        "Soldat.Auction.Boot": "{{i18n:Events.Auction.Boot}}",
+        "Soldat.Auction.Hat": "{{i18n:Events.Auction.Hat}}",
+        "Soldat.Auction.Sword": "{{i18n:Events.Auction.Sword}}",
+        "Soldat.Auction.Cust": "{{i18n:Events.Auction.Cust}}",
+        "Soldat.Auction.Egg": "{{i18n:Events.Auction.Egg}}",
+        "Soldat.Auction.Paint": "{{i18n:Events.Auction.Paint}}",
+        "Soldat.Auction.Tea": "{{i18n:Events.Auction.Tea}}",
+        "Soldat.Auction.LHat": "{{i18n:Events.Auction.LHat}}",
+        "Soldat.Auction.Items": "{{i18n:Events.Auction.Items}}"
+      }
+    }
+  ]
 }

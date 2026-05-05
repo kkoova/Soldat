@@ -1,0 +1,119 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "Entries": {
+                "lele.AuctionShop": {
+                    "Items": [
+                        {
+                            "Id": "lele.Paint.1",
+                            "ItemId": "(F)1954",
+                            "Price": 2100,
+                            "AvailableStock": 1,
+                            "AvailableStockLimit": "Player"
+                        },
+                        {
+                            "Id": "lele.Paint.2",
+                            "ItemId": "(F)1956",
+                            "Price": 2100,
+                            "AvailableStock": 1,
+                            "AvailableStockLimit": "Player"
+                        },
+                        {
+                            "Id": "lele.Paint.3",
+                            "ItemId": "(F)1957",
+                            "Price": 2100,
+                            "AvailableStock": 1,
+                            "AvailableStockLimit": "Player"
+                        },
+                        {
+                            "Id": "lele.Egg",
+                            "ItemId": "289",
+                            "Price": 1958,
+                            "AvailableStock": 2,
+                            "AvailableStockLimit": "Player"
+                        },
+                        {
+                            "Id": "lele.Cust",
+                            "ItemId": "(H)40",
+                            "Price": 99999,
+                            "AvailableStock": 1,
+                            "AvailableStockLimit": "Player"
+                        },
+                        {
+                            "Id": "lele.May",
+                            "ItemId": "(W)65",
+                            "Price": 10949,
+                            "AvailableStock": 1,
+                            "AvailableStockLimit": "Player"
+                        },
+                        {
+                            "Id": "lele.Paint.4",
+                            "ItemId": "(F)1846",
+                            "Price": 5000,
+                            "AvailableStock": 1,
+                            "AvailableStockLimit": "Player"
+                        },
+                        {
+                            "Id": "lele.Paint.5",
+                            "ItemId": "(F)1854",
+                            "Price": 5000,
+                            "AvailableStock": 1,
+                            "AvailableStockLimit": "Player"
+                        },
+                        {
+                            "Id": "lele.Paint.6",
+                            "ItemId": "(F)Abstract",
+                            "Price": 5000,
+                            "AvailableStock": 1,
+                            "AvailableStockLimit": "Player"
+                        },
+                        {
+                            "Id": "lele.Paint.7",
+                            "ItemId": "(F)Checkers",
+                            "Price": 5000,
+                            "AvailableStock": 1,
+                            "AvailableStockLimit": "Player"
+                        },
+                        {
+                            "Id": "lele.Tea",
+                            "ItemId": "341",
+                            "Price": 90078,
+                            "AvailableStock": 1,
+                            "AvailableStockLimit": "Player"
+                        },
+                        {
+                            "Id": "lele.boot",
+                            "ItemId": "(B)806",
+                            "Price": 10001,
+                            "AvailableStock": 1,
+                            "AvailableStockLimit": "Player"
+                        },
+                        {
+                            "Id": "lele.hat",
+                            "ItemId": "(H)LeprechuanHat",
+                            "Price": 10002,
+                            "AvailableStock": 1,
+                            "AvailableStockLimit": "Player"
+                        },
+                        {
+                            "Id": "lele.hatQi",
+                            "ItemId": "(H)82",
+                            "Price": 100000,
+                            "AvailableStock": 1,
+                            "AvailableStockLimit": "Player"
+                        },
+                        {
+                            "Id": "lele.bootD",
+                            "ItemId": "(B)855",
+                            "Price": 1002,
+                            "AvailableStock": 1,
+                            "AvailableStockLimit": "Player"
+                        },
+                    ]
+                }
+            }
+        }
+    ]
+}

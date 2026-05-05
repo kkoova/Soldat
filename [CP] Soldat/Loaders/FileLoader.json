@@ -7,7 +7,7 @@
         },
         {
             "Action": "Include",
-            "FromFile": "Data/Core/Maps.json, Data/Core/Sprites.json, Data/Core/Disposition.json, Data/Core/WorldMap.json, Data/Core/Quests.json, Data/Dialogue/Core.json, Data/Dialogue/StringsFromMaps.json, Data/Events/0H.json, Data/Events/1H.json, Data/Events/2H.json, Data/Events/3H.json, Data/Events/4H.json, Data/Events/5H.json, Data/Events/6H.json, Data/Core/Mail.json, Data/Dialogue/GiftResponses.json"
+            "FromFile": "Data/Core/Maps.json, Data/Core/Sprites.json, Data/Core/Disposition.json, Data/Core/WorldMap.json, Data/Core/Shop.json, Data/Core/Quests.json, Data/Dialogue/Core.json, Data/Dialogue/StringsFromMaps.json, Data/Events/0H.json, Data/Events/1H.json, Data/Events/2H.json, Data/Events/3H.json, Data/Events/4H.json, Data/Events/5H.json, Data/Events/6H.json, Data/Core/Mail.json, Data/Dialogue/GiftResponses.json"
         },
         //loads based on events or flags
         {
