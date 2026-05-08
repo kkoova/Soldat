@@ -5,11 +5,15 @@
             "Action": "EditData",
             "Target": "Characters/schedules/Zemo",
             "Entries": {
-                "Thu": "
+                "{{WeekDay}}": "
                     600 Custom_TownZemoHomeGarden 14 17/
-                    1700 Custom_JamesCasinoAuction 16 24/
                     2300 Custom_TownZemoHomeGarden 14 17/
-                "
+                ",
+
+                "Thu": "
+                    620 Custom_TownZemoHomeGarden 8 20 warp/
+                    1300 Custom_JamesCasinoAuction 11 21 3/
+                ",
             }
         }
     ]

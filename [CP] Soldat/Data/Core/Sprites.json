@@ -31,6 +31,17 @@
             "Target": "Characters/Zemo, Characters/Zemo_Default",
             "FromFile": "Assets/Characters/Zemo/Zemo.png"
         },
+        //zemo-cpe
+        {
+            "Action": "Load",
+            "Target": "Portraits/Zemo_Custom_JamesCasinoAuction",
+            "FromFile": "Assets/Portraits/Zemo/Zemo_Custom_JamesCasinoAuction.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "Characters/Zemo_Custom_JamesCasinoAuction",
+            "FromFile": "Assets/Characters/Zemo/Zemo_Custom_JamesCasinoAuction.png"
+        },
         //mail
         {
             "Action": "Load",
