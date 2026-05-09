@@ -12,7 +12,7 @@
 
                 "Thu": "
                     620 Custom_TownZemoHomeGarden 8 20 warp/
-                    1300 Custom_JamesCasinoAuction 11 21 3/
+                    1300 Custom_JamesCasinoAuction 11 21 3 \"Characters\\Dialogue\\Zemo:AuctionSpeak\"/
                 ",
             }
         }

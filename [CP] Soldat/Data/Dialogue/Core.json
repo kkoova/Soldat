@@ -15,7 +15,15 @@
             "Target": "Characters/Dialogue/Zemo",
             "Update": "OnLocationChange",
             "Entries": {
-                "{{WeekDay}}": "{{i18n:Core.Zemo.1}}"
+                "{{WeekDay}}": "{{i18n:Core.Zemo.1}}",
+
+                //Auction
+                "AuctionSpeak": "{{i18n:Events.Auction.Zemo.AuctionSpeak}}",
+                "ZemoAuctionYes": "{{i18n:Events.Auction.Zemo.Yes}}",
+                "ZemoAuctionNo": "{{i18n:Events.Auction.Zemo.No}}",
+                "ZemoAuctionArm": "{{i18n:Events.Auction.Zemo.Arm}}",
+                "ZemoAuctionObserve": "{{i18n:Events.Auction.Zemo.Observe}}",
+                "zemoAuctionFollowup": "{{i18n:Events.Auction.Zemo.Followup}}",
             }
         }
     ]
