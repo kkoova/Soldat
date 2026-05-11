@@ -55,6 +55,21 @@
             }
         },
         {
+            "Action": "EditMap",
+            "Target": "Maps/Custom_islandJamesHome",
+            "FromFile": "Assets/Maps/JamesHouse_cat.tbin",
+            "ToArea": {
+                "X": 1,
+                "Y": 3,
+                "Width": 4,
+                "Height": 2
+            },
+            "PatchMode": "Replace",
+            "When": {
+                "HasFlag: |contains=leleJamesAlpineHomeTrigger": true
+            }
+        },
+        {
             "LogName": "Add warp",
             "Action": "EditMap",
             "Target": "Maps/Island_E",

@@ -19,7 +19,10 @@
 
         "Soldat.Auction.P1": "{{i18n:Events.Auction.P1}}",
         "Soldat.Auction.P2": "{{i18n:Events.Auction.P2}}",
-        "Soldat.Auction.P3": "{{i18n:Events.Auction.P3}}"
+        "Soldat.Auction.P3": "{{i18n:Events.Auction.P3}}",
+
+        "MapItems.JamesHome.Cat1": "{{i18n:MapItems.JamesHome.Cat1}}",
+        "MapItems.JamesHome.Cat2": "{{i18n:MapItems.JamesHome.Cat2}}"
       }
     }
   ]

@@ -36,13 +36,27 @@
                 "James.6h.2p/e James.6h.1p/f James 1500": "
                 none/
                 follow/
-                farmer 3 8 0 James 2 4 2 Alpine 2 4 3/
+                farmer 3 8 0 James 2 3 2 Alpine 2 3 3/
                 skippable/
                 animate James false true 1000 33/
-                positionOffset Alpine -23 33/
+                positionOffset Alpine -30 43/
                 hideShadow Alpine true/
-                animate Alpine false true 1600 22 23/
-                pause 9100/
+                animate Alpine false true 700 16 17/
+                move farmer 0 -2 0/
+                textAboveHead James \"{{i18n:Events.James.4H.P3.1}}\"/
+                pause 3100/
+                emote farmer 16/
+                speak James \"{{i18n:Events.James.6H.P2.1}}\"/
+                pause 600/
+                quickQuestion #{{i18n:Events.Player.6H.P2.2}}
+                    (break)speak James \"{{i18n:Events.James.0H.P4.5}}\"/
+                pause 1400/
+                stopAnimation James/
+                speed James 2/
+                move James 1 0 1/
+                speed James 2/
+                move James 0 1 2/
+                pause 500/
                 fade/
                 viewport -1000 -1000/
                 end"
