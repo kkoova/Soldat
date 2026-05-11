@@ -119,6 +119,10 @@
         {
             "Name": "Custom_JamesCasinoAuction",
             "FromMapFile": "Assets/Maps/Custom_lots.tmx"
+        },
+        {
+            "Name": "Custom_JamesCasinoAuction_event",
+            "FromMapFile": "Assets/Maps/Custom_lots_event.tmx"
         }
     ]
 }

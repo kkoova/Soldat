@@ -5,5 +5,9 @@
 
   // JA Object TiketАuction
   "object.TiketАuction.name": "Билет на аукцион",
-  "object.TiketАuction.description": "Проход на закрытое мероприятие с @. На нем есть гравировка имени: tggggg"
+  "object.TiketАuction.description": "Проход на закрытое мероприятие с @. На нем есть гравировка имени: tggggg",
+
+  // JA Object RedBook
+  "object.RedBook.name": "Красная книга",
+  "object.RedBook.description": "В ней все на русском"
 }

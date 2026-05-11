@@ -15,6 +15,7 @@
         "Soldat.Auction.Tea": "{{i18n:Events.Auction.Tea}}",
         "Soldat.Auction.LHat": "{{i18n:Events.Auction.LHat}}",
         "Soldat.Auction.Items": "{{i18n:Events.Auction.Items}}",
+        "Soldat.Auction.End": "{{i18n:Events.Auction.End}}",
 
         "Soldat.Auction.P1": "{{i18n:Events.Auction.P1}}",
         "Soldat.Auction.P2": "{{i18n:Events.Auction.P2}}",
