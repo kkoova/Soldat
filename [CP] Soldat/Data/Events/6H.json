@@ -45,7 +45,7 @@
                 move farmer 0 -2 0/
                 textAboveHead James \"{{i18n:Events.James.4H.P3.1}}\"/
                 pause 3100/
-                emote farmer 16/
+                emote farmer 40/
                 speak James \"{{i18n:Events.James.6H.P2.1}}\"/
                 pause 600/
                 quickQuestion #{{i18n:Events.Player.6H.P2.2}}
@@ -57,6 +57,39 @@
                 speed James 2/
                 move James 0 1 2/
                 pause 500/
+                speak James \"{{i18n:Events.James.6H.P2.3}}\"/
+                pause 700/
+                emote farmer 40/
+                pause 700/
+                stopAnimation Alpine/
+                pause 500/
+                faceDirection Alpine 1/
+                pause 600/
+                playSound cat/
+                shake Alpine 300/
+                pause 600/
+                faceDirection James 3/
+                textAboveHead James \"{{i18n:Events.TextAboveHead.6H.P2.3}}\"/
+                pause 3100/
+                faceDirection James 2/
+                pause 400/
+                textAboveHead James \"{{i18n:Events.TextAboveHead.6H.P2.4}}\"/
+                pause 3100/
+                emote farmer 40/
+                quickQuestion #{{i18n:Events.Player.6H.P2.4}}
+                    (break)message \"{{i18n:Events.Description.6H.P1.5}}\"/
+                quickQuestion #{{i18n:Events.Player.6H.P2.6}}
+                    (break)message \"{{i18n:Events.Description.6H.P2.7}}\"/
+                pause 1000/
+                faceDirection James 0/
+                speed James 1/
+                move James 0 -1 1/
+                shake James 300/
+                pause 300/
+                textAboveHead James \"{{i18n:Events.TextAboveHead.6H.P2.8}}\"/
+                pause 3100/
+                quickQuestion #...#{{i18n:Events.Player.QuestionOption.RedBook.6H.P2.9}}#{{i18n:Events.Player.6H.P2.9}}
+                    (break)message \"{{i18n:Events.Description.6H.P2.7}}\"/
                 fade/
                 viewport -1000 -1000/
                 end"

@@ -2,6 +2,21 @@
     "Changes": [
         {
             "Action": "EditMap",
+            "Target": "Maps/Custom_TownZemoHomeGardenBreak",
+            "FromFile": "Assets/Maps/Custom_zemo_town.tmx",
+            "ToArea": {
+                "X": 0,
+                "Y": 0,
+                "Width": 32,
+                "Height": 28
+            },
+            "PatchMode": "Replace",
+            "When": {
+                "HasFlag: |contains=leleJamesZemoHomeTrigger": true
+            }
+        },
+        {
+            "Action": "EditMap",
             "Target": "Maps/Custom_islandBk_james",
             "FromFile": "Assets/Maps/Custom_islandBk_afterDryer.tmx",
             "ToArea": {
@@ -36,6 +51,18 @@
                 "Y": 0,
                 "Width": 8,
                 "Height": 11
+            },
+            "PatchMode": "Replace"
+        },
+        {
+            "Action": "EditMap",
+            "Target": "Maps/Railroad",
+            "FromFile": "Assets/Maps/Railroad_to_zemo.tbin",
+            "ToArea": {
+                "X": 0,
+                "Y": 21,
+                "Width": 25,
+                "Height": 18
             },
             "PatchMode": "Replace"
         },
@@ -111,8 +138,18 @@
             "Action": "EditMap",
             "Target": "Maps/Backwoods",
             "AddWarps": [
-                "34 -1 Custom_TownZemoHomeGarden 17 27",
-                "35 -1 Custom_TownZemoHomeGarden 17 27"
+                "34 -1 Custom_TownZemoHomeGardenBreak 17 27",
+                "35 -1 Custom_TownZemoHomeGardenBreak 17 27"
+            ]
+        },
+        {
+            "LogName": "Add warp Railroad to ZemoGarden",
+            "Action": "EditMap",
+            "Target": "Maps/Railroad",
+            "AddWarps": [
+                "-1 34 Custom_TownZemoHomeGarden 42 6",
+                "-1 35 Custom_TownZemoHomeGarden 42 6",
+                "-1 36 Custom_TownZemoHomeGarden 42 6"
             ]
         },
         {

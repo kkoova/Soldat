@@ -118,7 +118,7 @@
                 animate Alpine false true 2000 20 21/
                 animate James false true 1000 34/
                 positionOffset Alpine -20 -15/
-                move faremr 5 0 1/
+                move farmer 5 0 1/
                 pause 500/
                 emote farmer 40/
                 pause 500/
@@ -221,6 +221,7 @@
                 viewport -1000 -1000/
                 pause 700/
                 message \"{{i18n:Events.Description.5H.P2.22}}\"/
+                mail Mail.JamesZemoMailTown/
                 end"
             }
         },
@@ -239,6 +240,22 @@
                   ]
               }
           }
-      },       
+        },
+        {
+          "LogName": "Trigger Action - 5 Hearts - Zemo",
+          "Action": "EditData",
+          "Target": "Data/TriggerActions",
+          "Entries": {
+              "lele.Soldat.TriggerActions.ZemoHome": {
+                  "Trigger": "DayEnding",
+                  "Id": "lele.Soldat.TriggerActions.ZemoHome",
+                  "Condition": "PLAYER_HAS_SEEN_EVENT Current James.5h.2p, PLAYER_HAS_MAIL Current JamesZemoMailTownThanks Received, !PLAYER_HAS_MAIL Current leleJamesZemoHomeTrigger Received",
+                  "Actions": [
+                      "AddMail Mail.JamesTiketAuction",
+                      "AddMail Current leleJamesZemoHomeTrigger"
+                  ]
+              }
+          }
+        } 
     ]
 }

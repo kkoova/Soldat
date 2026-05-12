@@ -36,6 +36,7 @@
         }
       }
     },
+    //GardenNotBrocen
     {
       "Action": "EditData",
       "Target": "Data/WorldMap",
@@ -70,6 +71,49 @@
             }
           ]
         }
+      },
+      "When": {
+          "HasFlag: |contains=leleJamesZemoHomeTrigger": false
+      }
+    },
+    //GardenBroke
+    {
+      "Action": "EditData",
+      "Target": "Data/WorldMap",
+      "TargetField": [ "Valley", "MapAreas" ],
+      "Entries": {
+        "ZemoGarden": {
+          "Id": "ZemoGardenBroke",
+          "PixelArea": {
+            "X": 100,
+            "Y": 17,
+            "Width": 40,
+            "Height": 20
+          },
+
+          "ScrollText": "{{i18n:Core.WorldMap.Name.BrokeCherryGarden}}",
+
+          "Tooltips": [
+            {
+              "Id": "ZemoGardenBroke",
+              "Text": "{{i18n:Core.WorldMap.Name.BrokeCherryGarden}}"
+            }
+          ],
+          "Textures": [
+            {
+              "Id": "ZemoGardenBrokeOverlay",
+              "Texture": "{{InternalAssetKey: Assets/WorldMap/map_home_zemo_break.png}}"
+            }
+          ],
+          "WorldPositions": [
+            {
+              "LocationName": "Custom_TownZemoHomeGardenBreak"
+            }
+          ]
+        }
+      },
+      "When": {
+          "HasFlag: |contains=leleJamesZemoHomeTrigger": false
       }
     }
   ]

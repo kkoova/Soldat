@@ -9,6 +9,7 @@
     //Map
     "Core.WorldMap.Name.Island": "Мангровые леса",
     "Core.WorldMap.Name.CherryGarden": "Вишневый сад",
+    "Core.WorldMap.Name.BrokeCherryGarden": "Заброшеный вишневый сад",
     
     //Core
     "Core.Yes": "Да",
@@ -326,17 +327,33 @@
     "Events.James.6H.P2.1": "Что то случилось?",
     "Events.Player.6H.P2.2": "Там...в краце, я нашла твой протез, пыталась его забрать, но его купил один...человек",
     "Events.James.6H.P2.3": "Подробнее",
+    "Events.TextAboveHead.6H.P2.3": "*Вдох*",
+    "Events.TextAboveHead.6H.P2.4": "Prodolzhay",
+    "Events.Player.6H.P2.4": "Меня пригласили на какой то модный акуцион, и главным лотом там был протез, какте то ножи, документы и книга...",
+    "Events.Description.6H.P1.5": "Теперь Баки смотрит на Вас так, будто у Вас выросла вторая голова",
+    "Events.Player.6H.P2.6": "Это все... твое?",
+    "Events.Description.6H.P2.7": "Ответа не последовало, лишь робкий кивок, а после тихое тихое гудение из той части, где должна быть рука",
+    "Events.TextAboveHead.6H.P2.8": "Chert",
+    "Events.Player.QuestionOption.RedBook.6H.P2.9": "{{If:{{Query:PLAYER_HAS_ITEM Current (O)lele.Soldat.JA_RedBook}}|Я смогла достать это... *протянуть книгу*|[Недоступно]}}",
+    "Events.Player.6H.P2.9": "Мне жаль...",
 
     //Quest
+    //Cloth
     "Core.Soldat.Quests.Cloth.Title": "Помощь? Вроде не просили",
     "Core.Soldat.Quests.Cloth.Description": "Баки упоминает проблему с верёвкой",
     "Core.Soldat.Quests.Cloth.Task": "Принести 1 ткань",
     "Core.Soldat.Quests.Cloth.FollowUp": "... А?#...#...Спасибо, это очень пригодится",
+    //Milk
     "Core.Soldat.Quests.Milk.Title": "Молоко для малявки",
     "Core.Soldat.Quests.Milk.Description": "Молоко должно заставить котенка показаться, наверняка он очень испуган",
     "Core.Soldat.Quests.Milk.Task": "Принести 1 бутыль козьего молока",
     "Core.Soldat.Quests.Milk.FollowUp": "Ты... принесла?#...#*не думал что вы отзоветесь на письмо, после сказанного*#...Спасибо, это очень поможет",
-    
+    //Town
+    "Core.Soldat.Quests.ZemoTown.Title": "Текст",
+    "Core.Soldat.Quests.ZemoTown.Description": "Описание",
+    "Core.Soldat.Quests.ZemoTown.Task": "Отчистите территорию",
+    "Core.Soldat.Quests.ZemoTown.FollowUp": "Ты... принесла?#...#*не думал что вы отзоветесь на письмо, после сказанного*#...Спасибо, это очень поможет",
+
     //Gift
     "Gifts.James.GiftReaction.Liked": "Спасибо, правда.#$b#За воспоминание и за подарок.",
     "Gifts.James.GiftReaction.Neutral": "Это.... ладно. Спасибо",
