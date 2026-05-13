@@ -33,16 +33,17 @@
             "Action": "EditData",
             "Target": "Data/Events/Custom_islandJamesHome",
             "Entries": {
-                "James.6h.2p/e James.6h.1p/f James 1500": "
+                "James.6h.2p/e James.6h.1p/HasItem (O)lele.Soldat.JA_RedBook/f James 1500/w rain": "
                 none/
                 follow/
                 farmer 3 8 0 James 2 3 2 Alpine 2 3 3/
                 skippable/
                 animate James false true 1000 33/
-                positionOffset Alpine -30 43/
+                positionOffset Alpine -30 43 true/
                 hideShadow Alpine true/
                 animate Alpine false true 700 16 17/
                 move farmer 0 -2 0/
+                pause 600/
                 textAboveHead James \"{{i18n:Events.James.4H.P3.1}}\"/
                 pause 3100/
                 emote farmer 40/
@@ -69,6 +70,7 @@
                 shake Alpine 300/
                 pause 600/
                 faceDirection James 3/
+                pause 600/
                 textAboveHead James \"{{i18n:Events.TextAboveHead.6H.P2.3}}\"/
                 pause 3100/
                 faceDirection James 2/
@@ -83,13 +85,42 @@
                 pause 1000/
                 faceDirection James 0/
                 speed James 1/
-                move James 0 -1 1/
+                move James 0 -1 0/
                 shake James 300/
                 pause 300/
                 textAboveHead James \"{{i18n:Events.TextAboveHead.6H.P2.8}}\"/
                 pause 3100/
-                quickQuestion #...#{{i18n:Events.Player.QuestionOption.RedBook.6H.P2.9}}#{{i18n:Events.Player.6H.P2.9}}
-                    (break)message \"{{i18n:Events.Description.6H.P2.7}}\"/
+                quickQuestion ...#{{i18n:Events.Player.6H.P2.9}}#{{i18n:Events.Player.6H.P2.10}}
+                    (break)pause 600\\faceDirection James 2\\message \"{{i18n:Events.Description.6H.P2.11}}\"\\shake James 600\\pause 600\\speed James 1\\move James 0 2 2\\message \"{{i18n:Events.Description.6H.P2.12}}\"\\shake James 200\\pause 700\\playSound pickUpItem\\pause 300\\removeItem (O)lele.Soldat.JA_RedBook 1\\animate James false true 1000 36\\pause 700\\shake James 200\\emote James 40\\speak James \"{{i18n:Events.James.6H.P2.13}}\"\\pause 500\\message \"{{i18n:Events.Description.6H.P2.15}}\"\\pause 1200\\speak James \"{{i18n:Events.James.6H.P2.16}}\"\\pause 700\\shake James 200\\pause 1000\\message \"{{i18n:Events.Description.6H.P2.17}}\"\\stopAnimation James\\speak James \"{{i18n:Events.James.6H.P2.18}}\"
+                    (break)pause 600\\shake James 200\\pause 600\\faceDirection James 2\\shake James 600\\pause 300\\speed James 1\\move James 0 2 2\\speak James \"{{i18n:Events.James.6H.P2.19}}\"/
+                quickQuestion #{{i18n:Events.Player.6H.P2.19}}
+                    (break)speak James \"{{i18n:Events.James.6H.P2.20}}\"/
+                pause 600/
+                playSound cat/
+                shake Alpine 300/
+                pause 600/
+                faceDirection James 3/
+                pause 1200/
+                faceDirection James 2/
+                pause 400/    
+                speak James \"{{i18n:Events.James.6H.P2.21}}\"/
+                pause 1200/
+                emote farmer 8/
+                pause 400/
+                speak James \"{{i18n:Events.James.6H.P2.22}}\"/
+                pause 1200/
+                faceDirection Alpine 2/
+                move James 1 0 1/
+                move James 0 2 2/
+                faceDirection farmer 2/
+                move James -1 0 0/
+                pause 1200/
+                speak James \"{{i18n:Events.James.6H.P2.23}}\"/
+                move James 0 2 2/
+                warp James 1000 1000/
+                playSound cat/
+                shake Alpine 300/
+                pause 400/
                 fade/
                 viewport -1000 -1000/
                 end"
