@@ -125,6 +125,108 @@
                 viewport -1000 -1000/
                 end"
             }
-        } 
+        },
+        {
+            "LogName": "James h6 p3",
+            "Action": "EditData",
+            "Target": "Data/Events/IslandSouth",
+            "Entries": {
+                "James.6h.3p/e James.6h.2p/t 2200 2600/f James 1500": "
+                none/
+                follow/
+                farmer 20 36 2 James 21 45 2/
+                skippable/
+                hideShadow James true/
+                animate James false true 1000 37/
+                positionOffset James 25 0 true/
+                move farmer 0 5 2/
+                pause 2500/
+                textAboveHead James \"{{i18n:Events.TextAboveHead.6H.P3.1}}\"/
+                pause 3100/
+                move farmer 0 3 2/
+                jump farmer 5/
+                move farmer 0 1 2/
+                animate farmer false true 1000 107/
+                pause 5100/
+                speak James \"{{i18n:Events.James.6H.P3.2}}\"/
+                pause 2500/
+                shake James 600/
+                pause 2900/
+                speak James \"{{i18n:Events.James.6H.P3.3}}\"/
+                pause 3500/
+                speak James \"{{i18n:Events.James.6H.P3.4}}\"/
+                pause 3500/
+                speak James \"{{i18n:Events.James.6H.P3.5}}\"/
+                pause 700/
+                animate James false true 1000 38/
+                pause 400/
+                message \"{{i18n:Events.Description.6H.P3.6}}\"/
+                animate James false true 1000 37/
+                pause 700/
+                textAboveHead James \"{{i18n:Events.TextAboveHead.6H.P2.3}}\"/
+                pause 5100/
+                speak James \"{{i18n:Events.James.6H.P3.7}}\"/
+                pause 1100/
+                animate James false true 1000 38/
+                pause 700/
+                emote farmer 20/
+                pause 700/
+                speak James \"{{i18n:Events.James.6H.P3.8}}\"/
+                pause 1600/
+                animate James false true 1000 37/
+                pause 5600/
+                speak James \"{{i18n:Events.James.6H.P3.9}}\"/
+                fade/
+                viewport -1000 -1000/
+                end"
+            }
+        },
+        {
+            "LogName": "James h6 p4",
+            "Action": "EditData",
+            "Target": "Data/Events/FishShop",
+            "Entries": {
+                "James.6h.4p/e James.6h.3p/f James 1500/f Willy 2500": "
+                none/
+                follow/
+                farmer 5 9 0 Willy 5 4 2/
+                skippable/
+                pause 700/
+                textAboveHead Willy \"{{i18n:Events.TextAboveHead.6H.P4.1}}\"/
+                move farmer 0 -2 0 true/
+                pause 2700/
+                emote farmer 20/
+                pause 1100/
+                speak Willy \"{{i18n:Events.Willy.6H.P4.2}}\"/
+                pause 600/
+                emote farmer 40/
+                pause 600/
+                quickQuestion #{{i18n:Events.Player.6H.P4.3}}
+                    (break)speak Willy \"{{i18n:Events.Willy.6H.P4.4}}\"/
+                pause 600/
+                emote farmer 40/
+                pause 800/
+                quickQuestion #{{i18n:Events.Player.6H.P4.5}}
+                    (break)speak Willy \"{{i18n:Events.Willy.6H.P4.6}}\"/
+                pause 600/
+                quickQuestion #{{i18n:Events.Player.6H.P4.7}}
+                    (break)speak Willy \"{{i18n:Events.Willy.6H.P4.8}}\"/
+                pause 300/
+                jump farmer 7/
+                pause 600/
+                emote farmer 20/
+                pause 400/
+                emote Willy 32/
+                pause 300/
+                speak Willy \"{{i18n:Events.Willy.6H.P4.9}}\"/
+                pause 300/
+                textAboveHead Willy \"{{i18n:Events.TextAboveHead.6H.P4.10}}\"/
+                pause 100/
+                move farmer 0 2 2/
+                fade/
+                viewport -1000 -1000/
+                end"
+            }
+        }
     ]
 }

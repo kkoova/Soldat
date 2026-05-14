@@ -2,7 +2,7 @@
     "Changes": [
         {
             "Action": "Load",
-            "Target": "Characters/dialogue/James, Characters/dialogue/Zemo, Characters/schedules/James, Characters/schedules/Zemo, Data/Events/Custom_islandBk_james, Data/Events/IslandEast, Data/Events/IslandNorth, Data/Events/IslandSouth, Data/Events/Custom_islandJamesHome, Data/Events/Custom_JamesCasinoAuction",
+            "Target": "Characters/dialogue/James, Characters/dialogue/Zemo, Characters/schedules/James, Characters/schedules/Zemo, Data/Events/Custom_islandBk_james, Data/Events/IslandEast, Data/Events/IslandNorth, Data/Events/IslandSouth, Data/Events/Custom_islandJamesHome, Data/Events/Custom_JamesCasinoAuction, Data/Events/FishShop",
             "FromFile": "Loaders/blank.json"
         },
         {
