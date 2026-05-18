@@ -12,8 +12,8 @@
         //loads based on events or flags
         {
             "Action": "Include",
-            "FromFile": "Data/Schedules/James.json",
-            "When": { "HasSeenEvent: |contains=lele.Event.James.0h": true }
+            "FromFile": "Data/Schedules/James.json"
+            //"When": { "HasSeenEvent: |contains=lele.Event.James.0h": true }
         }
     ]
 }

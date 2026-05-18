@@ -135,6 +135,8 @@
                 none/
                 follow/
                 farmer 20 36 2 James 21 45 2/
+                changePortrait James Beach/
+                changeSprite James Beach/
                 skippable/
                 hideShadow James true/
                 animate James false true 1000 37/
@@ -223,6 +225,44 @@
                 textAboveHead Willy \"{{i18n:Events.TextAboveHead.6H.P4.10}}\"/
                 pause 100/
                 move farmer 0 2 2/
+                fade/
+                viewport -1000 -1000/
+                end"
+            }
+        },
+        {
+            "LogName": "James h6 p5",
+            "Action": "EditData",
+            "Target": "Data/Events/IslandSouth",
+            "Entries": {
+                "James.6h.5p/e James.6h.4p/f James 1500/t 800 1700": "
+                none/
+                20 43/
+                farmer 20 43 2 James 21 34 2/
+                skippable/
+                pause 900/
+                move James 0 5 2/
+                pause 700/
+                faceDirection farmer 1/
+                pause 100/
+                faceDirection farmer 0/
+                pause 700/
+                emote farmer 20/
+                pause 1700/
+                emote James 40/
+                pause 2700/
+                speak James \"{{i18n:Events.James.6H.P5.1}}\"/
+                pause 700/
+                emote farmer 16/
+                pause 300/
+                move farmer -2 0 3/
+                warp farmer 999 999/
+                pause 300/
+                shake James 600/
+                pause 2900/
+                move James 0 4 2/
+                move James -3 0 3/
+                warp James 999 999/
                 fade/
                 viewport -1000 -1000/
                 end"

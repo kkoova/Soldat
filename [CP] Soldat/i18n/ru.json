@@ -257,7 +257,7 @@
     "Events.Description.4H.P1.14": "Теперь Баки выглядит иначе... а Альпинка нашла своего человека!",
 
     //JamesH4.2
-    "Events.James.4H.P3.1": "Привет",
+    "Events.James.4H.P3.1": "Hi",
     "Events.TextAboveHead.4H.P3.2": "*сопит*",
     "Events.James.4H.P3.3": "Знаешь...",
     "Events.James.4H.P3.4": "Все было как то...так",
@@ -373,6 +373,9 @@
     "Events.Willy.6H.P4.8": "...$0#$b#Понял, тогда ты приведи его с собой, как соберетесь в Пеликан$1",
     "Events.Willy.6H.P4.9": "Да не за что, молодежь$3",
     "Events.TextAboveHead.6H.P4.10": "До скорого!",
+
+     //JamesH6.5
+    "Events.James.6H.P5.1": "Уже отплываем?",
 
 
 
