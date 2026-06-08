@@ -376,8 +376,16 @@
 
      //JamesH6.5
     "Events.James.6H.P5.1": "Уже отплываем?",
-
-
+    "Events.James.6H.P5.2": "Это все...странно",
+    "Events.James.6H.P5.3": "Я уже привык что на острове так влажно, а тут...",
+    "Events.TextAboveHead.6H.P5.4": "Давай выдвигаться...",
+    "Events.TextAboveHead.6H.P5.5": "Иду я...иду",
+    "Events.TextAboveHead.6H.P5.6": "Баки!",
+    "Events.Vincent.6H.P5.7": "Привет!$1#$b#Я никогда не видел тебя в городе$4",
+    "Events.James.6H.P5.8": "Я впервые тут, мы с... @ решили прогуляться, посмотреть окресности",
+    "Events.Vincent.6H.P5.9": "Тогда хорошей прогулки!$4#$b#А мы на урок!$1",
+    "Events.TextAboveHead.6H.P5.10": "Пока...",
+    "Events.TextAboveHead.6H.P5.11": "Ну тогда... позже-",
 
     //Quest
     //Cloth
