@@ -127,6 +127,10 @@
         {
             "Name": "Custom_JamesCasinoAuction_event",
             "FromMapFile": "Assets/Maps/Custom_lots_event.tmx"
+        },
+        {
+            "Name": "Custom_ZemoHome",
+            "FromMapFile": "Assets/Maps/ZemoHouse.tbin"
         }
     ]
 }
