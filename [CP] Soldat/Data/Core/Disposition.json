@@ -33,6 +33,15 @@
                             "Direction": "down",
                             "Condition": "!PLAYER_HAS_SEEN_EVENT Current lele.Event.James.0h.1p"
                         }
+                    ],
+                    "Appearance": [
+                        {
+                            "Id": "IslandOutfit",
+                            "Condition": "LOCATION_CONTEXT Here Island", 
+                            "Portrait": "Portraits/James_Beach",
+                            "Sprite": "Characters/James_Beach",
+                            "Precedence": -10
+                        }
                     ]
                 },
                 "Zemo": {

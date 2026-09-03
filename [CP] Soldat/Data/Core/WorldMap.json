@@ -86,9 +86,9 @@
           "Id": "ZemoGardenBroke",
           "PixelArea": {
             "X": 100,
-            "Y": 17,
-            "Width": 40,
-            "Height": 20
+            "Y": 19,
+            "Width": 22,
+            "Height": 24
           },
 
           "ScrollText": "{{i18n:Core.WorldMap.Name.BrokeCherryGarden}}",
