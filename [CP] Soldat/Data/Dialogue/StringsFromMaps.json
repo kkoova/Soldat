@@ -22,7 +22,9 @@
         "Soldat.Auction.P3": "{{i18n:Events.Auction.P3}}",
 
         "MapItems.JamesHome.Cat1": "{{i18n:MapItems.JamesHome.Cat1}}",
-        "MapItems.JamesHome.Cat2": "{{i18n:MapItems.JamesHome.Cat2}}"
+        "MapItems.JamesHome.Cat2": "{{i18n:MapItems.JamesHome.Cat2}}",
+
+        "Zemo.Warp.BusStop": "{{i18n:Zemo.Warp.BusStop}}"
       }
     }
   ]

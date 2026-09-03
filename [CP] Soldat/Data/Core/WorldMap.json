@@ -73,7 +73,7 @@
         }
       },
       "When": {
-          "HasFlag: |contains=leleJamesZemoHomeTrigger": false
+          "HasFlag: |contains=leleJamesZemoHomeTrigger": true
       }
     },
     //GardenBroke

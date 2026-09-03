@@ -241,65 +241,19 @@
                 farmer 20 43 2 James 21 34 2 Jas -999 -999 1 Vincent -999 -999 1 Zemo -999 -999 2/
                 skippable/
 
+                
                 globalFadeToClear 0.01 true/
-                changeToTemporaryMap Custom_TownZemoHomeGarden/
-                warp farmer 10 18/
-                warp James 9 18/
-                viewport 10 16 clamp/
-                viewport move 0 -1 1500/
+                changeToTemporaryMap Custom_ZemoHome/
+                warp farmer 20 18/
+                warp James 21 19/
+                warp Zemo 20 15/
+                viewport 20 16 clamp/
                 pause 600/
-                faceDirection farmer 3/
-                pause 400/
-                faceDirection James 1/
-                pause 900/
-                shake James 300/
+                faceDirection Zemo 2/
                 pause 600/
-                faceDirection James 0/
-                pause 300/
-                faceDirection farmer 0/
-                pause 300/
-                move farmer 0 -4 0/
-                pause 700/
-                faceDirection farmer 2/
+                speak Zemo \"{{i18n:Events.Zemo.6H.P5.15}}\"/
                 pause 600/
-                shake James 300/
-                pause 600/
-                faceDirection farmer 0/
-                pause 500/
-                emote farmer 40/
-                pause 300/
-                startJittering/
-                playSound axe/
-                pause 300/
-                playSound axe/
-                pause 300/
-                playSound axe/
-                pause 1700/
-                faceDirection farmer 2/
-                pause 2600/
-                textAboveHead James \"{{i18n:Events.TextAboveHead.6H.P5.11}}\"/
-                pause 2100/
-                playSound woodyStep/
-                pause 400/
-                playSound woodyStep/
-                pause 400/
-                playSound woodyStep/
-                pause 200/
-                faceDirection farmer 0/
-                pause 700/
-                emote James 40/
-                pause 500/
-                move farmer 0 2 0/
-                pause 200/
-                playSound doorOpen/
-                warp Zemo 10 14/
-                pause 1700/
-                pause 400/
-                emote Zemo 40/
-                pause 2100/
-
-
-
+                move Zemo 0 -3 0 true/
                 globalFade 0.01/
                 viewport 999 999/
                 playSound woodyStep/
@@ -309,11 +263,38 @@
                 playSound woodyStep/
                 pause 500/
                 globalFadeToClear 0.01 true/
-                changeToTemporaryMap Custom_ZemoHome/
-                warp farmer 20 18/
-                warp James 21 19/
-                warp Zemo 20 15/
-                viewport 20 16 clamp/
+                warp farmer 9 20/
+                faceDirection farmer 0/
+                warp James 13 17/
+                faceDirection James 3/
+                warp Zemo 10 16/
+                faceDirection Zemo 0/
+                animate farmer false true 1000 113/
+                positionOffset farmer 0 10/
+                viewport 9 17 clamp/
+                pause 1200/
+                faceDirection Zemo 2/
+                pause 500/
+                move Zemo 0 1 2/
+                pause 500/
+                faceDirection Zemo 1/
+                pause 700/
+                speak Zemo \"{{i18n:Events.Zemo.6H.P5.16}}\"/
+                pause 300/
+                emote James 40/
+                pause 600/
+                move James -2 0 2/
+                pause 300/
+                warp James 11 18/
+                animate James false true 1000 16/
+                faceDirection Zemo 2/
+                pause 600/
+                quickQuestion #{{i18n:Events.Player.6H.P5.17}}
+                    (break)speak James \"{{i18n:Events.James.6H.P5.18}}\"/
+                pause 300/
+                message \"{{i18n:Events.Description.6H.P5.19}}
+                pause 600/
+                speak James \"{{i18n:Events.James.6H.P5.20}}\"/
                 pause 50000/
                 fade/
                 viewport -1000 -1000/

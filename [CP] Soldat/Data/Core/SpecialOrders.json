@@ -1,0 +1,91 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/SpecialOrders",
+            "Entries": {
+                "lele.Soldat.SpecialOrder.ZemoGarden": {
+                    "Name": "{{i18n:Core.Soldat.SpecialOrders.ZemoTown.Title}}",
+                    "Requester": "Zemo",
+                    "Duration": "Week",
+                    "Repeatable": false,
+                    "RequiredTags": "",
+                    "OrderType": "",
+                    "SpecialRule": "",
+                    "Text": "{{i18n:Core.Soldat.SpecialOrders.ZemoTown.Description}}",
+                    "ItemToRemoveOnEnd": null,
+                    "MailToRemoveOnEnd": null,
+                    "RandomizedElements": null,
+                    "Objectives": [
+                        { 
+                            "Type" :  "Collect" , 
+                            "Text" :  "{{i18n:Core.Soldat.SpecialOrders.ZemoTown.Task.Wood}}" , 
+                            "RequiredCount" :  "500" , 
+                            "Data" :  { 
+                            "AcceptedContextTags" :  "item_wood" 
+                            }
+                        },
+                        { 
+                            "Type" :  "Collect" , 
+                            "Text" :  "{{i18n:Core.Soldat.SpecialOrders.ZemoTown.Task.Stone}}" , 
+                            "RequiredCount" :  "150" , 
+                            "Data" :  { 
+                            "AcceptedContextTags" :  "item_stone" 
+                            }
+                        },
+                        { 
+                            "Type" :  "Collect" , 
+                            "Text" :  "{{i18n:Core.Soldat.SpecialOrders.ZemoTown.Task.Hardwood}}" , 
+                            "RequiredCount" :  "80" , 
+                            "Data" :  { 
+                            "AcceptedContextTags" :  "item_hardwood" 
+                            }
+                        },
+                        { 
+                            "Type" :  "Donate" , 
+                            "Text" :  "{{i18n:Core.Soldat.SpecialOrders.ZemoTown.Task.Donate.Wood}}" , 
+                            "RequiredCount" :  "500" , 
+                            "Data" :  { 
+                            "DropBox" :  "ZemoBarrel" , 
+                            "DropBoxGameLocation" :  "Custom_TownZemoHomeGardenBreak", 
+                            "DropBoxIndicatorLocation" :  "33 15" , 
+                            "AcceptedContextTags" :  "item_wood" 
+                            } 
+                        },
+                        { 
+                            "Type" :  "Donate" , 
+                            "Text" :  "{{i18n:Core.Soldat.SpecialOrders.ZemoTown.Task.Donate.Stone}}" , 
+                            "RequiredCount" :  "150" , 
+                            "Data" :  { 
+                            "DropBox" :  "ZemoBarrel" , 
+                            "DropBoxGameLocation" :  "Custom_TownZemoHomeGardenBreak", 
+                            "DropBoxIndicatorLocation" :  "33 15" , 
+                            "AcceptedContextTags" :  "item_stone" 
+                            } 
+                        },
+                        { 
+                            "Type" :  "Donate" , 
+                            "Text" :  "{{i18n:Core.Soldat.SpecialOrders.ZemoTown.Task.Donate.Hardwood}}" , 
+                            "RequiredCount" :  "80" , 
+                            "Data" :  { 
+                            "DropBox" :  "ZemoBarrel" , 
+                            "DropBoxGameLocation" :  "Custom_TownZemoHomeGardenBreak", 
+                            "DropBoxIndicatorLocation" :  "33 15" , 
+                            "AcceptedContextTags" :  "item_hardwood" 
+                            } 
+                        }
+                    ],
+                    "Rewards" :  [ 
+                    { 
+                        "Type" :  "Mail" , 
+                        "Data" :  { 
+                            "MailReceived" :  "Mail.JamesZemoMailTownThanks" ,
+                            "NoLetter" :  "false" 
+                        } 
+                    } 
+                    ] 
+                }
+            }
+        }
+    ]
+}

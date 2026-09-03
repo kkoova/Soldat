@@ -206,22 +206,6 @@
       }
     },
       {
-          "LogName": "Trigger Action - 0 Hearts",
-          "Action": "EditData",
-          "Target": "Data/TriggerActions",
-          "Entries": {
-              "lele.Soldat.TriggerActions.Cloth": {
-                  "Trigger": "DayEnding",
-                  "Id": "lele.Soldat.TriggerActions.ClothTrigger",
-                  "Condition": "PLAYER_HAS_SEEN_EVENT Current James.0h.3p, PLAYER_HAS_MAIL Current leleJamesClothComplete Received, !PLAYER_HAS_MAIL Current leleJamesClothTrigger Received",
-                  "Actions": [
-                      "AddConversationTopic soldatClothBoat 1",
-                      "AddMail Current leleJamesClothTrigger"
-                  ]
-              }
-          }
-      },
-      {
           "LogName": "James after fix boat Event",
           "Action": "EditData",
           "Target": "Data/Events/IslandWest",

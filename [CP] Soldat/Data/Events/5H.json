@@ -110,6 +110,8 @@
                 none/
                 follow/
                 farmer 9 26 0 James 18 28 1 Alpine 19 32 3/
+                changePortrait James Beach/
+                changeSprite James Beach/
                 ignoreCollisions James/
                 ignoreCollisions Alpine/
                 skippable/
@@ -224,38 +226,6 @@
                 mail Mail.JamesZemoMailTown/
                 end"
             }
-        },
-        {
-          "LogName": "Trigger Action - 5 Hearts",
-          "Action": "EditData",
-          "Target": "Data/TriggerActions",
-          "Entries": {
-              "lele.Soldat.TriggerActions.TiketAuction": {
-                  "Trigger": "DayEnding",
-                  "Id": "lele.Soldat.TriggerActions.TiketAuction",
-                  "Condition": "PLAYER_HAS_SEEN_EVENT Current James.5h.2p, PLAYER_HAS_MAIL Current museumComplete Received, !PLAYER_HAS_MAIL Current leleJamesTiketAuction Received",
-                  "Actions": [
-                      "AddMail Mail.JamesTiketAuction",
-                      "AddMail Current leleJamesTiketAuction"
-                  ]
-              }
-          }
-        },
-        {
-          "LogName": "Trigger Action - 5 Hearts - Zemo",
-          "Action": "EditData",
-          "Target": "Data/TriggerActions",
-          "Entries": {
-              "lele.Soldat.TriggerActions.ZemoHome": {
-                  "Trigger": "DayEnding",
-                  "Id": "lele.Soldat.TriggerActions.ZemoHome",
-                  "Condition": "PLAYER_HAS_SEEN_EVENT Current James.5h.2p, PLAYER_HAS_MAIL Current JamesZemoMailTownThanks Received, !PLAYER_HAS_MAIL Current leleJamesZemoHomeTrigger Received",
-                  "Actions": [
-                      "AddMail Mail.JamesTiketAuction",
-                      "AddMail Current leleJamesZemoHomeTrigger"
-                  ]
-              }
-          }
-        } 
+        }
     ]
 }

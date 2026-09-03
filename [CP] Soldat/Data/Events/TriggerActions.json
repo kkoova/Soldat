@@ -1,0 +1,83 @@
+{
+    "Changes": [
+        {
+          "LogName": "Trigger Action - 0 Hearts",
+          "Action": "EditData",
+          "Target": "Data/TriggerActions",
+          "Entries": {
+              "lele.Soldat.TriggerActions.Cloth": {
+                  "Trigger": "DayEnding",
+                  "Id": "lele.Soldat.TriggerActions.ClothTrigger",
+                  "Condition": "PLAYER_HAS_SEEN_EVENT Current James.0h.3p, PLAYER_HAS_MAIL Current leleJamesClothComplete Received, !PLAYER_HAS_MAIL Current leleJamesClothTrigger Received",
+                  "Actions": [
+                      "AddConversationTopic soldatClothBoat 1",
+                      "AddMail Current leleJamesClothTrigger"
+                  ]
+              }
+          }
+      },
+      {
+          "LogName": "Trigger Action - 2 Hearts",
+          "Action": "EditData",
+          "Target": "Data/TriggerActions",
+          "Entries": {
+              "lele.Soldat.TriggerActions.Dryer": {
+                  "Trigger": "DayEnding",
+                  "Id": "lele.Soldat.TriggerActions.DryerTrigger",
+                  "Condition": "PLAYER_HAS_SEEN_EVENT Current James.2h.1p, PLAYER_HAS_MAIL Current leleJamesDryerComplete Received, !PLAYER_HAS_MAIL Current leleJamesDryerTrigger Received",
+                  "Actions": [
+                      "AddConversationTopic soldatClothBoat 1",
+                      "AddMail Current leleJamesDryerTrigger"
+                  ]
+              }
+          }
+      },
+      {
+          "LogName": "Trigger Action - 3 Hearts",
+          "Action": "EditData",
+          "Target": "Data/TriggerActions",
+          "Entries": {
+              "lele.Soldat.TriggerActions.JamesAlpineHome": {
+                  "Trigger": "DayEnding",
+                  "Id": "lele.Soldat.TriggerActions.JamesAlpineHome",
+                  "Condition": "PLAYER_HAS_SEEN_EVENT Current James.3h.5p, !PLAYER_HAS_MAIL Current leleJamesAlpineHomeTrigger Received",
+                  "Actions": [
+                      "AddMail Current leleJamesAlpineHomeTrigger"
+                  ]
+              }
+          }
+      },
+      {
+          "LogName": "Trigger Action - 5 Hearts",
+          "Action": "EditData",
+          "Target": "Data/TriggerActions",
+          "Entries": {
+              "lele.Soldat.TriggerActions.TiketAuction": {
+                  "Trigger": "DayEnding",
+                  "Id": "lele.Soldat.TriggerActions.TiketAuction",
+                  "Condition": "PLAYER_HAS_SEEN_EVENT Current James.5h.2p, PLAYER_HAS_MAIL Current museumComplete Received, !PLAYER_HAS_MAIL Current leleJamesTiketAuction Received",
+                  "Actions": [
+                      "AddMail Mail.JamesTiketAuction",
+                      "AddMail Current leleJamesTiketAuction"
+                  ]
+              }
+          }
+        },
+        {
+          "LogName": "Trigger Action - 5 Hearts - Zemo",
+          "Action": "EditData",
+          "Target": "Data/TriggerActions",
+          "Entries": {
+              "lele.Soldat.TriggerActions.ZemoHome": {
+                  "Trigger": "DayEnding",
+                  "Id": "lele.Soldat.TriggerActions.ZemoHome",
+                  "Condition": "PLAYER_HAS_SEEN_EVENT Current James.5h.2p, PLAYER_HAS_MAIL Current Mail.JamesZemoMailTownThanks Received, !PLAYER_HAS_MAIL Current leleJamesZemoHomeTrigger Received",
+                  "Actions": [
+                      "AddMail Mail.JamesTiketAuction",
+                      "AddMail Current leleJamesZemoHomeTrigger"
+                  ]
+              }
+          }
+        } 
+    ]
+}

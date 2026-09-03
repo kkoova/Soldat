@@ -75,22 +75,6 @@
             end"
       }
     },
-    {
-          "LogName": "Trigger Action - 2 Hearts",
-          "Action": "EditData",
-          "Target": "Data/TriggerActions",
-          "Entries": {
-              "lele.Soldat.TriggerActions.Dryer": {
-                  "Trigger": "DayEnding",
-                  "Id": "lele.Soldat.TriggerActions.DryerTrigger",
-                  "Condition": "PLAYER_HAS_SEEN_EVENT Current James.2h.1p, PLAYER_HAS_MAIL Current leleJamesDryerComplete Received, !PLAYER_HAS_MAIL Current leleJamesDryerTrigger Received",
-                  "Actions": [
-                      "AddConversationTopic soldatClothBoat 1",
-                      "AddMail Current leleJamesDryerTrigger"
-                  ]
-              }
-          }
-      },
       {
         "LogName": "James h2p2",
         "Action": "EditData",

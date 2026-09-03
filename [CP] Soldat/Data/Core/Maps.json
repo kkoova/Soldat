@@ -56,15 +56,41 @@
         },
         {
             "Action": "EditMap",
-            "Target": "Maps/Railroad",
-            "FromFile": "Assets/Maps/Railroad_to_zemo.tbin",
+            "Target": "Maps/BusStop",
+            "FromFile": "Assets/Maps/BusStopZemo.tbin",
             "ToArea": {
-                "X": 0,
-                "Y": 21,
-                "Width": 25,
-                "Height": 18
+                "X": 17,
+                "Y": 0,
+                "Width": 13,
+                "Height": 6
             },
             "PatchMode": "Replace"
+        },
+        {
+            "LogName": "Add warp to Broken Garden",
+            "Action": "EditMap",
+            "Target": "Maps/BusStop",
+            "AddWarps": [
+                "27 -1 Custom_TownZemoHomeGardenBreak 42 5",
+                "26 -1 Custom_TownZemoHomeGardenBreak 42 5",
+                "25 -1 Custom_TownZemoHomeGardenBreak 42 5"
+            ],
+            "When": {
+                "HasFlag |contains=leleJamesZemoHomeTrigger": false
+            }
+        },
+        {
+            "LogName": "Add warp to Restored Garden",
+            "Action": "EditMap",
+            "Target": "Maps/BusStop",
+            "AddWarps": [
+                "27 -1 Custom_TownZemoHomeGarden 42 5",
+                "26 -1 Custom_TownZemoHomeGarden 42 5",
+                "25 -1 Custom_TownZemoHomeGarden 42 5"
+            ],
+            "When": {
+                "HasFlag: |contains=leleJamesZemoHomeTrigger": true
+            }
         },
         {
             "Action": "EditMap",

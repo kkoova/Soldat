@@ -1,26 +1,24 @@
 {
     "Changes": [
-        //Defaults
         {
             "Action": "Load",
-            "Target": "Portraits/James_Beach",
-            "FromFile": "Assets/Portraits/James/James_Beach.png"
+            "Target": "Characters/James",
+            "FromFile": "Assets/Characters/James/James.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "Portraits/James",
+            "FromFile": "Assets/Portraits/James/James.png"
         },
         {
             "Action": "Load",
             "Target": "Characters/James_Beach",
             "FromFile": "Assets/Characters/James/James_Beach.png"
         },
-        //James Town
         {
             "Action": "Load",
-            "Target": "Portraits/James, Portraits/James_Default",
-            "FromFile": "Assets/Portraits/James/James.png"
-        },
-        {
-            "Action": "Load",
-            "Target": "Characters/James, Characters/James_Default",
-            "FromFile": "Assets/Characters/James/James.png"
+            "Target": "Portraits/James_Beach",
+            "FromFile": "Assets/Portraits/James/James_Beach.png"
         }
     ]
 }

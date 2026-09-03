@@ -449,21 +449,6 @@
                 pause 700/
                 end"
             }
-        },
-        {
-          "LogName": "Trigger Action - 3 Hearts",
-          "Action": "EditData",
-          "Target": "Data/TriggerActions",
-          "Entries": {
-              "lele.Soldat.TriggerActions.JamesAlpineHome": {
-                  "Trigger": "DayEnding",
-                  "Id": "lele.Soldat.TriggerActions.JamesAlpineHome",
-                  "Condition": "PLAYER_HAS_SEEN_EVENT Current James.3h.5p, !PLAYER_HAS_MAIL Current leleJamesAlpineHomeTrigger Received",
-                  "Actions": [
-                      "AddMail Current leleJamesAlpineHomeTrigger"
-                  ]
-              }
-          }
-      },
+        }
     ]
 }

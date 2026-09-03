@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="43" height="28" tilewidth="16" tileheight="16" infinite="0" nextlayerid="17" nextobjectid="2">
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="43" height="28" tilewidth="16" tileheight="16" infinite="0" nextlayerid="17" nextobjectid="3">
  <properties>
   <property name="DefaultWarpLocation" value="16 25"/>
   <property name="Fall_Objects" value="T"/>
   <property name="Outdoors" value="T"/>
   <property name="Spring_Objects" value="T"/>
   <property name="Summer_Objects" value="T"/>
-  <property name="Warp" value="43 5 Railroad 0 35 43 6 Railroad 0 35 43 7 Railroad 0 35 43 8 Railroad 0 35"/>
+  <property name="Warp" value="43 5 BusStop 26 0 43 6 BusStop 26 0 43 7 BusStop 26 0 43 8 BusStop 26 0"/>
   <property name="Winter_Objects" value="T"/>
  </properties>
  <tileset firstgid="1" name="spring_Shadows" tilewidth="16" tileheight="16" tilecount="475" columns="19">
@@ -49,7 +49,7 @@
   <image source="paths.png" width="64" height="256"/>
  </tileset>
  <tileset firstgid="5029" source="Landscape.tsx"/>
- <layer id="9" name="Back2" width="43" height="28">
+ <layer id="9" name="Back" width="43" height="28">
   <data encoding="csv">
 3133,3156,3157,3182,3131,3131,3084,3131,3131,3080,3131,3131,3131,3131,3131,3131,3131,3132,3130,3131,3133,3156,3156,3156,3156,3156,3156,3183,3080,3131,3131,3131,5408,5409,5409,5409,5409,5409,5409,5409,5409,5409,5409,
 3132,3182,3182,3182,3182,3183,3131,3131,3131,3131,3131,3131,3131,3133,3156,3156,3156,3157,3155,3156,3157,3182,3182,0,0,3182,3182,3155,3183,3131,3131,3131,5433,5434,5434,5436,5409,5409,5409,5409,5409,5409,5409,
@@ -81,8 +81,8 @@
 5431,5431,5431,5304,5431,5431,5180,5304,5204,5354,5355,5355,5355,5355,5355,5355,5356,5304,5429,5304,5431,5304,5304,5304,5431,5354,5355,5355,5355,5355,5355,5357,5334,5380,5380,5380,5329,5380,5358,5329,5380,5380,5380
 </data>
  </layer>
- <objectgroup id="16" name="Back2"/>
- <layer id="13" name="Back" width="43" height="28">
+ <objectgroup id="16" name="Back"/>
+ <layer id="13" name="Back2" width="43" height="28">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -114,7 +114,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <objectgroup id="6" name="Back"/>
+ <objectgroup id="6" name="Back2"/>
  <layer id="3" name="Buildings" width="43" height="28">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5095,5096,5097,5098,5099,5100,0,0,
@@ -147,7 +147,13 @@
 2886,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2886,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <objectgroup id="7" name="Buildings"/>
+ <objectgroup id="7" name="Buildings">
+  <object id="2" name="TileData" x="160" y="208" width="16" height="16">
+   <properties>
+    <property name="Action" value="LockedDoorWarp 20 20 Custom_ZemoHome 1200 2300"/>
+   </properties>
+  </object>
+ </objectgroup>
  <layer id="4" name="Front" width="43" height="28">
   <data encoding="csv">
 0,0,0,2818,2819,2820,0,0,0,0,0,2818,2819,2820,0,0,0,0,2893,2894,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
