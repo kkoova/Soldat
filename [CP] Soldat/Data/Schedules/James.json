@@ -5,21 +5,22 @@
             "Action": "EditData",
             "Target": "Characters/schedules/James",
             "Entries": {
-                "{{WeekDay}}": "
-                    630 Custom_islandJamesHome 4 3/
-                    830 IslandSouth 21 27/
-                    1200 Custom_islandBk_james 29 15/
-                    1600 Custom_islandBk_james 7 10/
-                    1900 Custom_islandJamesHome 2 2/
-                    2300 Custom_islandJamesHome 5 4
-                ",
-
-                "Wed": "
-                    700 Custom_islandJamesHome 4 3/
-                    930 IslandEast 30 42/
-                    1430 IslandSouth 17 26/
-                    1830 Custom_islandBk_james 18 22/
-                    2300 Custom_islandJamesHome 5 4
+                "Spring": "
+                    610 Custom_islandJamesHome 4 4 2 james_beach_sit/
+                    700 IslandNorth 56 17/
+                    830 IslandNorth 18 13/
+                    1000 IslandWest 52 38/
+                    1200 IslandWest 14 16/
+                    1400 IslandSouth 33 22/
+                    1500 IslandEast 30 28/
+                    1600 Custom_islandBk_james 6 52/
+                    1700 IslandNorth 56 17/
+                    1730 IslandNorth 18 13/
+                    1900 IslandWest 52 38/
+                    2100 IslandWest 14 16/
+                    2300 IslandSouth 33 22/
+                    100 Custom_islandJamesHome 2 5/
+                    130 Custom_islandJamesHome 4 4 2 james_beach_sit/
                 "
             }
         }

@@ -131,8 +131,8 @@
             "Action": "EditMap",
             "Target": "Maps/Island_E",
             "AddWarps": [
-                "43 53 Custom_islandBk_james 0 13",
-                "43 54 Custom_islandBk_james 0 13"
+                "43 53 Custom_islandBk_james 0 15",
+                "43 54 Custom_islandBk_james 0 15"
             ]
         },
         {
@@ -140,8 +140,9 @@
             "Action": "EditMap",
             "Target": "Maps/Custom_islandBk_james",
             "AddWarps": [
-                "-1 13 IslandEast 42 54",
-                "-1 14 IslandEast 42 54"
+                "-1 15 IslandEast 42 54",
+                "-1 16 IslandEast 42 54",
+                "17 -1 IslandNorth 59 30"
             ]
         },
         {

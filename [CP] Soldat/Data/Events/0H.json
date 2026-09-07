@@ -7,34 +7,59 @@
       "Entries": {
         "James.0h.1p/t 2200 2400/w sunny": "
             ocean/
-            17 32/
-            farmer 15 22 2 James 19 31 4/
+            follow/
+            farmer 7 17 1 James 19 31 4/
             animate James false true 1000 16 17/
+            changeName James ???/
             skippable/
-            message \"{{i18n:Events.Description.0H.1}}\"/
-                speed farmer 2/
-                move farmer 0 1 2/
-                playSound sandyStep/
-            message \"{{i18n:Events.Description.0H.2}}\"/
+            move farmer 0 4 2/
+            pause 1000/
+            message \"{{i18n:Events.Description.0H.0}}\"/
+            pause 1000/
+            startJittering/pause 600/stopJittering/
+            pause 600/
+            speak James \"{{i18n:Events.James.0H.0}}\"/
+            jump farmer/
+            pause 400/
+            speed farmer 5/
+            move farmer 0 -1 0 true/
+            pause 200/
+            speak James \"{{i18n:Events.James.0H.01}}\"/
+            pause 1000/
+            faceDirection farmer 2/
+            pause 700/
+            startJittering/pause 700/stopJittering/
+            speed farmer 2/
+            move farmer 0 3 2/
+            move farmer 8 0 2/
+            move farmer 0 5 2/
+            emote James 40/
+            pause 1600/
+            speak James \"{{i18n:Events.James.0H.1}}\"/
+            playSound cracklingFire/
+            speak James \"{{i18n:Events.James.0H.2}}\"/
+            pause 700/
+            startJittering/pause 600/stopJittering/
+            pause 2500/
+            shake James 500/
             message \"{{i18n:Events.Description.0H.3}}\"/
-                pause 1500/
-                pause 1000/
-                emote James 40/
+            pause 2000/
             speak James \"{{i18n:Events.James.0H.4}}\"/
-                move farmer 0 6 2/
-                playSound cracklingFire/
-            speak James \"{{i18n:Events.James.0H.5}}\"/
-                pause 1500/
-                shake James 500/
-            message \"{{i18n:Events.Description.0H.6}}\"/
-                pause 1000/
-            speak James \"{{i18n:Events.James.0H.7}}\"/
-                emote farmer 40/
-            message \"{{i18n:Events.Description.0H.8}}\"/
-                pause 1500/
-            speak James \"{{i18n:Events.James.0H.9}}\"/
-            speak James \"{{i18n:Events.James.0H.10}}\"/
-                pause 1500/
+            pause 2500/
+            message \"{{i18n:Events.Description.0H.5}}\"/
+            pause 1500/
+            move farmer 0 1 2/
+            faceDirection farmer 1/
+            speak James \"{{i18n:Events.James.0H.6}}\"/
+            pause 700/
+            quickQuestion #{{i18n:Events.Player.0H.7}}
+                (break)speak James \"{{i18n:Events.James.0H.8}}\"
+            pause 2500/
+            animate James false true 1000 16/
+            pause 700/
+            message \"{{i18n:Events.Description.0H.9}}\"/
+            pause 1500/
+
             message \"{{i18n:Events.Description.0H.11}}\"/
             speak James \"{{i18n:Events.James.0H.12}}\"/
                 emote farmer 40/
