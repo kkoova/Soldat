@@ -2,12 +2,12 @@
     //Names
     "Core.James.Name": "Джеймс",
     "Core.James.Name.Bak": "Баки",
-    "Core.James.Name.NoName": "???",
     "Core.Alpine.Name": "Альпинка",
     "Core.Zemo.Name": "Барон Земо",
     
     //Map
     "Core.WorldMap.Name.Island": "Мангровые леса",
+    "Core.WorldMap.Name.IslandHome": "Ветхий домик",
     "Core.WorldMap.Name.CherryGarden": "Вишневый сад",
     "Core.WorldMap.Name.BrokeCherryGarden": "Заброшеный вишневый сад",
     
@@ -25,7 +25,7 @@
     "Events.James.0H.4": "...",
     "Events.Description.0H.5": "Он продолжает точить нож, не обращая внимания на вас#Вам надо уйти?#Кто это?#Зачем позвал?",
     "Events.James.0H.6": "...#$b#...Зачем ты пришел сюда?",
-    "Events.Player.0H.7": "Я просто гуляю по пляжу...",
+    "Events.Player.0H.7": "Я wпросто гуляю по пляжу...",
     "Events.James.0H.8": "Мм",
     "Events.Description.0H.9": "Незнакомец наконец поворачивает голову. Останавливается на ваших руках, ткани, вещах, что вы носите с собой.#Он не моргает, взгляд скользит по вашему лицу, останавливается на глазах, губах, бровях...#Мужчина не говорит, но вы чувствуете, что он оценивает вас",
     "Events.James.0H.12": "Ты забрел сюда случайно?",
@@ -476,6 +476,7 @@
     //JamesHome
     "MapItems.JamesHome.Cat1": "Миска для еды и воды из кокоса",
     "MapItems.JamesHome.Cat2": "Лежанка для кошки из сухих листьев",
+    "MapItems.JamesHome.Sleep": "Спальное место из травы и листьев",
 
     //ZemoHomeWarp
     "Zemo.Warp.BusStop": "Путь в вишневый сад",

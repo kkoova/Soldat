@@ -51,6 +51,16 @@
             "Target": "Characters/Zemo_Custom_JamesCasinoAuction",
             "FromFile": "Assets/Characters/Zemo/Zemo_Custom_JamesCasinoAuction.png"
         },
+        {
+            "Action": "Load",
+            "Target": "Characters/James_Custom_islandBk_james",
+            "FromFile": "Assets/Characters/James/James_Beach.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "Portraits/James_Custom_islandBk_james",
+            "FromFile": "Assets/Portraits/James/James_Beach.png"
+        },
         //mail
         {
             "Action": "Load",

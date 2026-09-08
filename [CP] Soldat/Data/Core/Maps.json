@@ -146,23 +146,6 @@
             ]
         },
         {
-            "LogName": "Add warp from Custom_islandBk_james to Custom_islandJamesHome",
-            "Action": "EditMap",
-            "Target": "Maps/Custom_islandBk_james",
-            "AddWarps": [
-                "11 33 Custom_islandJamesHome 3 6",
-                "12 33 Custom_islandJamesHome 3 6"
-            ]
-        },
-        {
-            "LogName": "Add warp from Custom_islandJamesHome to Custom_islandBk_james",
-            "Action": "EditMap",
-            "Target": "Maps/Custom_islandJamesHome",
-            "AddWarps": [
-                "3 9 Custom_islandBk_james 11 34"
-            ]
-        },
-        {
             "LogName": "Add warp from Club to Custom_JamesCasinoAuction",
             "Action": "EditMap",
             "Target": "Maps/Club",

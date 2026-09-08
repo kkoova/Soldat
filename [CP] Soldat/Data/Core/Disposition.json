@@ -26,11 +26,11 @@
                     "WinterStarParticipant": false,  
                     "Home": [
                         {
-                            "Id": "Default",
-                            "Location": "Custom_islandJamesHome",
+                            "Id": "Default_home_james",
+                            "Location": "Custom_islandBk_james",
                             "Tile": {
-                                "X": 4,
-                                "Y": 3
+                                "X": 10,
+                                "Y": 32
                             },
                             "Direction": "down",
                             "Condition": "!PLAYER_HAS_SEEN_EVENT Current lele.Event.James.0h.1p"
@@ -38,11 +38,13 @@
                     ],
                     "Appearance": [
                         {
-                            "Id": "IslandOutfit",
-                            "Condition": "LOCATION_CONTEXT Here Island", 
+                            "Id": "OutIslandOutfit_James",
+                            "Condition": "LOCATION_CONTEXT Here Island",
+                            "Indoors": true,
+                            "Outdoors": true,
                             "Portrait": "Portraits/James_Beach",
                             "Sprite": "Characters/James_Beach",
-                            "Precedence": -10
+                            "Precedence": -20
                         }
                     ]
                 },
@@ -96,7 +98,7 @@
                     "Home": [
                         {
                             "Id": "Default",
-                            "Location": "Custom_islandJamesHome",
+                            "Location": "Custom_islandBk_james",
                             "Tile": {
                                 "X": 1,
                                 "Y": 6

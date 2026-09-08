@@ -85,10 +85,6 @@
             "FromMapFile": "Assets/Maps/Custom_islandBk.tmx"
         },
         {
-            "Name": "Custom_islandJamesHome",
-            "FromMapFile": "Assets/Maps/JamesHouse.tbin"
-        },
-        {
             "Name": "Custom_TownZemoHomeGarden",
             "FromMapFile": "Assets/Maps/Custom_zemo_town.tmx"
         },
