@@ -240,7 +240,236 @@
                 20 43/
                 farmer 20 43 2 James 21 34 2 Jas -999 -999 1 Vincent -999 -999 1 Zemo -999 -999 2/
                 skippable/
+                pause 900/
+                move James 0 5 2/
+                pause 700/
+                faceDirection farmer 1/
+                pause 100/
+                faceDirection farmer 0/
+                pause 700/
+                emote farmer 20/
+                pause 1000/
+                emote James 40/
+                pause 1900/
+                speak James \"{{i18n:Events.James.6H.P5.1}}\"/
+                pause 700/
+                emote farmer 56/
+                pause 300/
+                move farmer -2 0 3/
+                playSound doorOpen/
+                warp farmer -999 -999/
+                pause 700/
+                shake James 600/
+                pause 2900/
+                move James 0 4 2/
+                move James -3 0 3/
+                playSound doorOpen/
+                warp James -999 -999/
+                pause 700/
+                globalFade 0.01/
+                viewport 999 999/
+                pause 3500/
+                globalFadeToClear 0.01 true/
+                changeLocation Beach/
+                viewport 26 35 clamp/
+                pause 700/
+                warp farmer 30 34/
+                faceDirection farmer 2/
+                playSound doorOpen/
+                pause 400/
+                move farmer 0 1 2/
+                move farmer -4 0 3/
+                pause 400/
+                faceDirection farmer 2/
+                pause 500/
+                warp James 30 34/
+                faceDirection James 2/
+                playSound doorOpen/
+                pause 400/
+                move James 0 1 2/
+                pause 900/
+                shake James 500/
+                pause 1700/
+                faceDirection James 3/
+                pause 400/
+                emote farmer 20/
+                pause 500/
+                shake James 500/
+                pause 1000/
+                speak James \"{{i18n:Events.James.6H.P5.2}}\"/
+                pause 700/
+                move James -2 0 3/
+                pause 700/
+                faceDirection James 2/
+                pause 4700/
+                speak James \"{{i18n:Events.James.6H.P5.3}}\"/
+                pause 3700/
+                faceDirection James 3/
+                pause 500/
+                shake James 500/
+                pause 1000/
+                textAboveHead James \"{{i18n:Events.TextAboveHead.6H.P5.4}}\"/
+                pause 2700/
+                faceDirection farmer 1/
+                pause 700/
+                emote farmer 20/
+                pause 500/
+                move farmer 0 -3 2/
+                pause 500/
+                faceDirection farmer 2/
+                pause 300/
+                move James -2 0 0/
+                pause 900/
+                textAboveHead James \"{{i18n:Events.TextAboveHead.6H.P5.5}}\"/
+                pause 500/
+                move farmer 0 -6 2 true/
+                pause 300/
+                shake James 500/
+                pause 300/
+                move James 0 -5 1/
+                pause 700/
+                globalFade 0.01/
+                viewport 999 999/
+                playSound sandyStep/
+                pause 500/
+                playSound sandyStep/
+                pause 500/
+                playSound sandyStep/
+                pause 500/
+                globalFadeToClear 0.01 true/
+                changeToTemporaryMap Town/
+                warp farmer 54 96/
+                warp James 54 98/
+                warp Jas 46 96/
+                warp Vincent 47 96/
+                move Jas 7 0 0 true/
+                move Vincent 7 0 0 true/
+                speed farmer 1/
+                move farmer 0 -6 0 true/
+                speed James 1/
+                move James 0 -5 0 true/
+                viewport 54 96 clamp/
+                pause 3500/
+                playMusic sweet/
+                jump Vincent/
+                pause 800/
+                textAboveHead Vincent \"{{i18n:Events.TextAboveHead.6H.P5.6}}\"/
+                pause 500/
+                faceDirection James 2/
+                pause 500/
+                faceDirection farmer 2/
+                pause 900/
+                speak Vincent \"{{i18n:Events.Vincent.6H.P5.7}}\"/
+                pause 500/
+                emote James 60/
+                pause 1100/
+                speak James \"{{i18n:Events.James.6H.P5.8}}\"/
+                pause 900/
+                emote Vincent 20/
+                pause 500/
+                speak Vincent \"{{i18n:Events.Vincent.6H.P5.9}}\"/
+                pause 500/
+                textAboveHead Jas \"{{i18n:Events.TextAboveHead.6H.P5.10}}\"/
+                pause 2100/
+                stopMusic/
+                playMusic wind/
+                move Jas 15 0 0 true/
+                move Vincent 15 0 0 true/
+                pause 500/
+                emote James 60/
+                pause 500/
+                faceDirection James 0/
+                pause 500/
+                shake James 500/
+                pause 300/
+                emote James 60/
+                pause 300/
+                emote farmer 20/
+                pause 900/
+                move farmer 0 -5 0 true/
+                pause 300/
+                move James 0 -5 0 true/
+                pause 1100/
+                globalFade 0.01/
+                viewport 999 999/
+                playSound sandyStep/
+                pause 500/
+                playSound sandyStep/
+                pause 500/
+                playSound sandyStep/
+                pause 500/
 
+                globalFadeToClear 0.01 true/
+                changeToTemporaryMap Custom_TownZemoHomeGarden/
+                warp farmer 10 18/
+                warp James 9 18/
+                viewport 10 16 clamp/
+                viewport move 0 -1 15000/
+                viewport move 0 -1 1500/
+                pause 600/
+                faceDirection farmer 1/
+                faceDirection farmer 3/
+                pause 400/
+                faceDirection James 3/
+                pause 300/
+                faceDirection James 1/
+                pause 900/
+                shake James 300/
+                pause 600/
+                faceDirection James 0/
+                pause 300/
+                faceDirection farmer 1/
+                pause 300/
+                move farmer 0 -5 0/
+                faceDirection farmer 0/
+                pause 300/
+                move farmer 0 -4 0/
+                pause 700/
+                faceDirection farmer 2/
+                pause 600/
+                shake James 300/
+                playSound axe/
+                pause 300/
+                playSound axe/
+                pause 1100/
+                pause 1700/
+                faceDirection farmer 2/
+                pause 300/
+                pause 2600/
+                textAboveHead James \"{{i18n:Events.TextAboveHead.6H.P5.11}}\"/
+                pause 1000/
+                pause 2100/
+                playSound woodyStep/
+                pause 400/
+                playSound woodyStep/
+                pause 400/
+                playSound woodyStep/
+                pause 200/
+                faceDirection farmer 0/
+                pause 300/
+                pause 700/
+                emote James 40/
+                pause 500/
+                move farmer 0 2 0/
+                pause 200/
+                playSound doorOpen/
+                warp Zemo 10 14/
+                pause 1700/
+                pause 400/
+                emote Zemo 40/
+                pause 2100/
+
+
+
+                globalFade 0.01/
+                viewport 999 999/
+                playSound woodyStep/
+                pause 500/
+                playSound woodyStep/
+                pause 500/
+                playSound woodyStep/
+                pause 500/
+                globalFadeToClear 0.01 true/
                 
                 globalFadeToClear 0.01 true/
                 changeToTemporaryMap Custom_ZemoHome/
