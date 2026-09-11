@@ -10,6 +10,7 @@
             follow/
             farmer 7 17 1 James 19 31 4/
             animate James false true 1000 16 17/
+            addConversationTopic Soldat_FirstMeet {{Event Cooldown Length}}/
             changeName James ???/
             skippable/
             move farmer 0 4 2/
@@ -23,7 +24,7 @@
             pause 400/
             speed farmer 5/
             move farmer 0 -1 0 true/
-            pause 200/
+            pause 130/
             speak James \"{{i18n:Events.James.0H.01}}\"/
             pause 1000/
             faceDirection farmer 2/
@@ -65,8 +66,7 @@
             pause 500/
             quickQuestion #{{i18n:Events.Player.0H.11}}
                 (break)speak James \"{{i18n:Events.James.0H.12}}\"
-            message \"{{i18n:Events.Description.0H.11}}\"/
-            speak James \"{{i18n:Events.James.0H.12}}\"/
+            speak James \"{{i18n:Events.James.0H.1}}\"/
             pause 500/
             startJittering/pause 600/stopJittering/
             pause 500/
@@ -77,41 +77,46 @@
             speak James \"{{i18n:Events.James.0H.1}}\"/
             message \"{{i18n:Events.Description.0H.14}}\"/
             animate James false true 1000 16 17/
-            
-            
             message \"{{i18n:Events.Description.0H.16}}\"/
             quickQuestion #{{i18n:Events.Player.0H.17}}
-                (break)pause 1000\\message \"{{i18n:Events.Description.0H.18}}\"\\pause 500\\speak James \"{{i18n:Events.James.0H.19}}\"\\speak James \"{{i18n:Events.James.0H.20}}\"\\speak James \"{{i18n:Events.James.0H.21}}\"
+                (break)pause 1000\\message \"{{i18n:Events.Description.0H.18}}\"\\pause 500\\speak James \"{{i18n:Events.James.0H.19}}\"\\pause 4500\\speak James \"{{i18n:Events.James.0H.21}}\"
             /message \"{{i18n:Events.Description.0H.22}}\"/
             speak James \"{{i18n:Events.James.0H.23}}\"/
             quickQuestion #{{i18n:Events.Player.0H.24}}
                 (break)message \"{{i18n:Events.Description.0H.25}}\"
             /speak James \"{{i18n:Events.James.0H.26}}\"/
                 animate James false true 3000 16 17/
-                pause 1500/
+                pause 1000/
                 stopAnimation James/
             message \"{{i18n:Events.Description.0H.30}}\"/
+            pause 1000/
                 move James 0 -2 0/
-                faceDirection farmer 1/
                 move James -2 0 3/
             speak James \"{{i18n:Events.James.0H.31}}\"/
-            message \"{{i18n:Events.Description.0H.32}}\"/
-                pause 1500/
-            speak James \"{{i18n:Events.James.0H.33}}\"/
+                pause 500/
+                startJittering/pause 600/stopJittering/
                 pause 2000/
-                move James 0 1 2/ 
+                move James 0 2 2/ 
                 animate James false true 1000 20 21/
             message \"{{i18n:Events.Description.0H.34}}\"/
             speak James \"{{i18n:Events.James.0H.35}}\"/
+            pause 2500/
             speak James \"{{i18n:Events.James.0H.36}}\"/
+            pause 1400/
             speak James \"{{i18n:Events.James.0H.37}}\"/
                 pause 400/
             fade/
             viewport -1000 -1000/
             message \"{{i18n:Events.Description.0H.38}}\"/
-            end",
-
-        "James.0h.2p/e lele.Event.James.0h.1p/t 600 900": "
+            end"
+      }
+    },
+    {
+        "LogName": "James 2 meet Event",
+        "Action": "EditData",
+        "Target": "Data/Events/Custom_islandBk_james",
+        "Entries": {
+        "James.0h.2p/e James.0h.1p/t 600 900/A Soldat_FirstMeet": "
             fall_day_ambient/
             follow/
             farmer 16 22 2 James 99 99 2/
@@ -119,7 +124,8 @@
                 speed farmer 2/
                 move farmer 0 5 2/
                 emote farmer 8/
-                move farmer 6 0 2/
+                move farmer 7 0 2/
+                move farmer 0 3 2/
                 faceDirection farmer 1/
             message \"{{i18n:Events.Description.0H.P2.1}}\"/
                 pause 500/
@@ -169,8 +175,14 @@
             fade/
             viewport -1000 -1000/
             message \"{{i18n:Events.Description.0H.P2.18}}\"/
-            end",
-
+            end"
+        }
+    },
+    {
+        "LogName": "James 3 meet Event",
+        "Action": "EditData",
+        "Target": "Data/Events/Custom_islandBk_james",
+        "Entries": {
         "James.0h.3p/e lele.Event.James.0h.2p/t 1200 1700": "
             ocean/
             14 35/
@@ -235,10 +247,10 @@
             speak James \"{{i18n:Events.James.0H.P3.28}}\"/
             fade/
             viewport -1000 -1000/
-            end",
-      }
+            end"
+        }
     },
-      {
+    {
           "LogName": "James after fix boat Event",
           "Action": "EditData",
           "Target": "Data/Events/IslandWest",

@@ -16,7 +16,7 @@
                     "BirthDay": 10,
                     "HomeRegion": "Other",
                     "SocialTab": "HiddenUntilMet",
-                    "UnlockConditions": "!PLAYER_HAS_SEEN_EVENT Current lele.Event.James.0h.1p",
+                    "UnlockConditions": "PLAYER_HAS_SEEN_EVENT Current James.0h.1p",
                     "CanBeRomanced": false,
                     "CanVisitIsland": false,
                     "BeachOutfit": true,
@@ -32,8 +32,7 @@
                                 "X": 10,
                                 "Y": 32
                             },
-                            "Direction": "down",
-                            "Condition": "!PLAYER_HAS_SEEN_EVENT Current lele.Event.James.0h.1p"
+                            "Direction": "down"
                         }
                     ],
                     "Appearance": [

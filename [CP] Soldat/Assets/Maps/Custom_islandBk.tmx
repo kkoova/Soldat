@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="43" height="60" tilewidth="16" tileheight="16" infinite="0" nextlayerid="20" nextobjectid="17">
  <properties>
-  <property name="DayTiles" value="Buildings 16 31 298 Buildings 16 32 334 Buildings 17 32 335 Buildings 17 31 299"/>
+  <property name="DayTiles" value="Buildings 16 31 298 Buildings 16 32 334 Buildings 17 32 335 Buildings 17 31 299 AlwaysFront 17 30 375"/>
   <property name="LocationContext" value="Island"/>
-  <property name="NightTiles" value="Buildings 16 31 300 Buildings 16 32 336 Buildings 17 32 337 Buildings 17 31 301"/>
+  <property name="NightTiles" value="Buildings 16 31 300 Buildings 16 32 336 Buildings 17 32 337 Buildings 17 31 301 AlwaysFront 17 30 376"/>
   <property name="Outdoors" value="T"/>
   <property name="SeasonOverride" value="summer"/>
   <property name="UniquePortrait" value="James"/>
