@@ -6,7 +6,7 @@
             "Target": "Characters/schedules/James",
             "Entries": {
                 "Spring": "
-                    610 Custom_islandBk_james 10 32 2 james_beach_sit/
+                    610 Custom_islandBk_james 10 32 2 james_beach_sit \"Characters\\Dialogue\\James:James_Sleep\"/
                     700 IslandNorth 56 17/
                     830 IslandNorth 18 13 0/
                     1000 IslandWest 52 38/
@@ -18,7 +18,7 @@
                     1930 IslandNorth 18 13/
                     2030 IslandWest 52 38/
                     2400 Custom_islandBk_james 2 5/
-                    130 Custom_islandBk_james 4 4 2 james_beach_sit/
+                    130 Custom_islandBk_james 4 4 2 james_beach_sit \"Characters\\Dialogue\\James:James_Sleep\"/
                 "
             }
         }

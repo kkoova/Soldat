@@ -8,12 +8,12 @@
         "James.0h.1p/t 2200 2400/w sunny": "
             ocean/
             follow/
-            farmer 7 17 1 James 19 31 4/
+            farmer 7 18 1 James 19 31 4/
             animate James false true 1000 16 17/
             addConversationTopic Soldat_FirstMeet {{Event Cooldown Length}}/
             changeName James ???/
             skippable/
-            move farmer 0 4 2/
+            move farmer 0 3 2/
             pause 1000/
             message \"{{i18n:Events.Description.0H.0}}\"/
             pause 1000/
@@ -120,6 +120,8 @@
             fall_day_ambient/
             follow/
             farmer 16 22 2 James 99 99 2/
+            changeName James ???/
+            addConversationTopic Soldat_SecondsMeet {{Event Cooldown Length}}/
             skippable/
                 speed farmer 2/
                 move farmer 0 5 2/
@@ -138,10 +140,13 @@
                 pause 500/
                 emote farmer 8/
                 move James 5 0 2/
+                move James 0 5 3/
                 faceDirection farmer 1/
-                move James 0 2 3/
-                move James -2 0 3/
                 pause 1000/
+                startJittering/pause 600/stopJittering/
+                pause 1300/
+                move James -1 0 3/
+                pause 700/
                 playSound sandyStep/
                 animate James false true 1000 19/
             message \"{{i18n:Events.Description.0H.P2.5}}\"/
@@ -162,16 +167,20 @@
             speak James \"{{i18n:Events.James.0H.P2.12}}\"/
                 quickQuestion #{{i18n:Events.Player.0H.P2.13}}
                     (break)pause 1000\\speak James \"{{i18n:Events.James.0H.P2.14}}\"
-                /move James 2 0 2/
-                faceDirection James 2/
+                /move James 0 2 2/
+                /move James -3 0 2/
+                faceDirection farmer 2/
             message \"{{i18n:Events.Description.0H.P2.15}}\"/
-                move farmer 1 0 1/
-                faceDirection James 3/
+                move farmer 0 2 3/
+                faceDirection James 1/
                 quickQuestion #{{i18n:Events.Player.0H.P2.16}}
                     (break)pause 1400\\speak James \"{{i18n:Events.James.0H.P2.17}}\"
-                /faceDirection farmer 2/
-                speed James 4/
-                move James 0 10 2/
+                /speed James 4/
+                move James 0 10 2 true/
+                pause 300/
+                faceDirection farmer 2/
+                pause 1000/
+                emote farmer 40/
             fade/
             viewport -1000 -1000/
             message \"{{i18n:Events.Description.0H.P2.18}}\"/

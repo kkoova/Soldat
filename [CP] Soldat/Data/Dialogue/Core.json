@@ -9,7 +9,10 @@
                 "{{WeekDay}}": "{{i18n:Core.James.{{JamesHeartRange}}.{{Random:{{Range: 1, 10}}}}}}",
 
                 //Conversation Topics
-                "Soldat_FirstMeet": "{{i18n:ConversationTopics.FirstMeet.James}}"
+                "Soldat_FirstMeet": "{{i18n:ConversationTopics.FirstMeet.James}}",
+
+                //Schedules
+                "James_Sleep": "{{i18n:Schedules.James.Sleep}}"
             }
         },
         {
