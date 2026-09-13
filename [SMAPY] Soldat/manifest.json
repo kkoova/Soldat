@@ -1,0 +1,10 @@
+{
+  "Name": "[SMAPY] Soldat",
+  "Author": "lele",
+  "Version": "1.0.0",
+  "Description": "Adds custom logic to the game.",
+  "UniqueID": "lele.Soldat.SMAPY",
+  "EntryDll": "Soldat.dll",
+  "MinimumApiVersion": "4.0.0",
+  "UpdateKeys": []
+}

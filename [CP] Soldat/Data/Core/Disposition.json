@@ -110,11 +110,10 @@
             }
         },
         {
-            "LogName": "James Gift All Dislike",
             "Action": "EditData",
             "Target": "Data/NPCGiftTastes",
             "Entries": {
-                "James": "////{{i18n:Gifts.James.GiftReaction.Dislike}}/-2/{{i18n:Gifts.James.GiftReaction.Hate}}/74 StardropTea//"
+                "James": "{{i18n:Gifts.James.GiftReaction.Liked}}/220/{{i18n:Gifts.James.GiftReaction.Liked}}/ /{{i18n:Gifts.James.GiftReaction.Dislike}}/StardropTea 74/{{i18n:Gifts.James.GiftReaction.Hate}}/ /{{i18n:Gifts.James.GiftReaction.Neutral}}/373 279 797 446 873 -2 -7 -26 -75 -80 72 395 613 634 635 636 637 638 724 459 394 166"
             }
         }
     ]

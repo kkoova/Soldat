@@ -10,6 +10,7 @@
 
                 //Conversation Topics
                 "Soldat_FirstMeet": "{{i18n:ConversationTopics.FirstMeet.James}}",
+                "Soldat_SecondsMeet": "{{i18n:ConversationTopics.SecondsMeet.James}}",
 
                 //Schedules
                 "James_Sleep": "{{i18n:Schedules.James.Sleep}}"

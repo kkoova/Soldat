@@ -116,7 +116,7 @@
         "Action": "EditData",
         "Target": "Data/Events/Custom_islandBk_james",
         "Entries": {
-        "James.0h.2p/e James.0h.1p/t 600 900/A Soldat_FirstMeet": "
+        "James.0h.2p/e James.0h.1p/t 600 900/A Soldat_FirstMeet/w sunny": "
             fall_day_ambient/
             follow/
             farmer 16 22 2 James 99 99 2/
@@ -175,7 +175,8 @@
                 faceDirection James 1/
                 quickQuestion #{{i18n:Events.Player.0H.P2.16}}
                     (break)pause 1400\\speak James \"{{i18n:Events.James.0H.P2.17}}\"
-                /speed James 4/
+                /pause 700/
+                speed James 4/
                 move James 0 10 2 true/
                 pause 300/
                 faceDirection farmer 2/
@@ -192,15 +193,16 @@
         "Action": "EditData",
         "Target": "Data/Events/Custom_islandBk_james",
         "Entries": {
-        "James.0h.3p/e lele.Event.James.0h.2p/t 1200 1700": "
+        "James.0h.3p/e James.0h.2p/t 1200 1700/A Soldat_SecondsMeet": "
             ocean/
             14 35/
             farmer 21 29 2 James 16 37 2/
-            addQuest lele.Soldat.Quests.Cloth/
+            addConversationTopic Soldat_BoatFix {{Event Cooldown Length}}/
             skippable/
                 animate James false true 1000 24 25/
                 speed farmer 2/
-                textAboveHead \"{{i18n:Events.TextAboveHead.0H.P3.1}}\"/
+                pause 500/
+                textAboveHead James \"{{i18n:Events.TextAboveHead.0H.P3.1}}\"/
                 move farmer 0 7 2/
                 faceDirection farmer 3/
             message \"{{i18n:Events.Description.0H.P3.1}}\"/
@@ -219,41 +221,60 @@
             message \"{{i18n:Events.Description.0H.P3.9}}\"/
                 shake James 500/
             speak James \"{{i18n:Events.James.0H.P3.10}}\"/
+            pause 500/
                 emote farmer 8/
                 animate James false true 1000 22/
             message \"{{i18n:Events.Description.0H.P3.12}}\"/
                 pause 500/
             speak James \"{{i18n:Events.James.0H.P3.13}}\"/
+            pause 1000/
                 playSound waterSlosh/
             message \"{{i18n:Events.Description.0H.P3.14}}\"/
-            message \"{{i18n:Events.Description.0H.P3.16}}\"/
+            pause 1500/
+            textAboveHead James \"{{i18n:Events.TextAboveHead.0H.P3.29}}\"/
+            pause 500/
+            shake James 600/
+            pause 1700/
                 stopAnimation James/
                 move James 3 0 3/
-                faceDirection farmer 2/
-                pause 500/
+                pause 1500/
                 move James 0 2 0/
-                pause 500/
+                faceDirection farmer 2/
+                pause 900/
                 faceDirection James 3/
-                pause 700/
+                pause 1400/
                 move James -3 0 0/
+                pause 500/
                 shake James 600/
                 playSound woodyStep/
-                pause 500/
+                pause 1000/
                 quickQuestion #{{i18n:Events.Player.0H.P3.18}}
-                    (break)speak James \"{{i18n:Events.James.0H.P3.20}}\"
-                /pause 1500/
+                    (break)faceDirection James 1
+                /speak James \"{{i18n:Events.James.0H.P3.20}}\"/
+            pause 1500/
+            faceDirection James 0/
+            pause 1000/
             speak James \"{{i18n:Events.James.0H.P3.22}}\"/
-                pause 1500/
+            pause 1500/
+            emote James 40/
+            pause 2000/
             speak James \"{{i18n:Events.James.0H.P3.24}}\"/
             message \"{{i18n:Events.Description.0H.P3.25}}\"/
             faceDirection James 3/
-            speak James \"{{i18n:Events.James.0H.P3.26}}\"/
+            quickQuestion #{{i18n:Events.Player.0H.P3.26}}
+                    (break)faceDirection James 1
+            /pause 2500/
+            shake James 600/
+            pause 500/
+            speak James \"{{i18n:Events.James.0H.P3.27}}\"/
+            emote farmer 16/
+            pause 2500/
+            speak James \"{{i18n:Events.James.0H.P3.28}}\"/
                 pause 500/
                 shake James 600/
                 faceDirection James 0/
             message \"{{i18n:Events.Description.0H.P3.27}}\"/
-                pause 1500/
-            speak James \"{{i18n:Events.James.0H.P3.28}}\"/
+            addQuest lele.Soldat.Quests.Cloth/
             fade/
             viewport -1000 -1000/
             end"
@@ -263,7 +284,7 @@
           "LogName": "James after fix boat Event",
           "Action": "EditData",
           "Target": "Data/Events/IslandWest",
-          "Condition": "PLAYER_HAS_MAIL Current leleJamesClothProcessed Received",
+          "Condition": "PLAYER_HAS_MAIL Current leleJamesClothProcessed Received/A Soldat_BoatFix",
           "Entries": {
               "James.0h.after.boat.4p/e James.0h.3p/t 600 1200": "
               ocean/
