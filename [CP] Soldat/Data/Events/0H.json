@@ -103,6 +103,7 @@
             pause 2500/
             speak James \"{{i18n:Events.James.0H.36}}\"/
             pause 1400/
+            action AddFriendshipPoints James 30/
             speak James \"{{i18n:Events.James.0H.37}}\"/
                 pause 400/
             fade/
@@ -116,7 +117,7 @@
         "Action": "EditData",
         "Target": "Data/Events/Custom_islandBk_james",
         "Entries": {
-        "James.0h.2p/e James.0h.1p/t 600 900/A Soldat_FirstMeet/w sunny": "
+        "James.0h.2p/e James.0h.1p/t 600 900/A Soldat_FirstMeet/w sunny/f James 30": "
             fall_day_ambient/
             follow/
             farmer 16 22 2 James 99 99 2/
@@ -179,6 +180,7 @@
                 speed James 4/
                 move James 0 10 2 true/
                 pause 300/
+                action AddFriendshipPoints James 50/
                 faceDirection farmer 2/
                 pause 1000/
                 emote farmer 40/
@@ -193,7 +195,7 @@
         "Action": "EditData",
         "Target": "Data/Events/Custom_islandBk_james",
         "Entries": {
-        "James.0h.3p/e James.0h.2p/t 1200 1700/A Soldat_SecondsMeet": "
+        "James.0h.3p/e James.0h.2p/t 1200 1700/A Soldat_SecondsMeet/f James 80": "
             ocean/
             14 35/
             farmer 21 29 2 James 16 37 2/
@@ -269,6 +271,7 @@
             speak James \"{{i18n:Events.James.0H.P3.27}}\"/
             emote farmer 16/
             pause 2500/
+            action AddFriendshipPoints James 100/
             speak James \"{{i18n:Events.James.0H.P3.28}}\"/
                 pause 500/
                 shake James 600/
@@ -284,9 +287,8 @@
           "LogName": "James after fix boat Event",
           "Action": "EditData",
           "Target": "Data/Events/IslandWest",
-          "Condition": "PLAYER_HAS_MAIL Current leleJamesClothProcessed Received/A Soldat_BoatFix",
           "Entries": {
-              "James.0h.after.boat.4p/e James.0h.3p/t 600 1200": "
+              "James.0h.after.boat.4p/e James.0h.3p/t 600 1200/A Soldat_BoatFix_done/f James 180": "
               ocean/
               77 83/
               farmer 76 73 2 James 93 84 3/
@@ -296,7 +298,9 @@
                 faceDirection James 0/
                 move farmer 0 7 2/
                 pause 600/
-                emote farmer 8/
+                textAboveHead James \"{{i18n:Events.TextAboveHead.0H.P4.1}}\"/
+                pause 1300/
+                emote farmer 32/
                 move James -3 0 3/
                     quickQuestion #{{i18n:Events.Player.0H.P4.1}}
                         (break)emote James 40/
@@ -306,11 +310,14 @@
                 shake James 600/
                 speak James \"{{i18n:Events.James.0H.P4.2}}\"/
                 pause 500/
-                move farmer 0 2 2/
+                move farmer 0 2 3/
                 message \"{{i18n:Events.Description.0H.P4.3}}\"/
                 pause 500/
                 emote farmer 8/
                 pause 1500/
+                    quickQuestion #{{i18n:Events.Player.0H.P4.4}}
+                        (break)emote James 40/
+                pause 1000/
                 speak James \"{{i18n:Events.James.0H.P4.4}}\"/
                 faceDirection James 3/
                 shake James 600/
@@ -339,15 +346,14 @@
                 playSound sandyStep/
                 pause 500/
                 changeLocation IslandNorth/
-                warp James 33 28/
-                warp farmer 51 29/
+                warp James 33 29/
+                warp farmer 51 30/
                 viewport 41 30/
                 fade false/
-                move James 5 0 1/
+                move James 5 0 1 true/
                 speed farmer 2/
                 move farmer -8 0 3/
-                pause 1500/
-                pause 500/
+                pause 1000/
                 emote James 40/
                 speak James \"{{i18n:Events.James.0H.P4.7}}\"/
                 emote farmer 32/
@@ -356,9 +362,18 @@
                 speak James \"{{i18n:Events.James.0H.P4.8}}\"/
                 emote farmer 56/
                 pause 500/
-                move James 4 0 1/
-                faceDirection farmer 0/
-                move James 9 0 1/
+                action AddFriendshipPoints James 70/
+                move James 4 0 2/
+                pause 500/
+                shake James 600/
+                pause 800/
+                speak James \"{{i18n:Events.James.0H.P4.9}}\"/
+                pause 800/
+                shake James 600/
+                pause 500/
+                move James 9 0 1 true/
+                pause 1500/
+                faceDirection farmer 1/
               fade/
               viewport -1000 -1000/
               message \"{{i18n:Events.Description.0H.P4.9}}\"/

@@ -1946,13 +1946,13 @@
    </properties>
   </tile>
  </tileset>
- <tileset firstgid="6136" name="custom_island_tilesheet_1" tilewidth="16" tileheight="16" tilecount="342" columns="18">
-  <image source="custom_island_tilesheet_1.png" width="288" height="304"/>
+ <tileset firstgid="6136" name="custom_island_tilesheet_1" tilewidth="16" tileheight="16" tilecount="684" columns="36">
+  <image source="custom_island_tilesheet_1.png" width="576" height="304"/>
  </tileset>
- <tileset firstgid="6478" name="paths" tilewidth="16" tileheight="16" tilecount="64" columns="4">
+ <tileset firstgid="6820" name="paths" tilewidth="16" tileheight="16" tilecount="64" columns="4">
   <image source="paths.png" width="64" height="256"/>
  </tileset>
- <tileset firstgid="6542" name="bit-tree" tilewidth="16" tileheight="16" tilecount="324" columns="18">
+ <tileset firstgid="6884" name="bit-tree" tilewidth="16" tileheight="16" tilecount="324" columns="18">
   <image source="bit-tree.png" width="300" height="300"/>
  </tileset>
  <layer id="1" name="Back" width="1" height="2">
@@ -1963,13 +1963,13 @@
  <objectgroup id="2" name="Back"/>
  <layer id="3" name="Buildings" width="1" height="2">
   <data encoding="base64" compression="zlib">
-   eJxjYGBguC7BwAAAA6wA8A==
+   eJxjYGBgWC/JwAAAAw8AyQ==
   </data>
  </layer>
  <objectgroup id="4" name="Buildings"/>
  <layer id="5" name="Front" width="1" height="2">
   <data encoding="base64" compression="zlib">
-   eJw7KsEABgAG2ADe
+   eJzrlmQAAwAFDwCl
   </data>
  </layer>
  <objectgroup id="6" name="Front"/>

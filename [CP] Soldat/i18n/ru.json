@@ -19,6 +19,7 @@
     "ConversationTopics.FirstMeet.James": "...?",
     "ConversationTopics.SecondsMeet.James": "...#%Баки отводит взгляд#...#Мне надо было идти... дела",
     "ConversationTopics.Soldat_BoatFix.James": "Не торопись, правда#Но...спасибо за помощь...",
+    "ConversationTopics.Soldat_BoatFix_done.James": "Благодаря твоей помощи я все быстро починил...#Спасибо",
 
     //Schedules
     "Schedules.James.Sleep": "...#%Баки приоткрыл глаза и смотрит на вас#...?",
@@ -108,14 +109,17 @@
     "Events.TextAboveHead.0H.P3.29": "Ха..",
 
     //JamesH0.4
+    "Events.TextAboveHead.0H.P4.1": "Привет..",
     "Events.Player.0H.P4.1": "Куда ты идешь?",
-    "Events.James.0H.P4.2": "Патруль#Что то не так?",
+    "Events.James.0H.P4.2": "Патруль#$b#Что то не так?",
     "Events.Description.0H.P4.3": "Голос слабо вибрирует от напряжения, или недовольства. Вы прервали его график",
+    "Events.Player.0H.P4.4": "Могу помочь с патрулем",
     "Events.James.0H.P4.4": "Хочешь помочь с...",
     "Events.James.0H.P4.5": "...",
     "Events.James.0H.P4.6": "Хорошо... иди на восток, около вулкана встретимся",
     "Events.James.0H.P4.7": "Как понимаю, ты все?",
-    "Events.James.0H.P4.8": "Хорошо, да...#...#Спасибо за помощь",
+    "Events.James.0H.P4.8": "Хорошо, да...#$b#...#$b#Спасибо за помощь",
+    "Events.James.0H.P4.9": "И еще раз спасибо за помощь с лодкой#$b#Если тебе нужна будет помощь то... говори",
     "Events.Description.0H.P4.9": "Несмотря на это. Джеймс двинулся по тому же пути, что вы только что проверяли",
 
     //JamesH1.1
