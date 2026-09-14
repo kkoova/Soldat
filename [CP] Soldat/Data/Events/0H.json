@@ -292,6 +292,7 @@
               ocean/
               77 83/
               farmer 76 73 2 James 93 84 3/
+              addConversationTopic Soldat_Patrul {{Event Cooldown Length}}/
               skippable/
                 move James -18 0 3/
                 playSound sandyStep/
