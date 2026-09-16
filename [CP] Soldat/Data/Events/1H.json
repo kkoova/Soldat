@@ -5,38 +5,69 @@
       "Action": "EditData",
       "Target": "Data/Events/IslandEast",
       "Entries": {
-        "James.1h.1p/e James.0h.after.boat.4p/t 2200 2400/f James 250/A Soldat_Patrul": "
+        "James.1h.1p/e James.0h.after.boat.4p/t 2200 2400/f James 250/A Soldat_Patrul/w sunny": "
           wind/
           follow/
-          farmer 0 46 1 James 9 42 2/
+          farmer 0 46 1 James 7 43 2/
+          changeSprite James Fear/
           ignoreCollisions James/
           skippable/
-            animate James false true 1000 23/
+            animate James false true 1000 16/
             move farmer 4 0 1/
             playSound rainsound/
             faceDirection farmer 2/
             pause 500/
             faceDirection farmer 0/
-            pause 500/
+            pause 700/
+            startJittering/pause 600/stopJittering/pause 600/
             faceDirection farmer 3/
-            move farmer 5 0 2/
-            animate James false true 1000 27/
+            pause 700/
+            message \"{{i18n:Events.Description.1H.P1.0}}\"/
+            move farmer 3 0 2/
+            animate James false true 1000 17/
             pause 600/
             emote farmer 8/
-            speed James 5/
-            move James 0 -4 3/
-            globalFade 0.5/
+            speed James 6/
+            move James 0 3 2/
+            globalFade 0.1/
             viewport 999 999/
+            bgColor 0 0 0/
+            ambientLight 0 0 0/
             pause 500/
             message \"{{i18n:Events.Description.1H.P1.1}}\"/
             pause 500/
-            globalFadeToClear 0.5 true/
+            globalFadeToClear 0.1 true/
             changeToTemporaryMap Custom_JamesFearMap/
-            viewport 10 12 clamp/
             bgColor 0 0 0/
             ambientLight 0 0 0/
+            viewport 10 12 clamp/
             pause 1500/
             speak James \"{{i18n:Events.James.1H.P1.1}}\"/
+            pause 500/
+            message \"{{i18n:Events.Description.1H.P1.2}}\"/
+            pause 1000/
+            speak James \"{{i18n:Events.James.1H.P1.3}}\"/
+            pause 200/
+            message \"{{i18n:Events.Description.1H.P1.4}}\"/
+            pause 500/
+            quickQuestion #{{i18n:Events.Player.1H.P1.5.1}} #{{i18n:Events.Player.1H.P1.5.2}} #{{i18n:Events.Player.1H.P1.5.3}}
+                (break)message \"{{i18n:Events.Description.1H.P1.5.1}}\"
+                (break)message \"{{i18n:Events.Description.1H.P1.5.2}}\"
+                (break)message \"{{i18n:Events.Description.1H.P1.5.3}}\"/
+            pause 700/
+            speak James \"{{i18n:Events.James.1H.P1.6}}\"/
+            pause 300/
+            playSound leafrustle/
+            pause 500/
+            message \"{{i18n:Events.Description.1H.P1.7}}\"/
+            pause 500/
+            globalFade 0.3/
+            viewport 999 999/
+            message \"{{i18n:Events.Description.1H.P1.8}}\"/
+            pause 500/
+            globalFadeToClear 0.1 true/
+            changeToTemporaryMap IslandEast/
+            pause 1700/
             mail Mail.JamesApologyLetter/
             fade/
             viewport -1000 -1000/

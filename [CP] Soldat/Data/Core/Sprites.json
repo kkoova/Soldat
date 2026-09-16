@@ -22,6 +22,11 @@
         },
         {
             "Action": "Load",
+            "Target": "Characters/James_Fear",
+            "FromFile": "Assets/Characters/James/James_Fear.png"
+        },
+        {
+            "Action": "Load",
             "Target": "Portraits/Alpine, Portraits/Alpine_Default",
             "FromFile": "Assets/Portraits/Alpine/Alpine.png"
         },

@@ -347,14 +347,16 @@
                 playSound sandyStep/
                 pause 500/
                 changeLocation IslandNorth/
-                warp James 33 29/
+                warp James 38 29/
                 warp farmer 51 30/
                 viewport 41 30/
                 fade false/
-                move James 5 0 1 true/
+                faceDirection James 2/
                 speed farmer 2/
                 move farmer -8 0 3/
-                pause 1000/
+                pause 500/
+                faceDirection James 1/
+                pause 400/
                 emote James 40/
                 speak James \"{{i18n:Events.James.0H.P4.7}}\"/
                 emote farmer 32/
