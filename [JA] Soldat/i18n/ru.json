@@ -1,11 +1,23 @@
 ﻿{
+  // JA Object Salak
+  "object.Salak.name": "Салак",
+  "object.Salak.description": "Круглый тропический фрукт с змеиными чешуйчами",
+
   // JA Object SalakPowder
-  "object.SalakPowder.name": "Порошок из ягод Салака",
+  "object.SalakPowder.name": "Порошок для приготовления змеиного чая",
   "object.SalakPowder.description": "Идеален для растворения в горячей воде",
+
+  // JA Object SalakTea
+  "object.SalakTea.name": "Змеиный чай",
+  "object.SalakTea.description": "Немного терпкий, земленистый но достаточно сладкий чай сделанный из салака",
+
+  // JA Object CherryTea
+  "object.CherryTea.name": "Вишневый чай",
+  "object.CherryTea.description": "Легкий, не навязчивый, очень приятый чай барона Земо",
 
   // JA Object TiketАuction
   "object.TiketАuction.name": "Билет на аукцион",
-  "object.TiketАuction.description": "Проход на закрытое мероприятие с @. На нем есть гравировка имени: tggggg",
+  "object.TiketАuction.description": "Проход на закрытое мероприятие с торгами и интересными товарами. На нем есть гравировка с вашим именем...",
 
   // JA Object RedBook
   "object.RedBook.name": "Красная книга",

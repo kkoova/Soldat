@@ -1,0 +1,8 @@
+﻿{
+  "Name": "CherryTea",
+  "TranslationKey": "object.CherryTea",
+  "Category": "Cooking",
+  "Price": 430,
+  "CanSell": true,
+  "EdibleIsDrink": true
+}
