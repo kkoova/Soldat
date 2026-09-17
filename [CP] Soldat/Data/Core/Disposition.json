@@ -56,6 +56,7 @@
                     "Optimism": "Neutral",
                     "BirthSeason": "winter",
                     "BirthDay": 13,
+                    "UnlockConditions": "PLAYER_HAS_SEEN_EVENT Current James.6h.1p",
                     "SocialTab": "HiddenUntilMet",
                     "HomeRegion": "Town",
                     "CanBeRomanced": false,
@@ -85,7 +86,7 @@
                     "Optimism": "Negative",
                     "BirthSeason": "fall",
                     "SocialTab": "HiddenUntilMet",
-                    "UnlockConditions": "!PLAYER_HAS_SEEN_EVENT Current lele.Event.James.0h.1p",
+                    "UnlockConditions": "PLAYER_HAS_SEEN_EVENT Current James.4h.1p",
                     "BirthDay": 27,
                     "HomeRegion": "Other",
                     "CanBeRomanced": false,
@@ -99,11 +100,10 @@
                             "Id": "Default",
                             "Location": "Custom_islandBk_james",
                             "Tile": {
-                                "X": 1,
-                                "Y": 6
+                                "X": 9,
+                                "Y": 34
                             },
-                            "Direction": "down",
-                            "Condition": "!PLAYER_HAS_SEEN_EVENT Current lele.Event.James.3h.5p"
+                            "Direction": "rigth"
                         }
                     ]
                 }

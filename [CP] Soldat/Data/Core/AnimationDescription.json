@@ -4,7 +4,8 @@
         "Action": "EditData",
         "Target": "Data/animationDescriptions",
         "Entries": {
-            "james_beach_sit": "34/34/34" 
+            "james_beach_sit": "34/34/34",
+            "alpine_sleep": 
             }
         }
     ]
