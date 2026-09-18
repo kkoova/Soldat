@@ -6,19 +6,14 @@
             "Target": "Characters/schedules/Alpine",
             "Entries": {
                 "Spring": "
-                    610 Custom_islandBk_james 8 31 2 alpine_sleep \"Characters\\Dialogue\\James:James_Sleep\"/
-                    700 IslandNorth 56 17/
-                    830 IslandNorth 18 13 0/
-                    1000 IslandWest 52 38/
-                    1300 IslandWest 14 16/
-                    1400 IslandSouth 33 22/
-                    1530 IslandEast 30 28/
-                    1730 Custom_islandBk_james 6 52/
-                    1800 IslandNorth 56 17/
-                    1930 IslandNorth 18 13/
-                    2030 IslandWest 52 38/
-                    2400 Custom_islandBk_james 2 5/
-                    130 Custom_islandBk_james 4 4 2 alpine_sleep \"Characters\\Dialogue\\James:James_Sleep\"/
+                    610 Custom_islandBk_james 8 31 2 alpine_sleep/
+                    1210 Custom_islandBk_james 22 29 alpine_sleep_2/
+                    1520 IslandEast 18 13 0/
+                    1750 Custom_islandBk_james 19 15 alpine_drink/
+                    1850 Custom_islandBk_james 11 31 alpine_sleep_3/
+                    2210 Custom_islandBk_james 19 32 alpine_sleep_2/
+                    2420 Custom_islandBk_james 11 32 alpine_pet/
+                    130 Custom_islandBk_james 8 31 2 alpine_sleep /
                 "
             }
         }

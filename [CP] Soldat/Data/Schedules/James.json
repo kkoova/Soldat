@@ -17,8 +17,8 @@
                     1800 IslandNorth 56 17/
                     1930 IslandNorth 18 13/
                     2030 IslandWest 52 38/
-                    2400 Custom_islandBk_james 2 5/
-                    130 Custom_islandBk_james 4 4 2 james_beach_sit \"Characters\\Dialogue\\James:James_Sleep\"/
+                    2400 Custom_islandBk_james 11 32 james_beach_sit_2/
+                    130 Custom_islandBk_james 10 32 2 james_beach_sit \"Characters\\Dialogue\\James:James_Sleep\"/
                 "
             }
         }

@@ -5,7 +5,12 @@
         "Target": "Data/animationDescriptions",
         "Entries": {
             "james_beach_sit": "34/34/34",
-            "alpine_sleep": 
+            "james_beach_sit_2": "39/39/39",
+            "alpine_sleep": "26/26/26",
+            "alpine_sleep_2": "25/25/25",
+            "alpine_sleep_3": "27/27/27",
+            "alpine_drink": "20/21/20",
+            "alpine_pet": "28/28/28"
             }
         }
     ]
