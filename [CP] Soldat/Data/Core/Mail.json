@@ -5,7 +5,8 @@
         "Target": "Data/mail",
         "Entries": {
           "Mail.JamesApologyLetter": "[letterbg Mods/lele.Soldat.CP/LetterBackgrounds 0]{{i18n:Mail.JamesApologyLetter.1}}%item object 403 3 %%", 
-          "Mail.JamesTeaPowderLetter": "[letterbg Mods/lele.Soldat.CP/LetterBackgrounds 0]{{i18n:Mail.JamesGiffTeaPowder}}%item object (O)lele.Soldat.JA_SalakPowder 5 %%", 
+          "Mail.JamesTeaPowderLetter": "[letterbg Mods/lele.Soldat.CP/LetterBackgrounds 0]{{i18n:Mail.JamesGiffTeaPowder}}%item cookingRecipe SalakPowder%%", 
+          "Mail.JamesSalakTreeLetter": "[letterbg Mods/lele.Soldat.CP/LetterBackgrounds 0]{{i18n:Mail.JamesSalakTreeLetter}}%item object (O)lele.Soldat.JA_Dwarf_palm_seedling 1 %%", 
           "Mail.JamesAlpineMilk": "[letterbg Mods/lele.Soldat.CP/LetterBackgrounds 0]{{i18n:Mail.JamesAlpineMilk}}%item quest lele.Soldat.Quests.Milk true %%", 
           "Mail.JamesAlpineThanks": "[letterbg Mods/lele.Soldat.CP/LetterBackgrounds 1]{{i18n:Mail.JamesAlpineThanks}}",
           "Mail.JamesTiketAuction": "[letterbg Mods/lele.Soldat.CP/LetterBackgrounds 2][textcolor white]{{i18n:Mail.JamesTiketAuction}}%item object (O)lele.Soldat.JA_TiketАuction 1 %%",

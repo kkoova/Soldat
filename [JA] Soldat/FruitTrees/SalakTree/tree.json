@@ -1,0 +1,20 @@
+{
+  "Name": "SalakTree",
+  "TranslationKey": "fruitTrees.SalakTree",
+  "SaplingName": "Dwarf palm seedling",
+  "SaplingDescription": "Takes 28 days to produce a mature [product] tree. Bears [type] in the [season]. Only grows if the 8 surrounding \"tiles\" are empty.",
+  "SaplingPurchasePrice": 8000,
+  "Product": "(O)lele.Soldat.JA_Salak",
+  "Season": "summer",
+  "SaplingPurchaseFrom": "VolcanoShop",
+  "SaplingPurchaseRequirements": null,
+  "CanSell": true,
+  "SaplingNameLocalization":
+    {
+        "ru": "Саженец низкорослой пальмы"
+    },
+    "SaplingDescriptionLocalization":
+    {
+        "ru": "Для получения взросой низкорослой пальмы требуется 28 дней. Плодоносит плодами салака летом или всегда на острове. Растет, только если 8 соседних клеток свободны."
+    }
+}

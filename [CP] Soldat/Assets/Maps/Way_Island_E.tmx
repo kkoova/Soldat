@@ -904,13 +904,13 @@
  </tileset>
  <layer id="1" name="Back" width="14" height="21">
   <data encoding="base64" compression="zlib">
-   eJyVkwEKwyAMRbubD+xFZt1F5nYQ2x5kCfsfguiSfggtxZcX1LbbsuxSL6kq9UZ5abJmk8pSK54RTtcmOE94IynwJcNz5ogvG34PeOkrYPie4cwTfu2+K9u6eeugR5n02was5Xofo2fxNPNW9PGi3OfC/jLHj7k34/TSsDf2jCJcAcez0VkPzDs7F8smOB/oQd4L7wB7NOP/F95ZeoupiJNcNl4vvdPbl5HzKsv/xLLRWFa5L387WkQ=
+   eJzdkmEKgzAMhd3NB/Uii/Ui63aQ6A5iyt6DUOwa/+5BUMQvX2iqt2narJ5WxeqFGkXtn8VKrGY8I1z9N8H5gTeSDF9yPGeO+MTxW8BLXwbDd4FTOvzcfK+sNvOWkx650285YT3X+pi6i9XNW9BnlMq9L5wvs3+ZuzrnKIqz8TuKcBkcd1Nn3TFvby+eTXA+0IP8KLwD7KHO/yu8s/RmVxEnOXHef88BYUpP1g==
   </data>
  </layer>
  <objectgroup id="2" name="Back"/>
  <layer id="3" name="Buildings" width="14" height="21">
   <data encoding="base64" compression="zlib">
-   eJxjYEAF36B0HgPxQImJgUGZiXR9MJCHhMkBhPR9Y0D4C5u9pOhB14tuxjcc4rjMIGQ2KfqIMZfa+sh1JzFmYlNDTBrBpY/S+CAHUKKP2nYS4//B4k8AROUarg==
+   eJxjYEAF36B0HgPxQImJgUGZiXR9MJCHhMkBhPR9Y0D4C5u9pOhB14tuxjcc4rjMIGQ2KfqIMZfa+sh1JzFmYlNDTBrBpY/S+CAHUKIPhINw4OEOAMRNGZg=
   </data>
  </layer>
  <objectgroup id="4" name="Buildings"/>

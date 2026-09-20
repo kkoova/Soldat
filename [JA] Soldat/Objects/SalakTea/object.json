@@ -3,6 +3,21 @@
   "TranslationKey": "object.SalakTea",
   "Category": "Cooking",
   "Price": 130,
+  "Edibility": 48,
   "CanSell": true,
-  "EdibleIsDrink": true
+  "EdibleIsDrink": true,
+  "EdibleBuffs":
+    {
+        "Farming": 4,
+        "Fishing": 0,
+        "Mining": 0,
+        "Luck": 3,
+        "Foraging": 0,
+        "MaxStamina": 0,
+        "MagnetRadius": 0,
+        "Speed": 0,
+        "Defense": 0,
+        "Attack": 0,
+        "Duration": 500
+    }
 }

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.12.1" orientation="orthogonal" renderorder="right-down" width="3" height="3" tilewidth="16" tileheight="16" infinite="0" nextlayerid="20" nextobjectid="17">
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="3" height="3" tilewidth="16" tileheight="16" infinite="0" nextlayerid="20" nextobjectid="17">
  <properties>
   <property name="DayTiles" value="Buildings 16 31 298 Buildings 16 32 334 Buildings 17 32 335 Buildings 17 31 299 AlwaysFront 17 30 375"/>
   <property name="LocationContext" value="Island"/>
@@ -2039,13 +2039,13 @@
  <objectgroup id="19" name="Back3"/>
  <layer id="3" name="Buildings" width="3" height="3">
   <data encoding="base64" compression="zlib">
-   eJxjYECAmZIMDLMkGTAAAB6eAWY=
+   eJzzkWCAg5mSDAyzJBkwAAAslgHK
   </data>
  </layer>
  <objectgroup id="4" name="Buildings"/>
  <layer id="5" name="Front" width="3" height="3">
   <data encoding="base64" compression="zlib">
-   eJzzkWAgCAAOHABl
+   eJxjYCAMAAAkAAE=
   </data>
  </layer>
  <objectgroup id="6" name="Front"/>

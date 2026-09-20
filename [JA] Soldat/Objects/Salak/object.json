@@ -3,5 +3,6 @@
   "TranslationKey": "object.Salak",
   "Category": "Fruit",
   "Price": 130,
-  "CanSell": true
+  "CanSell": true,
+  "Edibility": 58
 }

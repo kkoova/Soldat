@@ -4,9 +4,9 @@
         "Action": "EditData",
         "Target": "Data/CookingRecipes",
         "Entries": {
-            "CherryTea":"638 2 406 1 815 2/25 5/(O)lele.Soldat.JA_CherryTea/default/",
-            "SalakPowder":"(O)lele.Soldat.JA_Salak 3 635 1 613 1/25 5/(O)lele.Soldat.JA_SalakPowder/default/",
-            "SalakTea":"(O)lele.Soldat.JA_SalakPowder 1/25 5/(O)lele.SoldatJA_SalakTea/default/"
+            "CherryTea":"638 2 406 1 815 2/25 5/(O)lele.Soldat.JA_CherryTea/none/",
+            "SalakPowder":"(O)lele.Soldat.JA_Salak 3 635 1 829 1/25 5/(O)lele.Soldat.JA_SalakPowder/none/",
+            "SalakTea":"(O)lele.Soldat.JA_SalakPowder 1/25 5/(O)lele.Soldat.JA_SalakTea/default/"
             }
         }
     ]

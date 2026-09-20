@@ -11,6 +11,7 @@
           farmer 0 46 1 James 7 43 2/
           changeSprite James Fear/
           ignoreCollisions James/
+          addConversationTopic Soldat_Fear {{Event Cooldown Length}}/
           skippable/
             animate James false true 1000 16/
             move farmer 4 0 1/
@@ -25,8 +26,12 @@
             message \"{{i18n:Events.Description.1H.P1.0}}\"/
             move farmer 3 0 2/
             animate James false true 1000 17/
+            playSound leafrustle/
             pause 600/
             emote farmer 8/
+            pause 700/
+            startJittering/pause 600/stopJittering/pause 600/
+            pause 800/
             speed James 6/
             move James 0 3 2/
             globalFade 0.1/
@@ -65,12 +70,42 @@
             viewport 999 999/
             message \"{{i18n:Events.Description.1H.P1.8}}\"/
             pause 500/
-            globalFadeToClear 0.1 true/
-            changeToTemporaryMap IslandEast/
+            warp James 9 46/
+            faceDirection farmer 1/
+            faceDirection James 3/
+            globalFadeToClear 0.4 true/
+            changeToTemporaryMap Island_E/
+            viewport 7 46 clamp/
+            pause 700/
+            startJittering/pause 600/stopJittering/pause 600/
+            pause 700/
+            shake James 600/
+            pause 500/
+            emote James 40/
             pause 1700/
+            speak James \"{{i18n:Events.James.1H.P1.1}}\"/
+            pause 700/
+            shake James 600/
+            pause 500/
+            textAboveHead James \"{{i18n:Events.TextAboveHead.1H.P1.9}}\"/
+            pause 500/
+            shake James 600/
+            pause 1500/
+            textAboveHead James \"{{i18n:Events.James.0H.P4.5}}\"/
+            pause 1500/
+            shake James 600/
+            pause 500/
+            speak James \"{{i18n:Events.James.1H.P1.10}}\"/
+            pause 500/
+            startJittering/pause 600/stopJittering/pause 600/
+            pause 700/
+            speed farmer 6/
+            move farmer -10 0 3 true/
             mail Mail.JamesApologyLetter/
             fade/
             viewport -1000 -1000/
+            message \"{{i18n:Events.Description.1H.P1.11}}\"/
+            pause 300/
             end"
       }
     },
@@ -79,11 +114,12 @@
       "Action": "EditData",
       "Target": "Data/Events/IslandEast",
       "Entries": {
-        "James.1h.2p/e James.1h.1p/t 800 1200/w sunny/f James 250": "
+        "James.1h.2p/e James.1h.1p/t 800 1200/w sunny/f James 250/A Soldat_Fear": "
           none/   
           21 33/
           farmer 21 23 1 James 25 33 2/
           ignoreCollisions James/
+          addConversationTopic Soldat_Tea {{Event Cooldown Length}}/
           skippable/
             animate James false true 1000 24 25/
             pause 1500/
@@ -107,7 +143,7 @@
             speak James .../
             pause 600/
             message \"{{i18n:Events.Description.1H.P2.1}}\"/ 
-            move James -3 0 1/
+            move James -3 0 3/
             move James 0 -1 0/
             pause 600/
             speak James \"{{i18n:Events.James.1H.P2.2}}\"/
@@ -135,8 +171,8 @@
             pause 1200/
             speak James \"{{i18n:Events.James.1H.P2.8}}\"/
             quickQuestion #{{i18n:Events.Player.1H.P2.9.1}} #{{i18n:Events.Player.1H.P2.9.2}}
-                (break)speak James \"{{i18n:Events.James.1H.P2.5}}\"
-                (break)speak James \"{{i18n:Events.James.1H.P2.10.2}}\"/
+                (break)speak James \"{{i18n:Events.James.1H.P2.10.1}}\"
+                (break)speak James \"{{i18n:Events.James.1H.P2.10.2}}\"\\pause 600\\speak James \"{{i18n:Events.James.1H.P2.10.2.1}}\"\\end/
             globalFade 0.01/
             viewport 999 999/
             playSound leafrustle/
@@ -153,11 +189,13 @@
             faceDirection James 2/
             addTemporaryActor HotPotTea 32 32 16 31 0 false Character/
             positionOffset HotPotTea -1 19/
-            globalFadeToClear 0.01 true/
             viewport 17 31 clamp/
-            pause 2700/
+            globalFadeToClear 0.01 true/
+            pause 3100/
             farmerEat lele.Soldat.JA_SalakTea/
-            faceDirection James 2/
+            pause 1200/
+            faceDirection farmer 3/
+            pause 700/
             message \"{{i18n:Events.Description.1H.P2.11}}\"/
             pause 2700/
             quickQuestion #{{i18n:Events.Player.1H.P2.12}}
@@ -169,8 +207,8 @@
             pause 1500/
             fade/
             pause 500/
-            message \"{{i18n:Events.Description.1H.P2.15}}\"/
             viewport -1000 -1000/
+            message \"{{i18n:Events.Description.1H.P2.15}}\"/
             mail Mail.JamesTeaPowderLetter/
             end"
       }
@@ -180,11 +218,12 @@
       "Action": "EditData",
       "Target": "Data/Events/Custom_islandBk_james",
       "Entries": {
-        "James.1h.3p/e James.1h.2p/t 2300 2600/f James 250": "
+        "James.1h.3p/e James.1h.2p/t 2300 2600/f James 250/A Soldat_Tea": "
           ocean/   
           -1000 -1000/
           farmer 15 25 1 James 20 31 2/
           ignoreCollisions James/
+          addConversationTopic Soldat_Sleep {{Event Cooldown Length}}/
           skippable/
             globalFade 0.01/
             animate James false true 1000 29/
@@ -205,6 +244,7 @@
             move farmer 0 -9 0/
             fade/
             message \"{{i18n:Events.Description.1H.P3.4}}\"/
+            mail Mail.JamesSalakTreeLetter/
             viewport -1000 -1000/
             end"
       }
