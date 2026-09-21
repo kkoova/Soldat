@@ -15,6 +15,8 @@
                 "Soldat_Patrul": "{{i18n:ConversationTopics.Soldat_Patrul.James}}",
                 "Soldat_Fear": "{{i18n:ConversationTopics.Soldat_Fear.James}}",
                 "Soldat_Sleep": "{{i18n:ConversationTopics.Soldat_Sleep.James}}",
+                "Soldat_DryerComplete": "{{i18n:ConversationTopics.Soldat_DryerComplete.James}}",
+                "Soldat_DryerFish": "{{i18n:ConversationTopics.Soldat_DryerFish.James}}",
 
                 //Schedules
                 "James_Sleep": "{{i18n:Schedules.James.Sleep}}"

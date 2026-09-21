@@ -101,6 +101,7 @@
             pause 700/
             speed farmer 6/
             move farmer -10 0 3 true/
+            action AddFriendshipPoints James 30/
             mail Mail.JamesApologyLetter/
             fade/
             viewport -1000 -1000/
@@ -196,6 +197,7 @@
             pause 1200/
             faceDirection farmer 3/
             pause 700/
+            action AddFriendshipPoints James 100/
             message \"{{i18n:Events.Description.1H.P2.11}}\"/
             pause 2700/
             quickQuestion #{{i18n:Events.Player.1H.P2.12}}
@@ -242,6 +244,7 @@
             message \"{{i18n:Events.Description.1H.P3.3}}\"/
             pause 4500/
             move farmer 0 -9 0/
+            action AddFriendshipPoints James 120/
             fade/
             message \"{{i18n:Events.Description.1H.P3.4}}\"/
             mail Mail.JamesSalakTreeLetter/

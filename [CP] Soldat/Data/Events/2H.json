@@ -5,13 +5,14 @@
       "Action": "EditData",
       "Target": "Data/Events/Custom_islandBk_james",
       "Entries": {
-        "James.2h.1p/e James.1h.3p/t 1500 1800/f James 500": "
+        "James.2h.1p/e James.1h.3p/t 1500 1800/f James 500/A Soldat_Sleep": "
           ocean/
           follow/
-          farmer 10 23 1 James 18 20 2/
+          farmer 7 26 1 James 16 23 2/
           ignoreCollisions James/
+          addConversationTopic Soldat_DryerComplete {{Event Cooldown Length}}/
           skippable/
-            addTemporaryActor DryerBroken 32 32 17 21 0 false Character/
+            addTemporaryActor DryerBroken 32 32 15 24 0 false Character/
             animate James false true 1000 24 25/
             move farmer 7 0 0/
             faceDirection farmer 0/
@@ -22,7 +23,7 @@
             pause 500/
             speak James \"{{i18n:Events.James.2H.P1.2}}\"/
             emote farmer 56/
-            move farmer 0 -1 0/
+            move farmer 0 -2 1/
             pause 500/
             emote farmer 8/
             speak James \"{{i18n:Events.James.2H.P1.3}}\"/
@@ -80,11 +81,12 @@
         "Action": "EditData",
         "Target": "Data/Events/Custom_islandBk_james",
         "Entries": {
-          "James.2h.2p/e James.2h.1p/t 1900 2200/w sunny/f James 500": "
+          "James.2h.2p/e James.2h.1p/t 1900 2200/w sunny/f James 500/A Soldat_DryerComplete": "
             ocean/
             follow/
             farmer 16 24 2 James 19 31 3/
             ignoreCollisions James/
+            addConversationTopic Soldat_DryerFish {{Event Cooldown Length}}/
             skippable/
               addTemporaryActor CookingFish 32 16 19 32 0 false Character/
               positionOffset CookingFish -40 30/
@@ -152,7 +154,7 @@
         "Action": "EditData",
         "Target": "Data/Events/IslandNorth",
         "Entries": {
-          "James.2h.3p/e James.2h.2p/t 1000 1700/w sunny/f James 500/f Leo 500": "
+          "James.2h.3p/e James.2h.2p/t 1000 1700/w sunny/f James 500/f Leo 500/A Soldat_DryerFish": "
             none/
             follow/
             farmer 48 79 2 Leo 45 83 0/
@@ -188,6 +190,7 @@
               message \"{{i18n:Events.Description.2H.P3.2}}\"/
               pause 1000/
               emote farmer 40/
+              addQuest lele.Soldat.Quests.GoToHell/
               fade/
               viewport -1000 -1000/
               message \"{{i18n:Events.Description.2H.P3.3}}\"/
