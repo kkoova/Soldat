@@ -63,6 +63,11 @@
         },
         {
             "Action": "Load",
+            "Target": "Characters/James_Custom_JamesSaloonDream",
+            "FromFile": "Assets/Characters/James/James_Beach.png"
+        },
+        {
+            "Action": "Load",
             "Target": "Portraits/James_Custom_islandBk_james",
             "FromFile": "Assets/Portraits/James/James_Beach.png"
         },

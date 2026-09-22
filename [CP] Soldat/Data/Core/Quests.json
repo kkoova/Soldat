@@ -5,7 +5,7 @@
         "Target": "Data/Quests",
         "Entries": {
             "lele.Soldat.Quests.Cloth": "ItemDelivery/{{i18n:Core.Soldat.Quests.Cloth.Title}}/{{i18n:Core.Soldat.Quests.Cloth.Description}}/{{i18n:Core.Soldat.Quests.Cloth.Task}}/James 428 1/-1/0/-1/true/{{i18n:Core.Soldat.Quests.Cloth.FollowUp}}#$action AddMail Current leleJamesClothComplete received",
-            "lele.Soldat.Quests.GoToHell": "Basic/{{i18n:Core.Soldat.Quests.Hell.Title}}/{{i18n:Core.Soldat.Quests.Hell.Description}}/{{i18n:Core.Soldat.Quests.Hell.Task}}/0",
+            "lele.Soldat.Quests.GoToHell": "Basic/{{i18n:Core.Soldat.Quests.Hell.Title}}/{{i18n:Core.Soldat.Quests.Hell.Description}}/{{i18n:Core.Soldat.Quests.Hell.Task}}/null/-1/0/-1/true",
             "lele.Soldat.Quests.Milk": "ItemDelivery/{{i18n:Core.Soldat.Quests.Milk.Title}}/{{i18n:Core.Soldat.Quests.Milk.Description}}/{{i18n:Core.Soldat.Quests.Milk.Task}}/James 436 1/-1/0/-1/true/{{i18n:Core.Soldat.Quests.Milk.FollowUp}}#$action AddMail Current leleJamesMilkComplete received"}
     }
     ]

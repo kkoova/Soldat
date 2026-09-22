@@ -26,6 +26,8 @@
     "ConversationTopics.Soldat_Sleep.James": "${Получил^Получила}$ саженец? Теперь жду твоего первого змеиного чая",
     "ConversationTopics.Soldat_DryerComplete.James": "Спасибо за помощь с сушилкой @#Уже скоро она даст свои первые плоды",
     "ConversationTopics.Soldat_DryerFish.James": "Если вдруг проголодаешься, не стестяйся брать рыбу с сушилки, хорошо?",
+    "ConversationTopics.Soldat_BeforeHell.James": "%Баки мягко улыбается вам",
+    "ConversationTopics.Soldat_BeforeHell.Leo": "%Лео отказывается хоть что то говорить, просто хихикает",
 
     //Schedules
     "Schedules.James.Sleep": "...#%Баки приоткрыл глаза и смотрит на вас#...?",
