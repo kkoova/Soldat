@@ -66,6 +66,7 @@
             speak James \"{{i18n:Events.James.2H.P1.8}}\"/
             faceDirection farmer 3/
             emote farmer 32/
+            action AddFriendshipPoints James 120/
             pause 1700/
             speak James \"{{i18n:Events.James.2H.P1.9}}\"/
             emote farmer 20/
@@ -192,6 +193,7 @@
               pause 1000/
               emote farmer 40/
               addQuest lele.Soldat.Quests.GoToHell/
+              action AddFriendshipPoints James 30/
               fade/
               viewport -1000 -1000/
               message \"{{i18n:Events.Description.2H.P3.3}}\"/
@@ -199,7 +201,8 @@
               end"
         }
       },
-            {
+      // TODO: После перехода обратно стр 315 - пропадает небо и освещение
+      {
         "LogName": "James h2p4",
         "Action": "EditData",
         "Target": "Data/Events/IslandNorth",
@@ -209,6 +212,7 @@
             follow/
             farmer 25 17 3 James 18 18 0/
             ignoreCollisions James/
+            addConversationTopic Soldat_BeforeDream {{Event Cooldown Length}}/
             skippable/
               removeQuest lele.Soldat.Quests.GoToHell/
               move farmer -3 0 3/
@@ -341,6 +345,7 @@
               faceDirection James 0/
               pause 300/
               faceDirection farmer 0/
+              action AddFriendshipPoints James 100/
               fade/
               viewport -1000 -1000/
               pause 700/

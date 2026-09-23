@@ -32,6 +32,23 @@
               }
           }
       },
+      // TODO: Проверить что точно 7 дней отсутсвия
+      {
+          "LogName": "Trigger Action - 3 Hearts James Gone",
+          "Action": "EditData",
+          "Target": "Data/TriggerActions",
+          "Entries": {
+              "lele.Soldat.TriggerActions.JamesGone": {
+                  "Trigger": "DayEnding",
+                  "Id": "lele.Soldat.TriggerActions.JamesGone",
+                  "Condition": "PLAYER_HAS_SEEN_EVENT Current James.3h.1p, !PLAYER_HAS_MAIL Current leleJamesGoneTrigger Received",
+                  "Actions": [
+                      "SetNpcInvisible James 7",
+                      "AddMail Current leleJamesGoneTrigger"
+                  ]
+              }
+          }
+      },
       {
           "LogName": "Trigger Action - 3 Hearts",
           "Action": "EditData",

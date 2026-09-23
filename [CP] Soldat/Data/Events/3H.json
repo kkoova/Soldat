@@ -1,21 +1,16 @@
 {
     "Changes": [
-        {   //курорт есть 1 - обьяснись - плохо получилось обьясниться
-            //курорт есть 2 - альпинка!!! - глупи
-            //письмо молоко - есть
-            //курорт есть 3 - альпинка!!!
-            //курорт есть 3 - аа дети
-
-            //Бак должен пропаст после этого
-            "LogName": "James alpinist 1",
+        {   
+            "LogName": "James alpinist 1 and James gone 7 days",
             "Action": "EditData",
             "Target": "Data/Events/IslandSouth",
             "Entries": {
-                "James.3h.1p/e James.2h.4p/t 2100 2600/f James 750/LocalMail Island_Resort": "
+                "James.3h.1p/e James.2h.4p/t 2100 2600/f James 750/LocalMail Island_Resort/A Soldat_BeforeDream": "
                 ocean/
                 follow/
                 farmer 21 36 0 James 18 26 0/
                 ignoreCollisions James/
+                addConversationTopic Soldat_BeforeGone {{Event Cooldown Length}}/
                 skippable/
                 move farmer 0 -7 0/
                 pause 500/
@@ -106,8 +101,8 @@
                 move James 6 0 0/
                 speed James 3/
                 faceDirection farmer 1/
-                move James 0 -7 0/
-                pause 1000/
+                move James 0 -9 0 true/
+                pause 1200/
                 emote farmer 28/
                 pause 1400/
                 fade/
@@ -120,11 +115,12 @@
             "Action": "EditData",
             "Target": "Data/Events/IslandSouth",
             "Entries": {
-                "James.3h.2p/e James.3h.1p/t 2200 2600/f James 750": "
+                "James.3h.2p/e James.3h.1p/t 2200 2600/f James 750/A Soldat_Gone_Week": "
                 night_market/
                 19 23/
                 farmer 10 11 2 James 19 23 0 Alpine 16 19 0/
                 ignoreCollisions James/
+                addConversationTopic Soldat_Apline_run {{Event Cooldown Length}}/
                 skippable/
                 move James -3 0 0/
                 pause 1000/
@@ -177,16 +173,20 @@
                 stopMusic/
                 playMusic wind/
                 speak James \"{{i18n:Events.James.3H.P2.7}}\"/
-                pause 500/
+                pause 900/
+                shake James 400/
+                pause 700/
                 speak James \"{{i18n:Events.James.3H.P2.8}}\"/
                 pause 700/
                 emote farmer 28/
                 speed James 2/
                 move James 0 1 2/
                 speak James \"{{i18n:Events.James.3H.P2.9}}\"/
-                quickQuestion #{{i18n:Events.Player.3H.P2.10.1}}#{{i18n:Events.Player.3H.P2.10.2}}#{{i18n:Events.Player.3H.P2.10.3}}(break)shake James 400/
+                quickQuestion #{{i18n:Events.Player.3H.P2.10.1}}#{{i18n:Events.Player.3H.P2.10.2}}#{{i18n:Events.Player.3H.P2.10.3}}
+                (break)textAboveHead James \"{{i18n:Events.TextAboveHead.3H.P2.10.1}}\"
+                (break)shake James 400
+                (break)textAboveHead James \"{{i18n:Events.TextAboveHead.3H.P2.10.3}}\"/
                 pause 700/
-                emote James 28/
                 pause 700/
                 move James 0 -2 0/
                 pause 2000/
@@ -203,15 +203,16 @@
                 shake Alpine 400/
                 pause 300/
                 speed Alpine 4/
-                move Alpine 0 -5 0/
-                pause 1000/
+                move Alpine 0 -8 0 true/
+                pause 1200/
                 faceDirection James 2/
                 emote James 40/
                 speak James \"{{i18n:Events.James.3H.P2.12}}\"/
                 pause 1000/
                 faceDirection James 0/
                 speak James \"{{i18n:Events.James.3H.P2.13}}\"/
-                move James 0 -7 0/
+                move James 0 -8 0 true/
+                pause 600/
                 fade/
                 viewport -1000 -1000/
                 pause 700/
@@ -223,12 +224,13 @@
         {   
             "LogName": "James alpinist 3-quest",
             "Action": "EditData",
-            "Target": "Data/Events/Custom_islandJamesHome",
+            "Target": "Data/Events/Custom_islandBk_james",
             "Entries": {
-                "James.3h.3p/e James.3h.2p/t 2300 2600/f James 750/LocalMail Mail.JamesAlpineMilk/HasItem 436": "
+                "James.3h.3p/e James.3h.2p/t 2300 2600/f James 750/LocalMail Mail.JamesAlpineMilk/HasItem 436/A Soldat_Apline_run": "
                 none/
-                follow/
-                farmer 6 46 1 James 14 40 0/
+                31 22/
+                farmer 6 46 1 James 33 24 2/
+                animate James false true 1000 40 41/
                 ignoreCollisions James/
                 skippable/
                 pause 5700/

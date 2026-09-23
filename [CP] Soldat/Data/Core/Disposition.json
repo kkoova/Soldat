@@ -23,7 +23,7 @@
                     "SpouseAdopts": true,
                     "IntroductionsQuest": false,
                     "ItemDeliveryQuests": false,
-                    "WinterStarParticipant": false,  
+                    "WinterStarParticipant": false,
                     "Home": [
                         {
                             "Id": "Default_home_james",

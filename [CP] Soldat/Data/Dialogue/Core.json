@@ -18,6 +18,8 @@
                 "Soldat_DryerComplete": "{{i18n:ConversationTopics.Soldat_DryerComplete.James}}",
                 "Soldat_DryerFish": "{{i18n:ConversationTopics.Soldat_DryerFish.James}}",
                 "Soldat_BeforeHell": "{{i18n:ConversationTopics.Soldat_BeforeHell.James}}",
+                "Soldat_BeforeDream": "{{i18n:ConversationTopics.Soldat_BeforeDream.James}}",
+                "Soldat_BeforeGone": "{{i18n:ConversationTopics.Soldat_BeforeGone.James}}",
 
                 //Schedules
                 "James_Sleep": "{{i18n:Schedules.James.Sleep}}"
