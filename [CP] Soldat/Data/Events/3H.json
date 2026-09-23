@@ -1,0 +1,456 @@
+{
+    "Changes": [
+        {   
+            "LogName": "James alpinist 1 and James gone 7 days",
+            "Action": "EditData",
+            "Target": "Data/Events/IslandSouth",
+            "Entries": {
+                "James.3h.1p/e James.2h.4p/t 2100 2600/f James 750/LocalMail Island_Resort/A Soldat_BeforeDream": "
+                ocean/
+                follow/
+                farmer 21 36 0 James 18 26 0/
+                ignoreCollisions James/
+                addConversationTopic Soldat_BeforeGone {{Event Cooldown Length}}/
+                skippable/
+                move farmer 0 -7 0/
+                pause 500/
+                emote farmer 56/
+                pause 1000/
+                faceDirection James 2/
+                pause 400/
+                shake James 600/
+                pause 2000/
+                faceDirection James 1/
+                pause 500/
+                faceDirection James 0/
+                pause 1500/
+                speak James \"{{i18n:Events.James.3H.P1.1}}\"/
+                pause 600/
+                emote farmer 28/
+                pause 1500/
+                speed James 2/
+                move James -3 0 0/
+                pause 700/
+                shake James 600/
+                pause 700/
+                faceDirection James 3/
+                pause 300/
+                faceDirection James 2/
+                pause 1400/
+                faceDirection James 1/
+                shake James 600/
+                pause 700/
+                faceDirection James 0/
+                emote James 40/
+                speed James 3/
+                move James 7 0 1/
+                pause 700/
+                shake James 600/
+                pause 700/
+                faceDirection James 1/
+                pause 1400/
+                faceDirection James 2/
+                pause 1000/
+                faceDirection James 3/
+                shake James 400/
+                pause 700/
+                faceDirection James 2/
+                emote James 40/
+                move James -1 0 3/
+                move James 0 2 2/
+                shake James 400/
+                pause 500/
+                speak James \"{{i18n:Events.James.3H.P1.2}}\"/
+                pause 400/
+                emote farmer 28/
+                pause 600/
+                shake James 400/
+                faceDirection James 0/
+                emote James 40/
+                move James 0 -2 0/
+                shake James 400/
+                textAboveHead James \"{{i18n:Events.TextAboveHead.3H.P1.3}}\"/
+                pause 3100/
+                shake James 400/
+                pause 600/
+                speak James \"{{i18n:Events.James.3H.P1.4}}\"/
+                faceDirection James 3/
+                pause 400/
+                move James 0 2 2/
+                pause 1400/
+                textAboveHead James \"{{i18n:Events.TextAboveHead.3H.P1.5}}\"/
+                pause 3100/
+                shake James 400/
+                pause 600/
+                speak James \"{{i18n:Events.James.3H.P1.6}}\"/
+                pause 1400/
+                speak James \"{{i18n:Events.James.3H.P1.7}}\"/
+                pause 2000/
+                shake James 400/
+                move James 0 -5 0/
+                animate James false true 1000 33/
+                pause 700/
+                move farmer 0 -3 0/
+                emote farmer 28/
+                pause 1500/
+                textAboveHead James \"{{i18n:Events.TextAboveHead.3H.P1.8}}\"/
+                pause 3100/
+                move farmer 0 -1 0/
+                speak James \"{{i18n:Events.James.3H.P1.9}}\"/
+                speed James 3/
+                move James 6 0 0/
+                speed James 3/
+                faceDirection farmer 1/
+                move James 0 -9 0 true/
+                pause 1200/
+                emote farmer 28/
+                pause 1400/
+                fade/
+                viewport -1000 -1000/
+                end"
+            }
+        },
+        {   
+            "LogName": "James alpinist 2",
+            "Action": "EditData",
+            "Target": "Data/Events/IslandSouth",
+            "Entries": {
+                "James.3h.2p/e James.3h.1p/t 2200 2600/f James 750/A Soldat_Gone_Week": "
+                night_market/
+                19 23/
+                farmer 10 11 2 James 19 23 0 Alpine 16 19 0/
+                ignoreCollisions James/
+                addConversationTopic Soldat_Apline_run {{Event Cooldown Length}}/
+                skippable/
+                move James -3 0 0/
+                pause 1000/
+                textAboveHead James \"{{i18n:Events.TextAboveHead.3H.P2.1}}\"/
+                pause 1000/
+                move farmer 0 9 2/
+                move James 2 0 0/
+                move James 0 -3 3/
+                pause 1200/
+                textAboveHead James \"{{i18n:Events.TextAboveHead.3H.P2.2}}\"/
+                pause 3100/
+                emote farmer 8/
+                move farmer 0 4 2/
+                move farmer 5 0 0/
+                pause 400/
+                faceDirection James 2/
+                emote James 40/
+                pause 500/
+                move James 0 4 3/
+                faceDirection farmer 1/
+                emote farmer 8/
+                speak James \"{{i18n:Events.James.3H.P2.3}}\"/
+                pause 500/
+                faceDirection James 0/
+                emote James 40/
+                pause 1500/
+                speak James \"{{i18n:Events.James.3H.P2.4}}\"/
+                emote farmer 38/
+                pause 1500/
+                speak James \"{{i18n:Events.James.3H.P2.5}}\"/
+                move James 0 -2 0/
+                move farmer 3 0 0/
+                emote farmer 8/
+                pause 1500/
+                shake James 400/
+                pause 500/
+                faceDirection James 2/
+                pause 500/
+                emote farmer 28/
+                pause 800/
+                emote James 28/
+                pause 500/
+                speak James \"{{i18n:Events.James.3H.P2.6}}\"/
+                pause 500/
+                emote farmer 32/
+                pause 1500/
+                shake James 400/
+                emote James 28/
+                pause 500/
+                stopMusic/
+                playMusic wind/
+                speak James \"{{i18n:Events.James.3H.P2.7}}\"/
+                pause 900/
+                shake James 400/
+                pause 700/
+                speak James \"{{i18n:Events.James.3H.P2.8}}\"/
+                pause 700/
+                emote farmer 28/
+                speed James 2/
+                move James 0 1 2/
+                speak James \"{{i18n:Events.James.3H.P2.9}}\"/
+                quickQuestion #{{i18n:Events.Player.3H.P2.10.1}}#{{i18n:Events.Player.3H.P2.10.2}}#{{i18n:Events.Player.3H.P2.10.3}}
+                (break)textAboveHead James \"{{i18n:Events.TextAboveHead.3H.P2.10.1}}\"
+                (break)shake James 400
+                (break)textAboveHead James \"{{i18n:Events.TextAboveHead.3H.P2.10.3}}\"/
+                pause 700/
+                pause 700/
+                move James 0 -2 0/
+                pause 2000/
+                shake James 400/
+                pause 1000/
+                textAboveHead Alpine \"{{i18n:Events.TextAboveHead.3H.P2.11}}\"/
+                playSound leafrustle/
+                emote James 16/
+                emote farmer 16/
+                playSound leafrustle/
+                speed Alpine 4/
+                move Alpine 3 0 0/
+                faceDirection Alpine 2/
+                shake Alpine 400/
+                pause 300/
+                speed Alpine 4/
+                move Alpine 0 -8 0 true/
+                pause 1200/
+                faceDirection James 2/
+                emote James 40/
+                speak James \"{{i18n:Events.James.3H.P2.12}}\"/
+                pause 1000/
+                faceDirection James 0/
+                speak James \"{{i18n:Events.James.3H.P2.13}}\"/
+                move James 0 -8 0 true/
+                pause 600/
+                fade/
+                viewport -1000 -1000/
+                pause 700/
+                message \"{{i18n:Events.Description.3H.P2.14}}\"/
+                mail Mail.JamesAlpineMilk/
+                end"
+            }
+        },
+        {   
+            "LogName": "James alpinist 3-quest",
+            "Action": "EditData",
+            "Target": "Data/Events/Custom_islandBk_james",
+            "Entries": {
+                "James.3h.3p/e James.3h.2p/t 2300 2600/f James 750/LocalMail Mail.JamesAlpineMilk/HasItem 436/A Soldat_Apline_run": "
+                none/
+                31 22/
+                farmer 6 46 1 James 33 24 2/
+                animate James false true 1000 40 41/
+                ignoreCollisions James/
+                skippable/
+                pause 5700/
+                removeQuest lele.Soldat.Quests.Milk/
+                removeItem 436 1/
+                fade/
+                viewport -1000 -1000/
+                pause 700/
+                end"
+            }
+        },
+        {   
+            "LogName": "James alpinist 4",
+            "Action": "EditData",
+            "Target": "Data/Events/IslandEast",
+            "Entries": {
+                "James.3h.4p/e James.3h.3p/w sunny/t 1000 1600/f James 750": "
+                none/
+                follow/
+                farmer 6 46 1 James 14 40 1 Alpine 24 37 3/
+                ignoreCollisions James/
+                skippable/
+                addTemporaryActor CoconutAndMilk 32 32 20 38 0 false Character/
+                positionOffset CoconutAndMilk 20 85/
+                move farmer 9 0 0/
+                move farmer 0 -4 0/
+                faceDirection farmer 0/
+                pause 300/
+                emote farmer 8/
+                pause 1600/
+                faceDirection farmer 1/
+                pause 200/
+                emote farmer 40/
+                pause 1000/
+                faceDirection farmer 0/
+                pause 300/
+                emote farmer 8/
+                pause 300/
+                emote James 40/
+                pause 300/
+                faceDirection James 2/
+                textAboveHead James \"{{i18n:Events.TextAboveHead.3H.P3.1}}\"/
+                pause 2100/
+                faceDirection James 1/
+                faceDirection farmer 1/
+                pause 1500/
+                emote farmer 40/
+                textAboveHead James \"{{i18n:Events.TextAboveHead.3H.P3.2}}\"/
+                pause 1500/
+                shake Alpine 400/
+                playSound leafrustle/
+                stopMusic/
+                playMusic sweet/
+                emote farmer 16/
+                speed Alpine 1/
+                move Alpine -2 0 3/
+                speed Alpine 1/
+                move Alpine 0 2 3/
+                pause 1200/
+                textAboveHead Alpine \"{{i18n:Events.TextAboveHead.3H.P3.3}}\"/
+                pause 3200/
+                emote Alpine 20/
+                pause 300/
+                animate Alpine false true 700 16 17/
+                pause 3500/
+                emote farmer 20/
+                emote James 20/
+                pause 3500/
+                playSound leafrustle/
+                stopMusic/
+                pause 500/
+                stopAnimation Alpine/
+                jump Alpine/
+                pause 700/
+                shake Alpine 400/
+                pause 700/
+                emote farmer 16/
+                speed Alpine 4/
+                move Alpine 9 0 1/
+                pause 800/
+                warp Alpine -99 -99/
+                faceDirection James 2/
+                faceDirection famer 0/
+                pause 500/
+                emote James 40/
+                speak James \"{{i18n:Events.James.3H.P3.4}}\"/
+                pause 800/
+                move James 0 -1 0/
+                move James 5 0 2/
+                move James 0 -1 0/
+                move James 1 0 2/
+                pause 800/
+                emote James 40/
+                pause 800/
+                move farmer 4 0 0/
+                move farmer 0 -2 0/
+                speak James \"{{i18n:Events.James.3H.P3.5}}\"/
+                emote farmer 20/
+                pause 1200/
+                speak James \"{{i18n:Events.James.3H.P3.6}}\"/
+                emote farmer 32/
+                pause 1200/
+                fade/
+                viewport -1000 -1000/
+                pause 700/
+                message \"{{i18n:Events.Description.3H.P3.7}}\"/
+                end"
+            }
+        },
+                {   
+            "LogName": "James alpinist 5",
+            "Action": "EditData",
+            "Target": "Data/Events/IslandEast",
+            "Entries": {
+                "James.3h.5p/e James.3h.4p/w sunny/t 1400 1800/f James 750": "
+                none/
+                19 45/
+                farmer -99 -99 0 James 21 34 0 Alpine 17 33 2 Jas 12 44 1 Vincent 11 45 1/
+                ignoreCollisions James/
+                skippable/
+                pause 700/
+                shake Jas 400/
+                pause 500/
+                emote Jas 28/
+                move Vincent 4 0 0/
+                move Jas 3 0 2/
+                pause 600/
+                shake Jas 400/
+                speak Jas \"{{i18n:Events.Jas.3H.P5.1}}\"/
+                pause 200/
+                textAboveHead Vincent \"{{i18n:Events.TextAboveHead.3H.P5.2}}\"/
+                pause 700/
+                jump Jas/
+                pause 700/
+                shake Jas 400/
+                speak Jas \"{{i18n:Events.Jas.3H.P5.3}}\"/
+                speak Vincent \"{{i18n:Events.Vincent.3H.P5.4}}\"/
+                shake Jas 400/
+                pause 200/
+                speed Vincent 2/
+                move Vincent 1 0 0/
+                textAboveHead Vincent \"{{i18n:Events.TextAboveHead.3H.P5.5}}\"/
+                pause 700/
+                speak Jas \"{{i18n:Events.Jas.3H.P5.6}}\"/
+                speak Vincent \"{{i18n:Events.Vincent.3H.P5.7}}\"/
+                shake Jas 400/
+                pause 700/
+                speak Jas \"{{i18n:Events.Jas.3H.P5.8}}\"/
+                pause 600/
+                playSound leafrustle/
+                pause 200/
+                faceDirection Jas 0/
+                emote Jas 16/
+                emote Vincent 16/
+                pause 400/
+                textAboveHead Vincent \"{{i18n:Events.TextAboveHead.3H.P5.9}}\"/
+                pause 200/
+                speed Vincent 4/
+                speed Jas 4/
+                move Vincent 4 0 0 Jas 0 -3 1/
+                speed Vincent 4/
+                move Vincent 0 -1 0/
+                shake Jas 400/
+                shake Vincent 400/
+                speed James 1/
+                move James 0 4 2 true/
+                viewport move 0 -1 3300/
+                pause 2500/
+                emote James 40/
+                pause 1600/
+                faceDirection James 1/
+                pause 1000/
+                faceDirection James 3/
+                pause 1300/
+                faceDirection James 2/
+                pause 600/
+                emote James 40/
+                pause 600/
+                textAboveHead James \"{{i18n:Events.TextAboveHead.3H.P5.10}}\"/
+                pause 1600/
+                speed James 1/
+                move James 0 1 2/
+                playSound leafrustle/
+                emote Jas 16/
+                emote Vincent 16/
+                faceDirection James 0/
+                stopMusic/
+                pause 600/
+                playSound cat/
+                viewport move 0 -1 3300/
+                positionOffset James 18 -15/
+                pause 300/
+                playMusic sweet/
+                speed Alpine 1/
+                move Alpine 4 0 2/
+                pause 600/
+                playSound cat/
+                speed Alpine 1/
+                move Alpine 0 5 2/
+                speed Alpine 1/
+                move Alpine -1 0 3/
+                faceDirection James 3/
+                speed Alpine 1/
+                move Alpine 0 1 2 true/
+                speed Alpine 1/
+                move Alpine 1 0 1/
+                faceDirection James 2/
+                pause 300/
+                emote Alpine 20/
+                pause 500/
+                animate Alpine false true 900 18 19/
+                pause 300/
+                emote James 60/
+                pause 28000/
+                fade/
+                viewport -1000 -1000/
+                mail Mail.JamesAlpineThanks/
+                pause 700/
+                end"
+            }
+        }
+    ]
+}
