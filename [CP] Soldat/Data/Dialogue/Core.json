@@ -20,6 +20,8 @@
                 "Soldat_BeforeHell": "{{i18n:ConversationTopics.Soldat_BeforeHell.James}}",
                 "Soldat_BeforeDream": "{{i18n:ConversationTopics.Soldat_BeforeDream.James}}",
                 "Soldat_BeforeGone": "{{i18n:ConversationTopics.Soldat_BeforeGone.James}}",
+                "Soldat_Apline_Got_Milk": "{{i18n:ConversationTopics.Soldat_Apline_Got_Milk.James}}",
+                "Soldat_Apline_Milk": "{{i18n:ConversationTopics.Soldat_Apline_Milk.James}}",
 
                 //Schedules
                 "James_Sleep": "{{i18n:Schedules.James.Sleep}}"

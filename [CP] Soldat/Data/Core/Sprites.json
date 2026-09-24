@@ -112,6 +112,11 @@
             "Action": "Load",
             "Target": "Characters/CoconutAndMilk",
             "FromFile": "Assets/Characters/Objects/CoconutAndMilk.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "Characters/Milk",
+            "FromFile": "Assets/Characters/Objects/Milk.png"
         }
     ]
 }

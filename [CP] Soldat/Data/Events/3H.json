@@ -226,16 +226,58 @@
             "Action": "EditData",
             "Target": "Data/Events/Custom_islandBk_james",
             "Entries": {
-                "James.3h.3p/e James.3h.2p/t 2300 2600/f James 750/LocalMail Mail.JamesAlpineMilk/HasItem 436/A Soldat_Apline_run": "
+                "James.3h.3p/e James.3h.2p/t 600 1200/f James 750/LocalMail Mail.JamesAlpineMilk/HasItem 436/A Soldat_Apline_run/w sunny": "
                 none/
-                31 22/
-                farmer 6 46 1 James 33 24 2/
+                33 22/
+                farmer 18 24 1 James 33 24 2/
                 animate James false true 1000 40 41/
+                addConversationTopic Soldat_Apline_Got_Milk {{Event Cooldown Length}}/
                 ignoreCollisions James/
                 skippable/
-                pause 5700/
+                move farmer 5 0 1 true/
+                pause 1200/
+                animate James false true 1000 42/
+                pause 1600/
+                textAboveHead James \"{{i18n:Events.TextAboveHead.0H.P4.1}}\"/
+                pause 1200/
+                emote farmer 32/
+                pause 700/
+                move farmer 1 0 1/
+                pause 300/
+                startJittering/pause 300/stopJittering/
+                addTemporaryActor Milk 16 16 25 24 0 false Character/
+                pause 1000/
+                textAboveHead James \"{{i18n:Events.TextAboveHead.3H.P4.1}}\"/
+                pause 1200/
+                emote farmer 32/
+                pause 700/
+                speak James \"{{i18n:Events.James.3H.P4.2}}\"/
+                pause 400/
+                animate James false true 1000 40 41/
+                pause 600/
+                emote farmer 8/
+                pause 1000/
+                speak James \"{{i18n:Events.James.3H.P4.3}}\"/
+                pause 500/
+                message \"{{i18n:Events.Description.3H.P4.4}}\"/
+                pause 200/
+                playSound dropItemInWater/
+                animate James false true 1000 43/
+                pause 2100/
+                message \"{{i18n:Events.Description.3H.P4.5}}\"/
+                pause 900
+                playSound pickUpItem/
+                animate James false true 1000 40 41/
+                pause 1400/
+                quickQuestion #{{i18n:Events.Player.3H.P4.6}}
+                    (break)pause 300\\animate James false true 1000 42\\message \"{{i18n:Events.Description.3H.P4.7}}\"/
+                pause 700/
                 removeQuest lele.Soldat.Quests.Milk/
                 removeItem 436 1/
+                move farmer -7 0 3 true/
+                pause 300/
+                animate James false true 1000 40 41/
+                pause 700/
                 fade/
                 viewport -1000 -1000/
                 pause 700/
@@ -247,10 +289,11 @@
             "Action": "EditData",
             "Target": "Data/Events/IslandEast",
             "Entries": {
-                "James.3h.4p/e James.3h.3p/w sunny/t 1000 1600/f James 750": "
+                "James.3h.4p/e James.3h.3p/w sunny/t 1000 1600/f James 750/A Soldat_Apline_Got_Milk": "
                 none/
                 follow/
                 farmer 6 46 1 James 14 40 1 Alpine 24 37 3/
+                addConversationTopic Soldat_Apline_Milk {{Event Cooldown Length}}/
                 ignoreCollisions James/
                 skippable/
                 addTemporaryActor CoconutAndMilk 32 32 20 38 0 false Character/
@@ -313,7 +356,7 @@
                 pause 800/
                 warp Alpine -99 -99/
                 faceDirection James 2/
-                faceDirection famer 0/
+                faceDirection farmer 0/
                 pause 500/
                 emote James 40/
                 speak James \"{{i18n:Events.James.3H.P3.4}}\"/
@@ -345,7 +388,7 @@
             "Action": "EditData",
             "Target": "Data/Events/IslandEast",
             "Entries": {
-                "James.3h.5p/e James.3h.4p/w sunny/t 1400 1800/f James 750": "
+                "James.3h.5p/e James.3h.4p/w sunny/t 1400 1800/f James 750/A Soldat_Apline_Milk": "
                 none/
                 19 45/
                 farmer -99 -99 0 James 21 34 0 Alpine 17 33 2 Jas 12 44 1 Vincent 11 45 1/
@@ -431,7 +474,7 @@
                 speed Alpine 1/
                 move Alpine 0 5 2/
                 speed Alpine 1/
-                move Alpine -1 0 3/
+                move Alpine -1 0 3 true/
                 faceDirection James 3/
                 speed Alpine 1/
                 move Alpine 0 1 2 true/
@@ -444,7 +487,8 @@
                 animate Alpine false true 900 18 19/
                 pause 300/
                 emote James 60/
-                pause 28000/
+                pause 2000/
+                move Vincent -1 0 0/
                 fade/
                 viewport -1000 -1000/
                 mail Mail.JamesAlpineThanks/
