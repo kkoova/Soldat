@@ -9,10 +9,11 @@
             "Action": "EditData",
             "Target": "Data/Events/Custom_islandBk_james",
             "Entries": {
-                "James.4h.1p/e James.3h.5p/t 1000 1900/w sunny/f James 1000/LocalMail Mail.JamesAlpineThanks": "
+                "James.4h.1p/e James.3h.5p/t 1000 1900/w sunny/f James 1000/LocalMail Mail.JamesAlpineThanks/A Soldat_Apline_Pet": "
                 sweet/
                 14 34/
                 farmer 7 35 1 James 17 30 2 Alpine 15 31 2/
+                addConversationTopic Soldat_Apline_Meet {{Event Cooldown Length}}/
                 ignoreCollisions James/
                 ignoreCollisions Alpine/
                 skippable/
@@ -117,7 +118,7 @@
             "Action": "EditData",
             "Target": "Data/Events/Custom_islandBk_james",
             "Entries": {
-                "James.4h.2p/e James.4h.1p/t 2100 2600/w rain/f James 1000": "
+                "James.4h.2p/e James.4h.1p/t 2100 2600/w rain/f James 1000/A Soldat_Apline_Meet": "
                 ocean/
                 14 34/
                 farmer 7 35 1 James 17 30 2 Alpine 15 31 2/

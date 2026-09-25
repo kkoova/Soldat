@@ -87,7 +87,7 @@
                     "BirthSeason": "fall",
                     "Shadow": { "Visible": false },
                     "SocialTab": "HiddenUntilMet",
-                    "UnlockConditions": "PLAYER_HAS_SEEN_EVENT Current James.4h.1p",
+                    "UnlockConditions": "PLAYER_HAS_SEEN_EVENT Current James.3h.5p",
                     "BirthDay": 27,
                     "HomeRegion": "Other",
                     "CanBeRomanced": false,

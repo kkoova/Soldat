@@ -22,6 +22,8 @@
                 "Soldat_BeforeGone": "{{i18n:ConversationTopics.Soldat_BeforeGone.James}}",
                 "Soldat_Apline_Got_Milk": "{{i18n:ConversationTopics.Soldat_Apline_Got_Milk.James}}",
                 "Soldat_Apline_Milk": "{{i18n:ConversationTopics.Soldat_Apline_Milk.James}}",
+                "Soldat_Apline_Pet": "{{i18n:ConversationTopics.Soldat_Apline_Pet.James}}",
+                "Soldat_Apline_Meet": "{{i18n:ConversationTopics.Soldat_Apline_Meet.James}}",
 
                 //Schedules
                 "James_Sleep": "{{i18n:Schedules.James.Sleep}}"
@@ -30,10 +32,20 @@
         {
             "LogName": "Leo Dialogue",
             "Action": "EditData",
+            "Target": "Characters/Dialogue/Alpine",
+            "Update": "OnLocationChange",
+            "Entries": {
+                "Soldat_Apline_Meet": "{{i18n:ConversationTopics.Soldat_Apline_Meet.Alpine}}"
+            }
+        },
+        {
+            "LogName": "Leo Dialogue",
+            "Action": "EditData",
             "Target": "Characters/Dialogue/Leo",
             "Update": "OnLocationChange",
             "Entries": {
-                "Soldat_BeforeHell": "{{i18n:ConversationTopics.Soldat_BeforeHell.James}}"
+                "Soldat_BeforeHell": "{{i18n:ConversationTopics.Soldat_BeforeHell.Leo}}",
+                "Soldat_Apline_Meet": "{{i18n:ConversationTopics.Soldat_Apline_Meet.Leo}}"
             }
         },
         {

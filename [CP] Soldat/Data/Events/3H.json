@@ -392,6 +392,7 @@
                 none/
                 19 45/
                 farmer -99 -99 0 James 21 34 0 Alpine 17 33 2 Jas 12 44 1 Vincent 11 45 1/
+                addConversationTopic Soldat_Apline_Pet {{Event Cooldown Length}}/
                 ignoreCollisions James/
                 skippable/
                 pause 700/
@@ -477,7 +478,7 @@
                 move Alpine -1 0 3 true/
                 faceDirection James 3/
                 speed Alpine 1/
-                move Alpine 0 1 2 true/
+                move Alpine 0 1 2/
                 speed Alpine 1/
                 move Alpine 1 0 1/
                 faceDirection James 2/
@@ -487,8 +488,22 @@
                 animate Alpine false true 900 18 19/
                 pause 300/
                 emote James 60/
-                pause 2000/
+                pause 2500/
                 move Vincent -1 0 0/
+                emote James 40/
+                pause 300/
+                shake Vincent 400/
+                pause 700/
+                textAboveHead James \"{{i18n:Events.TextAboveHead.3H.P5.11}}\"/
+                pause 1400/
+                move Vincent 0 -2 0/
+                pause 800/
+                shake Vincent 400/
+                shake Jas 400/
+                textAboveHead Vincent \"{{i18n:Events.TextAboveHead.3H.P5.12}}\"/
+                move Jas 0 1 0/
+                move Jas 2 0 0 true/
+                pause 500/
                 fade/
                 viewport -1000 -1000/
                 mail Mail.JamesAlpineThanks/
