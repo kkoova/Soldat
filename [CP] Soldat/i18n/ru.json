@@ -35,7 +35,7 @@
     "ConversationTopics.Soldat_Apline_Pet.James": "У меня... появилась кошка. Ха-ха... недавно тако-ое произошло#Теперь она облюбовала дерево около моего спального места",
     "ConversationTopics.Soldat_Apline_Meet.Alpine": "%Альпинка ластится к Вам",
     "ConversationTopics.Soldat_Apline_Meet.James": "Ха-ха... а она и правда рада тебе",
-    "ConversationTopics.Soldat_Apline_Meet.Leo": "Т-тут появилась кошка! Предаставляешь?#Маленькая маленькая кошка, не какиие бывают тут",
+    "ConversationTopics.Soldat_Apline_Meet.Leo": "Т-тут появилась кошка! Предаставляешь?#Маленькая маленькая ко-ошка, не какие бывают тут",
 
     //Schedules
     "Schedules.James.Sleep": "...#%Баки приоткрыл глаза и смотрит на вас#...?",
@@ -316,8 +316,14 @@
     "Events.TextAboveHead.4H.P1.12": "Мррррр",
     "Events.Description.4H.P1.13": "Но как же она урчит!",
     "Events.Description.4H.P1.14": "Теперь Баки выглядит иначе... а Альпинка нашла своего человека!",
-
+    
     //JamesH4.2
+    "Events.TextAboveHead.4H.P2.1": "Чш..",
+    "Events.James.4H.P2.2": "Все будет хорошо... сейчас, я попытаюсь еще раз",
+    "Events.Description.4H.P2.3": "Баки умудряется прыгнуть выше своей головы#Даже смог зацепиться одной рукой за камень...#Но из за дождя, скользких камней и всего одной руки, мужчина быстро возвращается обратно на землю",
+    "Events.Description.4H.P2.4": "И еще раз...",
+    
+    //JamesH4.3
     "Events.James.4H.P3.1": "Hi",
     "Events.TextAboveHead.4H.P3.2": "*сопит*",
     "Events.James.4H.P3.3": "Знаешь...",

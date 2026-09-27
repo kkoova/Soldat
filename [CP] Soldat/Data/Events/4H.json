@@ -116,19 +116,45 @@
         {
             "LogName": "James h4 p2",
             "Action": "EditData",
-            "Target": "Data/Events/Custom_islandBk_james",
+            "Target": "Data/Events/IslandNorth",
             "Entries": {
                 "James.4h.2p/e James.4h.1p/t 2100 2600/w rain/f James 1000/A Soldat_Apline_Meet": "
                 ocean/
-                14 34/
-                farmer 7 35 1 James 17 30 2 Alpine 15 31 2/
+                30 17/
+                farmer 29 26 0 James 28 20 0 Alpine 30 12 3/
                 ignoreCollisions James/
                 ignoreCollisions Alpine/
                 skippable/
-                animate James false true 1000 33/
-                animate Alpine false true 2000 20 21/
-                move farmer 7 0 0/
-                pause 1500/
+                positionOffset Alpine -38 4/
+                move farmer 0 -4 0 true/
+                pause 600/
+                playSound cat/
+                shake Alpine 300/
+                pause 1200/
+                shake James 300/
+                textAboveHead James \"{{i18n:Events.TextAboveHead.4H.P2.1}}\"/
+                pause 1700/
+                playSound cat/
+                shake Alpine 300/
+                pause 900/
+                speak James \"{{i18n:Events.James.4H.P2.2}}\"/
+                pause 600/
+                move James 1 0 0/
+                pause 300/
+                shake James 300/
+                pause 1100/
+                jump James 15/
+                pause 200/
+                message \"{{i18n:Events.Description.4H.P2.3}}\"/
+                pause 600/
+                shake James 300/
+                pause 500/
+                jump James 15/
+                pause 400/
+                shake James 300/
+                pause 1100/
+                message \"{{i18n:Events.Description.4H.P2.4}}\"/
+
                 fade/
                 viewport -1000 -1000/
                 pause 700/

@@ -267,6 +267,7 @@
                 message \"{{i18n:Events.Description.3H.P4.5}}\"/
                 pause 900
                 playSound pickUpItem/
+                action AddFriendshipPoints James 150/
                 animate James false true 1000 40 41/
                 pause 1400/
                 quickQuestion #{{i18n:Events.Player.3H.P4.6}}
@@ -375,6 +376,7 @@
                 pause 1200/
                 speak James \"{{i18n:Events.James.3H.P3.6}}\"/
                 emote farmer 32/
+                action AddFriendshipPoints James 100/
                 pause 1200/
                 fade/
                 viewport -1000 -1000/
