@@ -124,6 +124,7 @@
                 farmer 29 26 0 James 28 20 0 Alpine 30 12 3/
                 ignoreCollisions James/
                 ignoreCollisions Alpine/
+                addConversationTopic Soldat_Apline_Help {{Event Cooldown Length}}/
                 skippable/
                 positionOffset Alpine -38 4/
                 move farmer 0 -4 0 true/
@@ -150,23 +151,144 @@
                 shake James 300/
                 pause 500/
                 jump James 15/
-                pause 400/
+                pause 600/
                 shake James 300/
                 pause 1100/
                 message \"{{i18n:Events.Description.4H.P2.4}}\"/
-
+                pause 1100/
+                shake James 300/
+                textAboveHead James \"{{i18n:Events.TextAboveHead.4H.P2.5}}\"/
+                pause 1700/
+                playSound cat/
+                shake Alpine 300/
+                pause 900/
+                speak James \"{{i18n:Events.James.4H.P2.6}}\"/
+                faceDirection James 2/
+                pause 100/
+                jump James 8/
+                pause 400/
+                shake James 300/
+                pause 400/
+                message \"{{i18n:Events.Description.4H.P2.12}}\"/
+                pause 200/
+                speak James \"{{i18n:Events.James.4H.P2.7}}\"/
+                pause 200/
+                emote farmer 40/
+                pause 400/
+                quickQuestion #{{i18n:Events.Player.4H.P2.8}}
+                    (break)message \"{{i18n:Events.Description.4H.P2.9}}\"/
+                pause 700/
+                shake James 300/
+                animate James false true 1000 48/
+                pause 1700/
+                emote farmer 40/
+                pause 1300/
+                speak James \"{{i18n:Events.James.4H.P2.10}}\"/
+                pause 700/
+                shake James 300/
+                pause 700/
+                stopAnimation James/
+                pause 500/
+                move James -2 0 2/
+                move James 0 2 1/
+                faceDirection farmer 3/
+                pause 400/
+                shake James 300/
+                pause 700/
+                emote James 40/
+                pause 700/
+                move James 0 6 2/
+                faceDirection farmer 0/
+                pause 500/
+                playSound cat/
+                shake Alpine 300/
+                pause 300/
+                emote farmer 40/
+                speed farmer 1/
+                move farmer 0 -2 0/
+                pause 300/
+                faceDirection farmer 2/
+                pause 300/
+                startJittering/pause 300/stopJittering/
+                pause 300/
+                faceDirection farmer 0/
+                globalFade 0.01/
+                viewport 999 999/
+                pause 700/
+                message \"{{i18n:Events.Description.4H.P2.11}}\"/
+                pause 300/
+                playSound cat/
+                pause 700/
+                warp Alpine 27 20/
+                faceDirection Alpine 1/
+                faceDirection farmer 3/
+                globalFadeToClear 0.01 true/
+                viewport 30 17 clamp/
+                pause 700/
+                emote farmer 20/
+                pause 500/
+                move James 1 -0 0/
+                faceDirection Alpine 2/
+                move James 0 -5 0/
+                pause 700/
+                faceDirection farmer 2/
+                shake James 300/
+                pause 700/
+                emote James 40/
+                pause 700/
+                playSound cat/
+                shake Alpine 300/
+                pause 500/
+                move Alpine 0 3 1/
+                playSound cat/
+                shake Alpine 300/
+                pause 200/
+                playSound cat/
+                shake Alpine 300/
+                pause 500/
+                speak James \"{{i18n:Events.James.4H.P2.13}}\"/
+                pause 900/
+                shake James 300/
+                pause 800/
+                faceDirection James 2/
+                animate James false true 1000 48/
+                pause 900/
+                playSound cat/
+                shake Alpine 300/
+                pause 1500/
+                textAboveHead James \"{{i18n:Events.TextAboveHead.4H.P2.14}}\"/
+                pause 300/
+                stopAnimation James/
+                pause 1700/
+                move James 0 6 1/
+                pause 300/
+                faceDirection Alpine 0/
+                move Alpine 0 -2 1/
+                move Alpine 2 0 1/
+                positionOffset Alpine 18 28/
+                animate Alpine false true 900 18 19/
+                pause 300/
+                emote farmer 60/
+                pause 600/
+                playSound cat/
+                shake Alpine 300/
+                pause 1500/
+                stopAnimation Alpine/
+                move Alpine 0 5 1 true/
+                pause 300/
                 fade/
                 viewport -1000 -1000/
                 pause 700/
                 end"
             }
         },
+        // TODO: Отредактировать карту Custom_JamesAl1 под стиль stardew
         {
             "LogName": "James h4 p3",
             "Action": "EditData",
             "Target": "Data/Events/Custom_islandBk_james",
             "Entries": {
-                "James.4h.3p/e James.4h.2p/t 2100 2600/w rain/f James 1000": "
+                "James.4h.3p/e James.4h.2p/t 2100 2600/w rain/f James 1000/A Soldat_Apline_Help": "
                 ocean/
                 12 34/
                 farmer 15 26 2 James 19 31 3 Alpine 19 32 3/
@@ -244,13 +366,15 @@
                 globalFadeToClear 0.01 true/
                 playMusic ocean/
                 changeToTemporaryMap Custom_islandBk_james/
+                changePortrait James Beach/
+                animate James false true 1000 30/
                 viewport 14 34 clamp/
                 pause 3300/
                 speak James \"{{i18n:Events.James.4H.P3.15}}\"/
                 pause 1300/
                 textAboveHead James \"{{i18n:Events.TextAboveHead.4H.P3.16}}\"/
                 pause 3300/
-                emote farmer 16/
+                emote farmer 40/
                 pause 600/
                 speak James \"{{i18n:Events.James.4H.P3.17}}\"/
                 pause 600/

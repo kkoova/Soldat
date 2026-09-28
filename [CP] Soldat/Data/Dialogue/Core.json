@@ -24,6 +24,7 @@
                 "Soldat_Apline_Milk": "{{i18n:ConversationTopics.Soldat_Apline_Milk.James}}",
                 "Soldat_Apline_Pet": "{{i18n:ConversationTopics.Soldat_Apline_Pet.James}}",
                 "Soldat_Apline_Meet": "{{i18n:ConversationTopics.Soldat_Apline_Meet.James}}",
+                "Soldat_Apline_Help": "{{i18n:ConversationTopics.Soldat_Apline_Help.James}}",
 
                 //Schedules
                 "James_Sleep": "{{i18n:Schedules.James.Sleep}}"
