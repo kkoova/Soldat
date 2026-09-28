@@ -294,6 +294,7 @@
                 farmer 15 26 2 James 19 31 3 Alpine 19 32 3/
                 ignoreCollisions James/
                 ignoreCollisions Alpine/
+                addConversationTopic Soldat_History_One {{Event Cooldown Length}}/
                 skippable/
                 animate James false true 1000 30/
                 animate Alpine false true 2000 20 21/
