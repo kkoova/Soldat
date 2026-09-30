@@ -41,6 +41,9 @@
     "ConversationTopics.Soldat_History_Two.James": "Мне правда не нужна помощь с рукой, спасибо...#Но я ценю что ты попыталась#%Баки немного горько улыбается Вам",
     "ConversationTopics.Soldat_CasinoAuction.Zemo": "///",
     "ConversationTopics.Soldat_CasinoAuction.James": "...а?#Что говоришь? На аукционе была? Уу-у#Слышал там много всяких важных шишек",
+    "ConversationTopics.Soldat_AfterCasinoAuction.James": "Интересные люди там... на аукционе. Раз они смогли достать такие предметы",
+    "ConversationTopics.Soldat_BeforeTown.James": "Не напрягайся сильно, хорошо? Если что... как нибудь сам доберусь до большой земли",
+    "ConversationTopics.Soldat_WillyGo.James": "Правда? Он разрешил? ..это...#Ха-ха#Хорошо..мне...#Мне надо подготовиться, через пару дней встретимся, хорошо?"
 
     //Schedules
     "Schedules.James.Sleep": "...#%Баки приоткрыл глаза и смотрит на вас#...?",

@@ -33,20 +33,21 @@
         {
             "LogName": "James h6 p2",
             "Action": "EditData",
-            "Target": "Data/Events/Custom_islandJamesHome",
+            "Target": "Data/Events/Custom_islandBk_james",
             "Entries": {
                 "James.6h.2p/e James.6h.1p/HasItem (O)lele.Soldat.JA_RedBook/f James 1500/w rain/A Soldat_CasinoAuction": "
                 none/
                 follow/
-                farmer 3 8 0 James 2 3 2 Alpine 2 3 3/
+                farmer 12 40 0 James 11 32 2 Alpine 11 32 3/
                 skippable/
                 animate James false true 1000 33/
-                positionOffset Alpine -30 43 true/
+                positionOffset Alpine -30 53 true/
+                addConversationTopic Soldat_AfterCasinoAuction {{Event Cooldown Length}}/
                 hideShadow Alpine true/
                 animate Alpine false true 700 16 17/
-                move farmer 0 -2 0/
+                move farmer 0 -4 0/
                 pause 600/
-                textAboveHead James \"{{i18n:Events.James.4H.P3.1}}\"/
+                textAboveHead James \"{{i18n:Events.TextAboveHead.0H.P4.1}}\"/
                 pause 3100/
                 emote farmer 40/
                 speak James \"{{i18n:Events.James.6H.P2.1}}\"/
@@ -57,8 +58,7 @@
                 stopAnimation James/
                 speed James 2/
                 move James 1 0 1/
-                speed James 2/
-                move James 0 1 2/
+                move James 0 2 2/
                 pause 500/
                 speak James \"{{i18n:Events.James.6H.P2.3}}\"/
                 pause 700/
@@ -112,17 +112,19 @@
                 speak James \"{{i18n:Events.James.6H.P2.22}}\"/
                 pause 1200/
                 faceDirection Alpine 2/
-                move James 1 0 1/
-                move James 0 2 2/
-                faceDirection farmer 2/
-                move James -1 0 0/
+                shake James 400/
                 pause 1200/
                 speak James \"{{i18n:Events.James.6H.P2.23}}\"/
-                move James 0 2 2/
-                warp James 1000 1000/
+                move James 0 -7 2 true/
+                pause 400/
                 playSound cat/
                 shake Alpine 300/
-                pause 400/
+                pause 900/
+                playSound cat/
+                shake Alpine 300/
+                pause 300/
+                move Alpine 0 -7 2 true/
+                pause 500/
                 fade/
                 viewport -1000 -1000/
                 end"
@@ -133,10 +135,11 @@
             "Action": "EditData",
             "Target": "Data/Events/IslandSouth",
             "Entries": {
-                "James.6h.3p/e James.6h.2p/t 2200 2600/f James 1500": "
+                "James.6h.3p/e James.6h.2p/t 2200 2600/f James 1500/A Soldat_AfterCasinoAuction": "
                 none/
                 follow/
                 farmer 20 36 2 James 21 45 2/
+                addConversationTopic Soldat_BeforeTown {{Event Cooldown Length}}/
                 changePortrait James Beach/
                 changeSprite James Beach/
                 skippable/
@@ -190,11 +193,12 @@
             "Action": "EditData",
             "Target": "Data/Events/FishShop",
             "Entries": {
-                "James.6h.4p/e James.6h.3p/f James 1500/f Willy 2500": "
+                "James.6h.4p/e James.6h.3p/f James 1500/f Willy 2500/A Soldat_BeforeTown": "
                 none/
                 follow/
                 farmer 5 9 0 Willy 5 4 2/
                 skippable/
+                addConversationTopic Soldat_WillyGo {{Event Cooldown Length}}/
                 pause 700/
                 textAboveHead Willy \"{{i18n:Events.TextAboveHead.6H.P4.1}}\"/
                 move farmer 0 -2 0 true/
@@ -232,15 +236,18 @@
                 end"
             }
         },
+        // TODO: Заменить спрайт Джеймса на городской
         {
             "LogName": "James h6 p5",
             "Action": "EditData",
             "Target": "Data/Events/IslandSouth",
             "Entries": {
-                "James.6h.5p/e James.6h.4p/f James 1500/t 800 1700": "
+                "James.6h.5p/e James.6h.4p/f James 1500/t 800 1700/A Soldat_WillyGo": "
                 continue/
                 20 43/
                 farmer 20 43 2 James 21 34 2 Jas -999 -999 1 Vincent -999 -999 1 Zemo -999 -999 2/
+                changePortrait James/
+                changeSprite James/
                 skippable/
                 pause 900/
                 move James 0 5 2/
@@ -523,7 +530,7 @@
                 quickQuestion #{{i18n:Events.Player.6H.P5.17}}
                     (break)speak James \"{{i18n:Events.James.6H.P5.18}}\"/
                 pause 300/
-                message \"{{i18n:Events.Description.6H.P5.19}}
+                message \"{{i18n:Events.Description.6H.P5.19}}/
                 pause 600/
                 speak James \"{{i18n:Events.James.6H.P5.20}}\"/
                 pause 50000/

@@ -28,6 +28,9 @@
                 "Soldat_History_One": "{{i18n:ConversationTopics.Soldat_History_One.James}}",
                 "Soldat_History_Two": "{{i18n:ConversationTopics.Soldat_History_Two.James}}",
                 "Soldat_CasinoAuction": "{{i18n:ConversationTopics.Soldat_CasinoAuction.James}}",
+                "Soldat_AfterCasinoAuction": "{{i18n:ConversationTopics.Soldat_AfterCasinoAuction.James}}",
+                "Soldat_BeforeTown": "{{i18n:ConversationTopics.Soldat_BeforeTown.James}}",
+                "Soldat_WillyGo": "{{i18n:ConversationTopics.Soldat_WillyGo.James}}",
 
                 //Schedules
                 "James_Sleep": "{{i18n:Schedules.James.Sleep}}"
