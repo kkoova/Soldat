@@ -1,13 +1,15 @@
 {
     "Changes": [
+        // TODO: Доделать ивент James h6 p1 с аукционом
         {
             "LogName": "James h6 p1",
             "Action": "EditData",
             "Target": "Data/Events/Custom_JamesCasinoAuction",
             "Entries": {
-                "James.6h.1p/e James.5h.2p/t 1900 2200/f James 1500/HasItem (O)lele.Soldat.JA_TiketАuction/DayOfWeek Thu/Tile 13 15": "
+                "James.6h.1p/e James.5h.2p/t 1900 2200/f James 1500/HasItem (O)lele.Soldat.JA_TiketАuction/DayOfWeek Thu/Tile 13 15/A Soldat_History_Two": "
                 clubloop/
                 999 999/
+                addConversationTopic Soldat_CasinoAuction {{Event Cooldown Length}}/
                 farmer 13 15 0/
                 skippable/
                 removeItem (O)lele.Soldat.JA_TiketАuction 1/
@@ -33,7 +35,7 @@
             "Action": "EditData",
             "Target": "Data/Events/Custom_islandJamesHome",
             "Entries": {
-                "James.6h.2p/e James.6h.1p/HasItem (O)lele.Soldat.JA_RedBook/f James 1500/w rain": "
+                "James.6h.2p/e James.6h.1p/HasItem (O)lele.Soldat.JA_RedBook/f James 1500/w rain/A Soldat_CasinoAuction": "
                 none/
                 follow/
                 farmer 3 8 0 James 2 3 2 Alpine 2 3 3/

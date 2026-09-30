@@ -8,6 +8,7 @@
                 "James.5h.1p/e James.4h.3p/t 600 1000/w sunny/f James 1250/f Alpine 500/A Soldat_History_One": "
                 none/
                 follow/
+                addConversationTopic Soldat_History_Two {{Event Cooldown Length}}/
                 farmer 59 67 0 James 57 59 1 Alpine 59 59 3/
                 ignoreCollisions James/
                 ignoreCollisions Alpine/
@@ -106,7 +107,7 @@
             "Action": "EditData",
             "Target": "Data/Events/Custom_islandBk_james",
             "Entries": {
-                "James.5h.2p/e James.5h.1p/t 2200 2600/w sunny/f James 1250": "
+                "James.5h.2p/e James.5h.1p/t 2200 2600/w sunny/f James 1250/A Soldat_History_Two": "
                 none/
                 follow/
                 farmer 9 26 0 James 18 28 1 Alpine 19 32 3/
@@ -191,13 +192,13 @@
                 pause 500/
                 message \"{{i18n:Events.Description.5H.P2.15}}\"/
                 globalFade 0.01/
+                changeToTemporaryMap Custom_islandBk_james/
                 viewport 999 999/
                 pause 1500/
                 message \"{{i18n:Events.Description.5H.P2.16}}\"/
                 pause 800/
                 animate James false true 1000 34/
                 globalFadeToClear 0.01 true/
-                changeToTemporaryMap Custom_islandBk_james/
                 viewport 17 30 clamp/
                 pause 1600/
                 emote farmer 40/

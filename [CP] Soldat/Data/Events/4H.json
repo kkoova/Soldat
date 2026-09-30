@@ -93,6 +93,7 @@
                 positionOffset Alpine 0 -15/
                 pause 200/
                 faceDirection farmer 2/
+                action AddFriendshipPoints James 100/
                 animate Alpine false true 900 18 19/
                 pause 300/
                 emote farmer 60/
@@ -282,7 +283,7 @@
                 end"
             }
         },
-        // TODO: Отредактировать карту Custom_JamesAl1 под стиль stardew
+        // TODO: Отредактировать карту Custom_JamesAl1 под стиль stardew + добавить дисклеймер
         {
             "LogName": "James h4 p3",
             "Action": "EditData",
@@ -383,6 +384,7 @@
                 pause 1300/
                 message \"{{i18n:Events.Description.4H.P3.19}}\"/
                 pause 600/
+                action AddFriendshipPoints James 150/
                 message \"{{i18n:Events.Description.4H.P3.20}}\"/
                 pause 4300/
                 speak James \"{{i18n:Events.James.4H.P3.21}}\"/

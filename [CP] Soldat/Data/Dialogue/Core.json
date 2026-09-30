@@ -26,6 +26,8 @@
                 "Soldat_Apline_Meet": "{{i18n:ConversationTopics.Soldat_Apline_Meet.James}}",
                 "Soldat_Apline_Help": "{{i18n:ConversationTopics.Soldat_Apline_Help.James}}",
                 "Soldat_History_One": "{{i18n:ConversationTopics.Soldat_History_One.James}}",
+                "Soldat_History_Two": "{{i18n:ConversationTopics.Soldat_History_Two.James}}",
+                "Soldat_CasinoAuction": "{{i18n:ConversationTopics.Soldat_CasinoAuction.James}}",
 
                 //Schedules
                 "James_Sleep": "{{i18n:Schedules.James.Sleep}}"
@@ -65,6 +67,8 @@
                 "ZemoAuctionArm": "{{i18n:Events.Auction.Zemo.Arm}}",
                 "ZemoAuctionObserve": "{{i18n:Events.Auction.Zemo.Observe}}",
                 "zemoAuctionFollowup": "{{i18n:Events.Auction.Zemo.Followup}}",
+
+                "Soldat_CasinoAuction": "{{i18n:ConversationTopics.Soldat_CasinoAuction.Zemo}}",
             }
         }
     ]

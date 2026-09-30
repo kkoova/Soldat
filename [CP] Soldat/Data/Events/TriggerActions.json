@@ -64,6 +64,7 @@
               }
           }
       },
+      // TODO: Разобраться почему lele.Soldat.TriggerActions.TiketAuction не отправляет письмо Mail.JamesTiketAuction
       {
           "LogName": "Trigger Action - 5 Hearts",
           "Action": "EditData",
@@ -72,10 +73,10 @@
               "lele.Soldat.TriggerActions.TiketAuction": {
                   "Trigger": "DayEnding",
                   "Id": "lele.Soldat.TriggerActions.TiketAuction",
-                  "Condition": "PLAYER_HAS_SEEN_EVENT Current James.5h.2p, PLAYER_HAS_MAIL Current museumComplete Received, !PLAYER_HAS_MAIL Current leleJamesTiketAuction Received",
+                  "Condition": "PLAYER_HAS_SEEN_EVENT Current James.5h.2p, PLAYER_HAS_MAIL Current leleJamesZemoHomeTrigger, MUSEUM_DONATIONS 95, !PLAYER_HAS_MAIL Current leleJamesTiketAuction Received",
                   "Actions": [
-                      "AddMail Mail.JamesTiketAuction",
-                      "AddMail Current leleJamesTiketAuction"
+                      "AddMail Current Mail.JamesTiketAuction tomorrow",
+                      "AddMail Current leleJamesTiketAuction received"
                   ]
               }
           }
@@ -90,7 +91,6 @@
                   "Id": "lele.Soldat.TriggerActions.ZemoHome",
                   "Condition": "PLAYER_HAS_SEEN_EVENT Current James.5h.2p, PLAYER_HAS_MAIL Current Mail.JamesZemoMailTownThanks Received, !PLAYER_HAS_MAIL Current leleJamesZemoHomeTrigger Received",
                   "Actions": [
-                      "AddMail Mail.JamesTiketAuction",
                       "AddMail Current leleJamesZemoHomeTrigger"
                   ]
               }

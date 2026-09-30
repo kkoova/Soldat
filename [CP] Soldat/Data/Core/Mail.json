@@ -8,9 +8,12 @@
           "Mail.JamesTeaPowderLetter": "[letterbg Mods/lele.Soldat.CP/LetterBackgrounds 0]{{i18n:Mail.JamesGiffTeaPowder}}%item cookingRecipe SalakPowder%%", 
           "Mail.JamesSalakTreeLetter": "[letterbg Mods/lele.Soldat.CP/LetterBackgrounds 0]{{i18n:Mail.JamesSalakTreeLetter}}%item object (O)lele.Soldat.JA_Dwarf_palm_seedling 1 %%", 
           "Mail.JamesAlpineMilk": "[letterbg Mods/lele.Soldat.CP/LetterBackgrounds 0]{{i18n:Mail.JamesAlpineMilk}}%item quest lele.Soldat.Quests.Milk true %%", 
+          // TODO: Изменить текст так, что бы он помешался на картинку письма
           "Mail.JamesAlpineThanks": "[letterbg Mods/lele.Soldat.CP/LetterBackgrounds 1]{{i18n:Mail.JamesAlpineThanks}}",
           "Mail.JamesTiketAuction": "[letterbg Mods/lele.Soldat.CP/LetterBackgrounds 2][textcolor white]{{i18n:Mail.JamesTiketAuction}}%item object (O)lele.Soldat.JA_TiketАuction 1 %%",
+          // TODO: Переделать картинку-письмо Гельмута
           "Mail.JamesZemoMailTown": "[letterbg Mods/lele.Soldat.CP/LetterBackgrounds 3]{{i18n:Mail.ZemoQuestAsk}}%item specialOrder lele.Soldat.SpecialOrder.ZemoGarden true %%",
+          // TODO: Написать текст-спасибо для письма Земо
           "Mail.JamesZemoMailTownThanks": "[letterbg Mods/lele.Soldat.CP/LetterBackgrounds 3]{{i18n:Mail.JamesZemoMailTownThanks}}%action AddMoney 50000%%"
         }
     }
