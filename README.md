@@ -85,6 +85,10 @@
 ## Планы / Что осталось сделать
 
 <!-- TODO-START -->
+
+- [ ] **./[CP] Soldat/Data/Events/4H.json:285** — Отредактировать карту Custom_JamesAl1 под стиль stardew
+- [ ] **./[CP] Soldat/Data/Events/2H.json:204** — После перехода обратно стр 315 - пропадает небо и освещение
+- [ ] **./[CP] Soldat/Data/Events/TriggerActions.json:35** — Проверить что точно 7 дней отсутсвия
 <!-- TODO-END -->
 
 ---
