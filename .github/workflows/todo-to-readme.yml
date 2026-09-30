@@ -12,11 +12,37 @@ jobs:
       - name: Check out repo
         uses: actions/checkout@v4
 
-      - name: TODO to README
-        uses: alstr/todo-to-readme-action@v2.0.0
-        with:
-          PROJECT_NAME: "Мои задачи"
-          IGNORE: "node_modules,vendor,.github" 
+      - name: Find TODOs and Update README
+        run: |
+          echo "=== Поиск TODO комментариев ==="
+          
+          # 1. Ищем все строки с TODO во всех файлах (исключая .git, node_modules и сам README)
+          # Вы можете добавить другие папки для игнорирования через --exclude-dir={dir1,dir2}
+          TODO_LIST=$(grep -rn "TODO:" . --exclude-dir={.git,node_modules,.github} --exclude=README.md || true)
+          
+          # Форматируем вывод в красивый Markdown-список
+          FORMATTED_TODOS=""
+          if [ -z "$TODO_LIST" ]; then
+            FORMATTED_TODOS="*Пока что задач нет!*"
+          else
+            while IFS= read -r line; do
+              # Превращаем "path/to/file.js:45: // TODO: сделать авторизацию" 
+              # в "* [ ] **path/to/file.js:45**: сделать авторизацию"
+              FILE=$(echo "$line" | cut -d':' -f1)
+              LINE_NUM=$(echo "$line" | cut -d':' -f2)
+              TEXT=$(echo "$line" | cut -d':' -f3- | sed -e 's/^[ \t\/]*//' -e 's/^TODO://I' -e 's/^[ \t]*//')
+              
+              FORMATTED_TODOS="$FORMATTED_TODOS\n- [ ] **$FILE:$LINE_NUM** — $TEXT"
+            done <<< "$TODO_LIST"
+          fi
+
+          # 2. Записываем результат в README.md между тегами <!-- TODO-START --> и <!-- TODO-END -->
+          # Используем awk для безопасной замены текста между маркерами
+          awk -v todos="$FORMATTED_TODOS" '
+            /<!-- TODO-START -->/ { print; print todos; flag=1; next }
+            /<!-- TODO-END -->/ { flag=0 }
+            !flag { print }
+          ' README.md > README.tmp && mv README.tmp README.md
 
       - name: Commit and Push Changes
         uses: stefanzweifel/git-auto-commit-action@v5
