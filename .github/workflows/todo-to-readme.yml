@@ -1,0 +1,24 @@
+name: Update TODO in README
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  todo-sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: TODO to README
+        uses: alstr/todo-to-readme-action@v2.0.0
+        with:
+          PROJECT_NAME: "Мои задачи"
+          IGNORE: "node_modules,vendor,.github" 
+
+      - name: Commit and Push Changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "docs: автоматическое обновление TODO в README"
