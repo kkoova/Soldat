@@ -246,8 +246,8 @@
                 continue/
                 20 43/
                 farmer 20 43 2 James 21 34 2 Jas -999 -999 1 Vincent -999 -999 1 Zemo -999 -999 2/
-                changePortrait James/
-                changeSprite James/
+                changePortrait James Default/
+                changeSprite James Default/
                 skippable/
                 pause 900/
                 move James 0 5 2/
@@ -468,8 +468,6 @@
                 emote Zemo 40/
                 pause 2100/
 
-
-
                 globalFade 0.01/
                 viewport 999 999/
                 playSound woodyStep/
@@ -533,9 +531,67 @@
                 message \"{{i18n:Events.Description.6H.P5.19}}/
                 pause 600/
                 speak James \"{{i18n:Events.James.6H.P5.20}}\"/
-                pause 50000/
+                pause 300/
+                speak Zemo \"{{i18n:Events.Zemo.6H.P5.21}}\"/
+                pause 300/
+                shake James 300/
+                pause 900/
+                message \"{{i18n:Events.Description.6H.P5.22}}/
+                pause 300/
+                emote farmer 40/
+                pause 900/
+                speak Zemo \"{{i18n:Events.Zemo.6H.P5.23}}\"/
+                pause 300/
+                shake James 300/
+                message \"{{i18n:Events.Description.6H.P5.24}}/
+                pause 600/
+                emote farmer 40/
+                pause 800/
+                speak Zemo \"{{i18n:Events.Zemo.6H.P5.25}}\"/
+                pause 300/
+                shake James 300/
+                pause 900/
+                shake James 300/
+                pause 500/
+                message \"{{i18n:Events.Description.6H.P5.27}}/
+                pause 300/
+                emote farmer 40/
+                pause 900/
+                quickQuestion #{{i18n:Events.Player.6H.P5.28}}
+                    (break)speak Zemo \"{{i18n:Events.Zemo.6H.P5.29}}\"/
+                pause 600/
+                speak James \"{{i18n:Events.James.6H.P5.30}}\"/
+                message \"{{i18n:Events.Description.6H.P5.31}}/
+                speak Zemo \"{{i18n:Events.Zemo.6H.P5.32}}\"/
+                pause 300/
+                shake James 300/
+                emote farmer 40/
+                pause 900/
+                speak Zemo \"{{i18n:Events.Zemo.6H.P5.33}}\"/
+                pause 300/
+                shake James 300/
+                pause 900/
+                speak James \"{{i18n:Events.James.6H.P5.34}}\"/
+                pause 900/
+                speak Zemo \"{{i18n:Events.Zemo.6H.P5.35}}\"/
+                pause 300/
+                quickQuestion {{i18n:Events.Zemo.6H.P5.36}}#{{i18n:Events.Player.6H.P5.36.1}}#{{i18n:Events.Player.6H.P5.36.2}}#{{i18n:Events.Player.6H.P5.36.3}}
+                    (break)shake James 300
+                    (break)shake James 300
+                    (break)shake James 300/
+                speak James \"{{i18n:Events.James.6H.P5.36}}\"/
+                quickQuestion #{{i18n:Events.Player.6H.P5.37}}
+                    (break)speak Zemo \"{{i18n:Events.James.6H.P5.38}}\"/
+                pause 900/
+                speak Zemo \"{{i18n:Events.Zemo.6H.P5.39}}\"/
+                pause 300/
+                shake James 300/
+                pause 900/
+                speak Zemo \"{{i18n:Events.Zemo.6H.P5.40}}\"/
+                pause 300/
                 fade/
                 viewport -1000 -1000/
+                message \"{{i18n:Events.Description.6H.P5.41}}/
                 end"
             }
         }

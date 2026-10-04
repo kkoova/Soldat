@@ -2,12 +2,12 @@
     "Changes": [
                 {
             "Action": "Load",
-            "Target": "Characters/James",
+            "Target": "Characters/James, Characters/James_Default",
             "FromFile": "Assets/Characters/James/James.png"
         },
         {
             "Action": "Load",
-            "Target": "Portraits/James",
+            "Target": "Portraits/James, Portraits/James_Default",
             "FromFile": "Assets/Portraits/James/James.png"
         },
         {
