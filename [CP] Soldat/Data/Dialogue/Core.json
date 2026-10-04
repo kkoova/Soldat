@@ -31,6 +31,7 @@
                 "Soldat_AfterCasinoAuction": "{{i18n:ConversationTopics.Soldat_AfterCasinoAuction.James}}",
                 "Soldat_BeforeTown": "{{i18n:ConversationTopics.Soldat_BeforeTown.James}}",
                 "Soldat_WillyGo": "{{i18n:ConversationTopics.Soldat_WillyGo.James}}",
+                "Soldat_Zemo": "{{i18n:ConversationTopics.Soldat_Zemo.James}}",
 
                 //Schedules
                 "James_Sleep": "{{i18n:Schedules.James.Sleep}}"
@@ -72,6 +73,7 @@
                 "zemoAuctionFollowup": "{{i18n:Events.Auction.Zemo.Followup}}",
 
                 "Soldat_CasinoAuction": "{{i18n:ConversationTopics.Soldat_CasinoAuction.Zemo}}",
+                "Soldat_Zemo": "{{i18n:ConversationTopics.Soldat_Zemo.Zemo}}",
             }
         }
     ]
