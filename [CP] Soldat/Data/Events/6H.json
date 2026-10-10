@@ -705,6 +705,82 @@
                 viewport -1000 -1000/
                 end"
             }
+        },
+        {
+            "LogName": "James h6 p7",
+            "Action": "EditData",
+            "Target": "Data/Events/Custom_islandBk_james",
+            "Entries": {
+                "James.6h.7p/e James.6h.6p/f James 1500/f Zemo 50/A Soldat_Zemo/w rain": "
+                continue/
+                10 13/
+                farmer 5 28 2 James 10 32 2/
+                addConversationTopic Soldat_sad_Zemo {{Event Cooldown Length}}/
+                skippable/
+                animate James false true 1000 26/
+                pause 700/
+                move farmer 0 4 1/
+                textAboveHead James \"{{i18n:Events.TextAboveHead.6H.P7.1}}\"/
+                move farmer 5 0 0/
+                pause 500/
+                emote farmer 40/
+                pause 700/
+                shake James 500/
+                pause 1200/
+                textAboveHead James \"{{i18n:Events.TextAboveHead.6H.P7.2}}\"/
+                pause 700/
+                shake James 500/
+                pause 1200/
+                speak James \"{{i18n:Events.James.6H.P7.3}}\"/
+                pause 2200/
+                quickQuestion #{{i18n:Events.Player.6H.P7.4.1}}#{{i18n:Events.Player.6H.P7.4.2}}
+                    (break)shake James 500
+                    (break)pause 1700\\shake James 500\\pause 700\\speak James \"{{i18n:Events.James.6H.P7.5}}\"\\pause 700\\emote farmer 40\\pause 700\\message \"{{i18n:Events.Description.6H.P7.6}}\"\\pause 1700\\shake James 500\\pause 700\\textAboveHead James \"{{i18n:Events.TextAboveHead.6H.P7.7}}\"/
+                pause 1700/
+                shake James 500/
+                pause 2700/
+                speak James \"{{i18n:Events.James.6H.P7.8}}\"/
+                pause 1300/
+                shake James 500/
+                pause 700/
+                speak James \"{{i18n:Events.James.6H.P7.9}}\"/
+                pause 300/
+                stopAnimation James/
+                speed James 5/
+                shake James 500/
+                faceDirection farmer 1/
+                move James 0 4 1/
+                pause 1500/
+                animate James false true 1000 49/
+                pause 700/
+                move farmer 2 0 1/
+                pause 3500/
+                speak James \"{{i18n:Events.James.6H.P7.10}}\"/
+                pause 1500/
+                shake James 500/
+                pause 2700/
+                speak James \"{{i18n:Events.James.6H.P7.11}}\"/
+                pause 1500/
+                shake James 500/
+                pause 1700/
+                textAboveHead James \"{{i18n:Events.TextAboveHead.6H.P7.12}}\"/
+                pause 2700/
+                shake James 500/
+                pause 700/
+                quickQuestion #{{i18n:Events.Player.6H.P7.4.13}}
+                    (break)message \"{{i18n:Events.Player.6H.P7.4.14}}\"/
+                stopAnimation James/
+                pause 2700/
+                speak James \"{{i18n:Events.James.6H.P7.15}}\"/
+                pause 500/
+                emote farmer 40/
+                pause 1700/
+                move farmer -6 0 3 true/
+                pause 300/
+                fade/
+                viewport -1000 -1000/
+                end"
+            }
         }
     ]
 }
