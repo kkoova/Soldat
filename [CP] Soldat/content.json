@@ -129,6 +129,10 @@
             "FromMapFile": "Assets/Maps/ZemoHouse.tbin"
         },
         {
+            "Name": "Custom_ZemoHome_event",
+            "FromMapFile": "Assets/Maps/ZemoHouse_event.tbin"
+        },
+        {
             "Name": "Custom_ZemoHomeSecond",
             "FromMapFile": "Assets/Maps/ZemoHouse_two.tbin"
         }
