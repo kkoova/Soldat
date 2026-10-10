@@ -70,11 +70,11 @@
             pause 500/
             startJittering/pause 600/stopJittering/
             pause 500/
+            message \"{{i18n:Events.Description.0H.12}}\"/
+            pause 1300/
             playSound rainsound/
             animate James false true 1000 18/
             pause 700/
-            message \"{{i18n:Events.Description.0H.12}}\"/
-            pause 1300/
             message \"{{i18n:Events.Description.0H.13}}\"/
             pause 1500/
             speak James \"{{i18n:Events.James.0H.1}}\"/
