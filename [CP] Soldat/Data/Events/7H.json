@@ -3,97 +3,17 @@
         {
             "LogName": "James h7 p1",
             "Action": "EditData",
-            "Target": "Data/Events/IslandNorth",
+            "Target": "Data/Events/Forest",
             "Entries": {
                 "James.7h.1p/e James.6h.7p/t 600 1000/w sunny/f James 1750/f Zemo 50/A Soldat_sad_Zemo/Season winter": "
-                none/
-                follow/
-                addConversationTopic Soldat_History_Two {{Event Cooldown Length}}/
-                farmer 59 67 0 James 57 59 1 Alpine 59 59 3/
-                ignoreCollisions James/
-                ignoreCollisions Alpine/
+                continue/
+                16 81/
+                farmer 59 67 0 Zemo 14 79 1/
+                ignoreCollisions Zemo/
+                addConversationTopic Soldat_Bunny_dead {{Event Cooldown Length}}/
                 skippable/
-                move farmer 0 -4 0/
-                pause 700/
-                playSound cat/
-                shake Alpine 300/
-                textAboveHead Alpine \"{{i18n:Events.TextAboveHead.5H.P1.1}}\"/
-                pause 1800/
-                speak James \"{{i18n:Events.James.5H.P1.2}}\"/
-                pause 300/
-                speak Alpine \"{{i18n:Events.Alpine.5H.P1.3}}\"/
-                pause 1300/
-                emote James 40/
-                pause 900/
-                speak James \"{{i18n:Events.James.5H.P1.4}}\"/
-                pause 600/
-                playSound cat/
-                shake Alpine 300/
-                pause 900/
-                speak James \"{{i18n:Events.James.5H.P1.5}}\"/
-                pause 600/
-                textAboveHead James \"{{i18n:Events.TextAboveHead.5H.P1.6}}\"/
-                pause 3500/
-                faceDirection James 2/
-                pause 300/
-                faceDirection Alpine 2/
-                emote James 40/
-                pause 300/
-                emote farmer 8/
-                pause 500/
-                faceDirection James 1/
-                speak James \"{{i18n:Events.James.5H.P1.7}}\"/
-                pause 200/
-                faceDirection James 2/
-                pause 300/
-                faceDirection Alpine 3/
-                pause 200/
-                playSound cat/
-                shake Alpine 300/
-                pause 500/
-                faceDirection Alpine 2/
-                pause 500/
-                speak James \"{{i18n:Events.James.5H.P1.8}}\"/
-                pause 300/
-                emote farmer 20/
-                pause 1000/
-                speak James \"{{i18n:Events.James.5H.P1.9}}\"/
-                pause 300/
-                emote farmer 40/
-                message \"{{i18n:Events.Description.5H.P1.10}}\"/
-                pause 200/
-                stopMusic/
-                emote James 40/
-                pause 1200/
-                faceDirection Alpine 3/
-                pause 200/
-                playSound cat/
-                pause 400/
-                shake James 300/
-                pause 600/
-                speak James \"{{i18n:Events.James.5H.P1.11}}\"/
-                pause 1000/
-                emote farmer 40/
-                pause 400/
-                speak James \"{{i18n:Events.James.5H.P1.12}}\"/
-                pause 400/
-                emote farmer 40/
-                pause 200/
-                faceDirection James 0/
-                pause 600/
-                shake James 300/
-                speak James \"{{i18n:Events.James.5H.P1.13}}\"/
-                pause 400/
-                move James -3 0 3/
-                faceDirection Alpine 2/
-                pause 200/
-                playSound cat/
-                pause 400/
-                faceDirection Alpine 3/
-                move Alpine -3 0 3 true/
-                move James 0 -4 1 true/
-                move Alpine -3 0 3 true/
-                pause 400/
+                animate Zemo false true 1000 16/
+                pause 17000/
                 fade/
                 viewport -1000 -1000/
                 pause 400/
