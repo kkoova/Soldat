@@ -122,6 +122,11 @@
             "Action": "Load",
             "Target": "Characters/Milk",
             "FromFile": "Assets/Characters/Objects/Milk.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "Characters/Bunny",
+            "FromFile": "Assets/Characters/Objects/Bunny.png"
         }
     ]
 }

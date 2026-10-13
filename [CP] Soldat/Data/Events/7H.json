@@ -8,11 +8,15 @@
                 "James.7h.1p/e James.6h.7p/t 600 1000/w sunny/f James 1750/f Zemo 50/A Soldat_sad_Zemo/Season winter": "
                 continue/
                 16 81/
-                farmer 59 67 0 Zemo 14 79 1/
+                farmer 59 67 0 Zemo 10 79 1/
                 ignoreCollisions Zemo/
+                changeSprite Zemo Winter/
                 addConversationTopic Soldat_Bunny_dead {{Event Cooldown Length}}/
                 skippable/
                 animate Zemo false true 1000 16/
+                addTemporaryActor Bunny 16 16 11 79 0 false Character/
+                hideShadow Bunny true/
+                positionOffset Bunny -15 33/
                 pause 17000/
                 fade/
                 viewport -1000 -1000/

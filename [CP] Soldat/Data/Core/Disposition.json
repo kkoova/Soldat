@@ -68,12 +68,25 @@
                     "Home": [
                         {
                             "Id": "Default",
-                            "Location": "Custom_TownZemoHomeGarden",
+                            "Location": "Custom_ZemoHome",
                             "Tile": {
                                 "X": 9,
                                 "Y": 20
                             },
                             "Direction": "down"
+                        }
+                    ],
+                    "Appearance": [
+                        {
+                        "Id": "Winter",
+                        "Season": "Winter",
+                        "Indoors": true,
+                        "Outdoors": false,
+                        "Portrait": "Portraits/Zemo_Winter",
+                        "Sprite": "Characters/Zemo_Winter",
+                        "IsIslandAttire": false,
+                        "Precedence": -100,
+                        "Weight": 0
                         }
                     ]
                 },
