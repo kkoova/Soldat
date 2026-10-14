@@ -127,6 +127,11 @@
             "Action": "Load",
             "Target": "Characters/Bunny",
             "FromFile": "Assets/Characters/Objects/Bunny.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "Characters/Bow",
+            "FromFile": "Assets/Characters/Objects/Bow.png"
         }
     ]
 }

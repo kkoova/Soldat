@@ -7,21 +7,79 @@
             "Entries": {
                 "James.7h.1p/e James.6h.7p/t 600 1000/w sunny/f James 1750/f Zemo 50/A Soldat_sad_Zemo/Season winter": "
                 continue/
-                16 81/
-                farmer 59 67 0 Zemo 10 79 1/
+                -999 -999/
+                farmer 15 72 0 Zemo 10 79 1/
                 ignoreCollisions Zemo/
                 changeSprite Zemo Winter/
-                addConversationTopic Soldat_Bunny_dead {{Event Cooldown Length}}/
                 skippable/
                 animate Zemo false true 1000 16/
                 addTemporaryActor Bunny 16 16 11 79 0 false Character/
+                addTemporaryActor Bow 16 16 9 80 0 false Character/
                 hideShadow Bunny true/
+                hideShadow Bow true/
                 positionOffset Bunny -15 33/
-                pause 17000/
+                pause 900/
+                playSound slingshot/
+                pause 1200/
+                message \"{{i18n:Events.Description.7H.P1.1}}\"/
+                pause 600/
+                playSound snowyStep/
+                pause 400/
+                playSound snowyStep/
+                pause 400/
+                playSound snowyStep/
+                pause 900/
+                globalFadeToClear 0.01 true/
+                viewport 15 78/
+                pause 400/
+                move farmer 0 6 3/
+                pause 700/
+                emote farmer 40/ 
+                pause 600/
+                quickQuestion #{{i18n:Events.Player.7H.P1.2}}
+                    (break)pause 600/
+                playSound sandyStep/
+                animate Zemo false true 1000 17/
+                pause 900/
+                speak Zemo \"{{i18n:Events.Zemo.7H.P1.3}}\"/
+                pause 600/
+                emote farmer 56/
+                pause 600/
+                emote farmer 8/
+                pause 700/
+                speak Zemo \"{{i18n:Events.Zemo.7H.P1.4}}\"/
+                pause 600/
+                quickQuestion #{{i18n:Events.Player.7H.P1.5}}
+                    (break)pause 400/
+                speak Zemo \"{{i18n:Events.Zemo.7H.P1.6}}\"/
+                pause 600/
+                emote farmer 16/
+                pause 700/
+                speak Zemo \"{{i18n:Events.Zemo.7H.P1.7}}\"/
+                pause 700/
+                emote farmer 8/
+                pause 600/
+                speak Zemo \"{{i18n:Events.Zemo.7H.P1.8}}\"/
                 fade/
                 viewport -1000 -1000/
-                pause 400/
-                message \"{{i18n:Events.Description.5H.P1.14}}\"/
+                pause 700/
+                end"
+            }
+        },
+        {
+            "LogName": "James h7 p1",
+            "Action": "EditData",
+            "Target": "Data/Events/Custom_ZemoHome",
+            "Entries": {
+                "James.7h.2p/e James.7h.1p/t 1800 1900/f James 1750/f Zemo 50/Season winter": "
+                continue/
+                -999 -999/
+                farmer 15 72 0 Zemo 10 79 1/
+                ignoreCollisions Zemo/
+                changeSprite Zemo Winter/
+                skippable/
+                fade/
+                viewport -1000 -1000/
                 pause 700/
                 end"
             }
