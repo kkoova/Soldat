@@ -1,6 +1,43 @@
 {
     "Changes": [
         // TODO: Доделать ивент James h6 p1 с аукционом
+
+        /*
+        // TODO: Доделать ивент James h6 p1 с аукционом
+{
+"LogName": "James h6 p1",
+"Action": "EditData",
+"Target": "Data/Events/Custom_JamesCasinoAuction",
+"Entries": {
+"James.6h.1p/e James.5h.2p/t 1900 2200/f James 1500/HasItem (O)lele.Soldat.JA_TiketАuction/DayOfWeek Thu/Tile 13 15/A Soldat_History_Two": "
+clubloop/
+999 999/
+addConversationTopic Soldat_CasinoAuction {{Event Cooldown Length}}/
+farmer 13 15 0/
+skippable/
+removeItem (O)lele.Soldat.JA_TiketАuction 1/
+pause 200/
+animate farmer false true 1000 113/
+positionOffset farmer 3 -25/
+message "{{i18n:Events.Description.6H.P1.1}}"/
+pause 1100/
+globalFadeToClear 0.01 true/
+changeToTemporaryMap Custom_JamesCasinoAuction_event/
+viewport 16 27 clamp/
+viewport move 0 -1 15000/
+pause 900/
+message "{{i18n:Events.Description.6H.P1.1}}"/
+addItem (O)lele.Soldat.JA_RedBook 1/
+fade/
+viewport -1000 -1000/
+end"
+}
+},
+смотри, у меня пока есть такой ивент-заглушка. Это акуцион. там будут продаваться 2 товара. Но надо сделать такую логику...
+Книга = будет стоить динамически (например 40% от всего бюджета игрока но не меньше 50 000), причем надо сделать так, что бы повышение цены до этого 40% было в диалоге, мы ставим ставку, ее перебивают, и пока эти 40% не будут, там тот, кто перебивает - остановиться и мы заберем книгу
+Рука - тоже динамически. больше 100% бюджета игрока с учетом покупки книги, что бы тот не смог ее купить и  тд.
+как такое вообще воозможно реалировать? что предложиь?
+        */
         {
             "LogName": "James h6 p1",
             "Action": "EditData",
