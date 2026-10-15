@@ -42,6 +42,11 @@
         },
         {
             "Action": "Load",
+            "Target": "Portraits/Zemo_Winter",
+            "FromFile": "Assets/Portraits/Zemo/Zemo_winter.png"
+        },
+        {
+            "Action": "Load",
             "Target": "Portraits/Zemo, Portraits/Zemo_Default",
             "FromFile": "Assets/Portraits/Zemo/Zemo.png"
         },

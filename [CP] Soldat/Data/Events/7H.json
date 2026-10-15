@@ -10,6 +10,7 @@
                 -999 -999/
                 farmer 15 72 0 Zemo 10 79 1/
                 ignoreCollisions Zemo/
+                changePortrait Zemo Winter/
                 changeSprite Zemo Winter/
                 skippable/
                 animate Zemo false true 1000 16/
@@ -77,6 +78,7 @@
                 farmer 15 72 0 Zemo 10 79 1/
                 ignoreCollisions Zemo/
                 changeSprite Zemo Winter/
+                changePortrait Zemo Winter/
                 skippable/
                 fade/
                 viewport -1000 -1000/
