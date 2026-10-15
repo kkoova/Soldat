@@ -30,7 +30,6 @@
     <td align="center"><b>#17</b><br><img src="[CP]%20Soldat/Assets/Portraits/Zemo/Zemo.png" style="width: 64px; height: 64px; object-fit: none; object-position: -64px -512px;"></td>
   </tr>
 </table>
-<<<<<<< HEAD
 
 ### James 
 
@@ -58,8 +57,6 @@
   </tr>
 
 </table>
-=======
->>>>>>> 4c9c1b9c3ec11c21104c136f0fda145c34f6d3e0
 
 ---
 
