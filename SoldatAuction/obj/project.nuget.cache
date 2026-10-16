@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "3z/nZf0dQ1U=",
+  "success": true,
+  "projectFilePath": "D:\\SoldatAuction\\SoldatAuction.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Korobeynikova\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.36\\microsoft.netcore.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\Korobeynikova\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.36\\microsoft.windowsdesktop.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\Korobeynikova\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.36\\microsoft.aspnetcore.app.ref.6.0.36.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,9 @@
+{
+  "Name": "Soldat Auction",
+  "Author": "Soldat",
+  "Version": "0.1.0",
+  "Description": "Auction logic for the Soldat Stardew Valley mod.",
+  "UniqueID": "Soldat.SoldatAuction",
+  "EntryDll": "SoldatAuction.dll",
+  "MinimumApiVersion": "4.0.0"
+}

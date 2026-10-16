@@ -1,10 +1,6 @@
 {
     "Changes": [
-        {   //1 Письмо спосибо за помош (гг не знает) (+ лежанка из листьев) (+ расписание баки на кошка лежанке кошка на баки лежанке)
-            //2 Личное спосибо за кошку
-            //3 Помощь бедному раскажет скудо бедно (уже давно, все дела и мы ???)
-            //4 Кошка на коленках у костра и блин грустно (упал:( с поезда) война - Империя Готоро (Республика Фернгилл)
-            
+        {  
             "LogName": "James spasibo alpinist 1",
             "Action": "EditData",
             "Target": "Data/Events/Custom_islandBk_james",
@@ -283,7 +279,7 @@
                 end"
             }
         },
-        // TODO: Отредактировать карту Custom_JamesAl1 под стиль stardew + добавить дисклеймер
+        // TODO: Отредактировать карту Custom_JamesAl1 под стиль stardew
         {
             "LogName": "James h4 p3",
             "Action": "EditData",
@@ -291,7 +287,7 @@
             "Entries": {
                 "James.4h.3p/e James.4h.2p/t 2100 2600/w rain/f James 1000/A Soldat_Apline_Help": "
                 ocean/
-                12 34/
+                -999 -999/
                 farmer 15 26 2 James 19 31 3 Alpine 19 32 3/
                 ignoreCollisions James/
                 ignoreCollisions Alpine/
@@ -300,6 +296,11 @@
                 animate James false true 1000 30/
                 animate Alpine false true 2000 20 21/
                 positionOffset Alpine -20 -15/
+                quickQuestion {{i18n:Disclaimer.Violence}}#{{i18n:Disclaimer.Violence.Yes}}#{{i18n:Disclaimer.Violence.No}}
+                    (break)pause 600
+                    (break)message \"{{i18n:Disclaimer.4H.P3.1}}\"\\pause 800\\end/
+                globalFadeToClear 0.01 true/
+                viewport 12 34/
                 speed farmer 1/
                 move farmer 0 4 1/
                 pause 1500/
