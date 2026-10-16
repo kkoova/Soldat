@@ -143,11 +143,11 @@
 - [ ] **./[CP] Soldat/Data/Core/Mail.json:11** — Изменить текст так, что бы он помешался на картинку письма
 - [ ] **./[CP] Soldat/Data/Core/Mail.json:14** — Переделать картинку-письмо Гельмута
 - [ ] **./[CP] Soldat/Data/Core/Mail.json:16** — Написать текст-спасибо для письма Земо
-- [ ] **./[CP] Soldat/Data/Events/4H.json:286** — Отредактировать карту Custom_JamesAl1 под стиль stardew + добавить дисклеймер
+- [ ] **./[CP] Soldat/Data/Events/4H.json:282** — Отредактировать карту Custom_JamesAl1 под стиль stardew
 - [ ] **./[CP] Soldat/Data/Events/2H.json:204** — После перехода обратно стр 315 - пропадает небо и освещение
 - [ ] **./[CP] Soldat/Data/Events/6H.json:3** — Доделать ивент James h6 p1 с аукционом
 - [ ] **./[CP] Soldat/Data/Events/6H.json:6** — Доделать ивент James h6 p1 с аукционом
-- [ ] **./[CP] Soldat/Data/Events/6H.json:276** — Доделать переход в Custom_ZemoHome по окончанию ивента James.6h.5p
+- [ ] **./[CP] Soldat/Data/Events/6H.json:275** — Доделать переход в Custom_ZemoHome по окончанию ивента James.6h.5p
 - [ ] **./[CP] Soldat/Data/Events/TriggerActions.json:35** — Проверить что точно 7 дней отсутсвия
 - [ ] **./[CP] Soldat/Data/Events/TriggerActions.json:67** — Разобраться почему lele.Soldat.TriggerActions.TiketAuction не отправляет письмо Mail.JamesTiketAuction
 <!-- TODO-END -->
