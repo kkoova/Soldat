@@ -68,20 +68,121 @@
             }
         },
         {
-            "LogName": "James h7 p1",
+            "LogName": "James h7 p2",
             "Action": "EditData",
             "Target": "Data/Events/Custom_ZemoHome",
             "Entries": {
                 "James.7h.2p/e James.7h.1p/t 1800 1900/f James 1750/f Zemo 50/Season winter": "
                 continue/
                 -999 -999/
-                farmer 15 72 0 Zemo 10 79 1/
+                farmer 20 20 0 Zemo 20 10 2/
                 ignoreCollisions Zemo/
-                changeSprite Zemo Winter/
-                changePortrait Zemo Winter/
                 skippable/
+                pause 700/
+                playSound doorOpen/
+                pause 500/
+                globalFadeToClear 0.01 true/
+                changeToTemporaryMap Custom_ZemoHome_event/
+                viewport 20 17/
+                changeMapTile Buildings 10 18 312/
+                changeMapTile Buildings 9 18 311/
+                changeMapTile Buildings 8 18 310/
+                changeMapTile Buildings 10 19 343/
+                changeMapTile Buildings 9 19 342/
+                changeMapTile Buildings 8 19 341/
+                changeMapTile Front 10 17 281/
+                changeMapTile Front 9 17 280/
+                changeMapTile Buildings2 8 17 279/
+                move Zemo 0 5 2/
+                pause 400/
+                emote Zemo 32/
+                pause 700/
+                speak Zemo \"{{i18n:Events.Zemo.7H.P2.1}}\"/
+                pause 700/
+                emote farmer 20/
+                pause 400/
+                speak Zemo \"{{i18n:Events.Zemo.7H.P2.1.1}}\"/
+                pause 800/
+                move Zemo 0 -3 0 true/
+                globalFade 0.01/
+                viewport 999 999/
+                pause 400/
+                playSound woodyStep/
+                pause 400/
+                playSound woodyStep/
+                pause 400/
+                playSound woodyStep/
+                pause 200/
+                globalFadeToClear 0.01 true/
+                changeToTemporaryMap Custom_ZemoHome_event/
+                viewport 9 17/
+                warp farmer 9 20/
+                warp Zemo 8 17/
+                animate farmer false true 1000 113/
+                positionOffset farmer 0 10/
+                positionOffset Zemo 1 16/
+                animate Zemo false true 1000 16 17/
+                changeMapTile Buildings 10 18 315/
+                changeMapTile Buildings 9 18 314/
+                changeMapTile Buildings 8 18 313/
+                changeMapTile Buildings 10 19 346/
+                changeMapTile Buildings 9 19 345/
+                changeMapTile Buildings 8 19 344/
+                changeMapTile Front 10 17 284/
+                changeMapTile Front 9 17 283/
+                changeMapTile Buildings2 8 17 282/
+                pause 1400/
+                emote farmer 16/
+                pause 800/
+                speak Zemo \"{{i18n:Events.Zemo.7H.P2.2}}\"/
+                pause 800/
+                emote farmer 8/
+                pause 700/
+                speak Zemo \"{{i18n:Events.Zemo.7H.P2.3}}\"/
+                pause 700/
+                emote farmer 32/
+                pause 800/
+                speak Zemo \"{{i18n:Events.Zemo.7H.P2.4}}\"/
+                pause 700/
+                emote farmer 20/
+                pause 400/
+                emote Zemo 32/
+                pause 800/
+                speak Zemo \"{{i18n:Events.Zemo.7H.P2.5}}\"/
+                pause 400/
+                emote Zemo 40/
+                pause 400/
+                speak Zemo \"{{i18n:Events.Zemo.7H.P2.6}}\"/
+                pause 800/
+                emote farmer 40/
+                pause 400/
+                speak Zemo \"{{i18n:Events.Zemo.7H.P2.7}}\"/
+                pause 800/
+                emote farmer 36/
+                pause 400/
+                emote farmer 40/
+                pause 800/
+                speak Zemo \"{{i18n:Events.Zemo.7H.P2.8}}\"/
+                pause 800/
+                speak Zemo \"{{i18n:Events.Zemo.7H.P2.9}}\"/
+                quickQuestion #{{i18n:Events.Player.7H.P2.10}}
+                    (break)pause 400/
+                message \"{{i18n:Events.Description.7H.P2.11}}\"/
+                pause 400/
+                emote Zemo 40/
+                pause 800/
+                speak Zemo \"{{i18n:Events.Zemo.7H.P2.12}}\"/
+                pause 800/
+                message \"{{i18n:Events.Description.7H.P2.13}}\"/
+                pause 2300/
+                speak Zemo \"{{i18n:Events.Zemo.7H.P2.14}}\"/
+                pause 800/
+                speak Zemo \"{{i18n:Events.Zemo.7H.P2.15}}\"/
+                pause 1200/
                 fade/
                 viewport -1000 -1000/
+                pause 700/
+                message \"{{i18n:Events.Description.7H.P2.16}}\"/
                 pause 700/
                 end"
             }

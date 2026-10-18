@@ -26,6 +26,7 @@
     <td align="center"><b>#15</b><br><img src="[CP]%20Soldat/Assets/Portraits/Zemo/Zemo.png" style="width: 64px; height: 64px; object-fit: none; object-position: -64px -448px;"></td>
     <td align="center"><b>#16</b><br><img src="[CP]%20Soldat/Assets/Portraits/Zemo/Zemo.png" style="width: 64px; height: 64px; object-fit: none; object-position: 0px -512px;"></td>
     <td align="center"><b>#17</b><br><img src="[CP]%20Soldat/Assets/Portraits/Zemo/Zemo.png" style="width: 64px; height: 64px; object-fit: none; object-position: -64px -512px;"></td>
+    <td align="center"><b>#18</b><br><img src="[CP]%20Soldat/Assets/Portraits/Zemo/Zemo.png" style="width: 64px; height: 64px; object-fit: none; object-position: 0px -576px;"></td>
   </tr>
 </table>
 
