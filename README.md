@@ -53,6 +53,7 @@
     <td align="center"><b>#12</b><br><img src="[CP]%20Soldat/Assets/Portraits/James/James_Beach.png" style="width: 64px; height: 64px; object-fit: none; object-position: 0px -384px;"></td>
     <td align="center"><b>#13</b><br><img src="[CP]%20Soldat/Assets/Portraits/James/James_Beach.png" style="width: 64px; height: 64px; object-fit: none; object-position: -64px -384px;"></td>
     <td align="center"><b>#14</b><br><img src="[CP]%20Soldat/Assets/Portraits/James/James_Beach.png" style="width: 64px; height: 64px; object-fit: none; object-position: 0px -448px;"></td>
+    <td align="center"><b>#15</b><br><img src="[CP]%20Soldat/Assets/Portraits/James/James_Beach.png" style="width: 64px; height: 64px; object-fit: none; object-position: -64px -448px;"></td>
   </tr>
 
 </table>

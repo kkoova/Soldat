@@ -27,6 +27,16 @@
         },
         {
             "Action": "Load",
+            "Target": "Characters/James_Winter",
+            "FromFile": "Assets/Characters/James/James_winter.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "Portraits/James_Winter",
+            "FromFile": "Assets/Portraits/James/James_winter.png"
+        },
+        {
+            "Action": "Load",
             "Target": "Portraits/Alpine, Portraits/Alpine_Default",
             "FromFile": "Assets/Portraits/Alpine/Alpine.png"
         },

@@ -186,6 +186,26 @@
                 pause 700/
                 end"
             }
+        },
+        {
+            "LogName": "James h7 p3",
+            "Action": "EditData",
+            "Target": "Data/Events/Custom_ZemoHome",
+            "Entries": {
+                "James.7h.3p/e James.7h.2p/f James 1750/f Zemo 50/Season winter": "
+                continue/
+                -999 -999/
+                farmer 20 20 0 James 20 10 2/
+                changePortrait James Winter/
+                changeSprite James Winter/
+                skippable/
+                fade/
+                viewport -1000 -1000/
+                pause 700/
+                message \"{{i18n:Events.Description.7H.P2.16}}\"/
+                pause 700/
+                end"
+            }
         }
     ]
 }
