@@ -190,17 +190,29 @@
         {
             "LogName": "James h7 p3",
             "Action": "EditData",
-            "Target": "Data/Events/Custom_ZemoHome",
+            "Target": "Data/Events/Forest",
             "Entries": {
-                "James.7h.3p/e James.7h.2p/f James 1750/f Zemo 50/Season winter": "
+                "James.7h.3p/e James.7h.2p/f James 1750/f Zemo 50/Season winter/w snow": "
                 continue/
                 -999 -999/
-                farmer 20 20 0 James 68 93 2/
+                farmer 69 88 0 James 68 96 2 Alpine 69 96 2/
                 changePortrait James Winter/
                 changeSprite James Winter/
+                hideShadow James true/
+                hideShadow Alpine true/
                 skippable/
+                animate James false true 1000 16 17/
+                animate Alpine false true 1000 26 27/
+                positionOffset James -10 25/
+                positionOffset Alpine -10 25/
+                globalFadeToClear 0.01 true/
+                viewport 71 97/
+                pause 2400/
+                move farmer 0 4 3/
+                pause 700/
+                emote farmer 40/
+                pause 700/
                 fade/
-                viewport -1000 -1000/
                 pause 700/
                 message \"{{i18n:Events.Description.7H.P2.16}}\"/
                 pause 700/

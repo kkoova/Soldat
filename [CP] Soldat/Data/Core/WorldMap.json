@@ -62,7 +62,7 @@
           "Textures": [
             {
               "Id": "ZemoGardenOverlay",
-              "Texture": "{{InternalAssetKey: Assets/WorldMap/map_home_zemo.png}}"
+              "Texture": "{{InternalAssetKey: Assets/WorldMap/map_home_zemo_{{season}}.png}}"
             }
           ],
           "WorldPositions": [
@@ -102,7 +102,7 @@
           "Textures": [
             {
               "Id": "ZemoGardenBrokeOverlay",
-              "Texture": "{{InternalAssetKey: Assets/WorldMap/map_home_zemo_break.png}}"
+              "Texture": "{{InternalAssetKey: Assets/WorldMap/map_home_zemo_break_{{season}}.png}}"
             }
           ],
           "WorldPositions": [
