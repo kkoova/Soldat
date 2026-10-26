@@ -151,7 +151,6 @@
 - [ ] **./[CP] Soldat/Data/Events/6H.json:3** — Доделать ивент James h6 p1 с аукционом
 - [ ] **./[CP] Soldat/Data/Events/6H.json:242** — Доделать переход в Custom_ZemoHome по окончанию ивента James.6h.5p
 - [ ] **./[CP] Soldat/Data/Events/2H.json:204** — После перехода обратно стр 315 - пропадает небо и освещение
-- [ ] **./[CP] Soldat/i18n/ru.json:595** — вид на снег, лежим. баки делает снежного ангела
 <!-- TODO-END -->
 
 ---
