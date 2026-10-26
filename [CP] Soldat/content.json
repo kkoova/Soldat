@@ -135,6 +135,10 @@
         {
             "Name": "Custom_ZemoHomeSecond",
             "FromMapFile": "Assets/Maps/ZemoHouse_two.tbin"
+        },
+        {
+            "Name": "Custom_JamesSnow_h7",
+            "FromMapFile": "Assets/Maps/James7HSnow.tmx"
         }
     ]
 }

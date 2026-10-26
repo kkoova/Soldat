@@ -208,14 +208,68 @@
                 globalFadeToClear 0.01 true/
                 viewport 71 97/
                 pause 2400/
-                move farmer 0 4 3/
+                move farmer 0 5 2/
                 pause 700/
                 emote farmer 40/
+                pause 2600/
+                speak James \"{{i18n:Events.James.7H.P3.1}}\"/
+                pause 900/
+                emote farmer 16/
+                pause 400/
+                move farmer -3 0 2/
+                move farmer 0 2 2/
                 pause 700/
+                playSound snowyStep/
+                pause 700/
+                globalFadeToClear 0.01 true/
+                changeToTemporaryMap Custom_JamesSnow_h7/
+                bgColor 0 0 0/
+                ambientLight 0 0 0/
+                viewport 10 12 clamp/
+                pause 2500/
+                message \"{{i18n:Events.Description.7H.P3.2}}\"/
+                pause 3500/
+                quickQuestion #{{i18n:Events.Player.7H.P3.3}}
+                    (break)pause 400/
+                message \"{{i18n:Events.Description.7H.P3.4}}\"/
+                pause 1700/
+                message \"{{i18n:Events.Description.7H.P3.5}}\"/
                 fade/
                 pause 700/
                 message \"{{i18n:Events.Description.7H.P2.16}}\"/
+                speak James \"{{i18n:Events.James.7H.P3.6}}\"/
+                pause 3500/
+                speak James \"{{i18n:Events.James.7H.P3.7}}\"/
+                pause 600/
+                playSound snowyStep/
+                pause 1700/
+                speak James \"{{i18n:Events.James.7H.P3.8}}\"/
+                pause 4500/
+                speak James \"{{i18n:Events.James.7H.P3.9}}\"/
+                pause 4000/
+                speak James \"{{i18n:Events.James.7H.P3.10}}\"/
+                pause 400/
+                playSound snowyStep/
+                pause 400/
+                speak James \"{{i18n:Events.Description.7H.P3.11}}\"/
+                pause 4500/
+                speak James \"{{i18n:Events.James.7H.P3.12}}\"/
+                pause 2800/
+                speak James \"{{i18n:Events.James.7H.P3.13}}\"/
+                pause 4500/
+                speak James \"{{i18n:Events.James.7H.P3.14}}\"/
                 pause 700/
+                message \"{{i18n:Events.Description.7H.P3.15}}\"/
+                pause 600/
+                speak James \"{{i18n:Events.James.7H.P3.16}}\"/
+                pause 700/
+                globalFadeToClear 0.01 true/
+                viewport -999 -999/
+                pause 400/
+                playSound snowyStep/
+                message \"{{i18n:Events.Description.7H.P3.17}}\"/
+                playSound snowyStep/
+                pause 400/
                 end"
             }
         }
